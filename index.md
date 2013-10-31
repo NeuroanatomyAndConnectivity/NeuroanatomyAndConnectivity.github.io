@@ -6,7 +6,7 @@ tagline:
 {% include JB/setup %}
 
 
-# Code
+## Code
 
 Freely available [data analysis scripts](https://github.com/NeuroanatomyAndConnectivity)
 
