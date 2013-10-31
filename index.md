@@ -1,12 +1,12 @@
 ---
 layout: page
-title: "Welcome to the github repository of Neuroanatomy & Connectivity"
+title: "Welcome"
 tagline: 
 ---
 {% include JB/setup %}
 
 
-## Code
+# Code
 
 Freely available [data analysis scripts](https://github.com/NeuroanatomyAndConnectivity)
 
