@@ -8,7 +8,7 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Max Planck Research Group: Neuroanatomy & Connectivity
+title : Neuroanatomy & Connectivity
 tagline: Github repository
 author :
   name : neuroanatomyandconnectivity
