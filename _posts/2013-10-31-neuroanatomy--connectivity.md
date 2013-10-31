@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Neuroanatomy & Connectivity"
+title: "Neuroanatomy and Connectivity"
 description: ""
 category: ""
 tags: []
