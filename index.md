@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: "Welcome to the github repository of Neuroanatomy & Connectivity"
+tagline: 
 ---
 {% include JB/setup %}
 
