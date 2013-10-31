@@ -5,6 +5,8 @@ tagline:
 ---
 {% include JB/setup %}
 
+Welcome to the code repository for the [Neuroanatomy and Connectivity Research Group](http://www.cbs.mpg.de/groups/misc/nac).
+
 ## Code
 
 Freely available [data analysis scripts](https://github.com/NeuroanatomyAndConnectivity)
