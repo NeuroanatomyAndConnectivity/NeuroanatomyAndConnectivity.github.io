@@ -1,0 +1,245 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+// Our variables
+$base-font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-font-size:   18px;
+$base-font-weight: 300;
+$small-font-size:  $base-font-size * 0.875;
+$v-small-font-size:  $base-font-size * 0.55;
+$base-line-height: 1.5;
+$spacing-unit:     30px;
+
+$text-color:       #333;
+$background-color: #ffffff;
+$brand-color:      #18515E;
+
+$grey-color:       #828282;
+$grey-color-light: #e6e6e6; //lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+$red-color:        #a33922;
+$blue-color:       #10353D;
+$green-color:      #525E19;
+$orange-color:     #ba5e0e;
+
+// Width of the content area
+$content-width:    800px;
+$on-palm:          723px;
+$on-laptop:        800px;
+
+$header-height:    70px;
+
+// Using media queries with like this:
+// @include media-query($on-palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+/**
+ * Links
+ */
+a {
+    color: $red-color;
+    text-decoration: none;
+    &:visited {
+        color: darken($orange-color, 15%);
+    }
+    &:hover {
+        color: $green-color;
+        text-decoration: underline;
+    }
+}
+
+/* fix superscript size */
+span[style*="vertical-align: super"] {
+  font-size: $v-small-font-size;
+}
+
+span.line {
+  display: inline-block;
+}
+
+/* fix anchor positions relative to header */
+:target:before {
+content:"";
+display:inline-block;
+height: 115px; /* fixed header height */
+margin: -115px 0 0; /* negative fixed header height */
+}
+
+/**
+ * Site navigation
+ */
+.site-nav {
+    line-height: $header-height+5px; //130px;
+}
+
+.active {
+    line-height: $base-line-height;
+    font-weight: 500;
+    border-top: 2px solid $red-color;
+    //margin-right: 10px;
+    //&:not(:first-child) {
+    //        margin-left: 10px;
+    //    }
+}
+
+/**
+ * Page content
+ */
+hr.style1 {border-top: 1px solid $brand-color;}
+hr.style2 {border-top: 3px double $brand-color;}
+hr.style3 {border-top: 1px dashed $brand-color;}
+hr.style4 {border-top: 1px dotted $brand-color;}
+hr.style5 {background-color: $background-color; border-top: 1px dotted $brand-color; margin-left: -2.5%;}
+hr.style6 {background-color: $background-color; border-top: 2px dashed $brand-color;}
+hr.style7 {background-color: $background-color; border-top: 2px dotted $brand-color;}
+
+h1 { color: $brand-color; font-size: 1.50em; font-weight: 600; padding-top: 1.0em; }
+h2 { color: $brand-color; font-size: 1.25em; font-weight: 400; padding-top: 1.0em; }
+h3 { color: $brand-color; font-size: 1.10em; font-weight: 400; padding-top: 0.5em; }
+h4 { color: $brand-color; font-size: 1.00em; font-weight: 400; padding-top: 0.5em; }
+
+h1 {
+    font-variant: small-caps;
+    border-bottom: 1.5px dotted $brand-color;
+    width: 80%;
+    letter-spacing: +0.025em;
+    padding-left: +2.5%;
+    margin-left:  -2.5%;
+}
+
+strong {
+  font-weight: 400;
+}
+
+.site-header strong {
+    color: $brand-color;
+    font-weight: 600;
+}
+
+.site-header {
+    border: none;
+    min-height: $header-height;
+}
+
+.site-title {
+    line-height: $header-height;
+    position: absolute;
+    //margin-left: -50px;*/
+}
+.site-title-sub {
+    line-height: 230px;
+    margin-left: 0px;
+}
+
+a.site-title:hover {
+    text-decoration: none;
+    color: $red-color;
+}
+
+.site-nav a {
+    font-size: 14px;
+    color: $red-color;
+    font-weight: 400;
+    margin-left: 10px;
+    //margin: 0px 5px;
+}
+
+.site-nav a:hover {
+    text-decoration: none;
+    color: $red-color;
+}
+
+pre,code {
+  border: none;
+  color: #555555;
+/*  background-color: #f5f5f5;*/
+}
+
+.post-tag, .post-tag a {
+  font-size: 12px;
+
+  color: #fff;
+  background-color: $brand-color;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  line-height: 1.0;
+  border-radius: 3px;
+
+  display: inline-block;
+  height: 20px;
+  line-height: 20px;
+  position: relative;
+  margin: 0 0 10px 0;
+  padding: 0 10px 0 12px;
+  background: $brand-color;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-col-wrapper {
+    font-size: 12px;
+    text-align: center;
+    border-top: 1px solid $grey-color-light;
+    padding: 10px 0;
+}
+
+.site-footer {
+    border: none;
+    padding: 0;
+}
+
+.artwork-portrait {
+    border: 1px solid $grey-color;
+    margin: 2px 0px;
+    padding: 3px;
+    height: 220px;
+    border-radius:         3px;
+    -moz-border-radius:    3px;
+    -khtml-border-radius:  3px;
+    -webkit-border-radius: 3px;
+}
+
+.artwork-landscape {
+    border: 1px solid $grey-color;
+    margin: 2px 0px;
+    padding: 3px;
+    height: 120px;
+    border-radius:         3px;
+    -moz-border-radius:    3px;
+    -khtml-border-radius:  3px;
+    -webkit-border-radius: 3px;
+}
+
+
+img.tiny   { width:  20%; }
+img.small  { width:  25%; }
+img.medium { width:  33%; }
+img.half   { width:  45%; }
+img.large  { width:  66%; }
+img.full   { width: 100%; }
+img.right  { float: right;  margin-left: 10px; }
+img.left   { float: left;  margin-right: 10px; }
+img.border { padding: 5px; border: solid 1px #efefef; }
+img.round  { border-radius: 5px;}

@@ -1,0 +1,41 @@
+---
+---
+<div style="font-size: 10pt; line-height: 1.4; margin-top: 0; margin-bottom: 3pt; padding-left: 10pt; text-indent: -10pt;">
+
+{{index}} &thinsp;|
+
+{% if entry.pdf %}
+<a href="{{entry.pdf}}" target="_blank"><i class="fa fa-file-pdf-o" style="padding-left: 10pt;"></i>&thinsp;PDF</a>
+{% endif %}
+{% if entry.pdf %} | {% endif %}
+
+{% if entry.pdf_si %}
+<a href="{{entry.pdf_si}}" target="_blank"><i class="fa fa-file-pdf-o" style="padding-left: 10pt;"></i>&thinsp;SI</a>
+{% endif %}
+{% if entry.pdf_si %} | {% endif %}
+
+{% if entry.doi %}
+<a href="http://dx.doi.org/{{entry.doi}}" target="_blank"><i class="fa fa-external-link" style="padding-left: 10pt;"></i>&thinsp;Link</a>
+{% elsif entry.link %}
+<a href="{{entry.link}}" target="_blank"><i class="fa fa-external-link" style="padding-left: 10pt;"></i>&thinsp;Link</a>
+{% elsif entry.url %}
+<a href="{{entry.url}}" target="_blank"><i class="fa fa-external-link" style="padding-left: 10pt;"></i>&thinsp;Link</a>
+{% endif %}
+{% if entry.doi %} |
+{% elsif entry.link %} |
+{% elsif entry.url %} |
+{% endif %}
+
+{% if entry.github %}
+<a href="{{entry.github}}" target="_blank"><i class="fa fa-github-alt" style="padding-left: 10pt;"></i>&thinsp;Code</a>
+{% endif %}
+{% if entry.github %} | {% endif %}
+
+{% if entry.data %}
+<a href="{{entry.data}}" target="_blank"> | <i class="fa fa-database" style="padding-left: 10pt;"></i>&thinsp;Data</a>
+{% endif %}
+{% if entry.data %} | {% endif %}
+
+{{reference}}
+
+</div>

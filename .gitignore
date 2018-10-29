@@ -1,0 +1,12 @@
+.DS_Store
+.sass-cache
+.jekyll-metadata
+.DS_Store
+Gemfile.lock
+*~
+#*
+.git
+Makefile
+Icon?
+_site/
+debug.log

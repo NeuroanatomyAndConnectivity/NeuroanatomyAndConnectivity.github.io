@@ -1,0 +1,58 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Neuroanatomy & Connectivity Lab
+email: daniel.margulies@icm-institute.org
+
+url: "www.neuroconnlab.org"
+baseurl: "" # the subpath of your site, e.g. /blog
+
+twitter_username: neuro_conn
+github_username:  NeuroanatomyAndConnectivity
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Include future posts
+future: true
+
+# Jekyll scholar
+plugins_dir: ['jekyll/scholar']
+# Load plugins
+plugins: ['jekyll/scholar', 'unicode_utils', 'unicode']
+
+scholar:
+  style: ./bibcsl/acta_small.csl
+  locale: en
+
+  sort_by: year
+  order: descending
+  bibliography_list_tag: ul
+
+  group_by: none
+  group_order: descending
+
+  source: ./_bibliography
+  bibliography: publications.bib
+  bibliography_template: bib
+
+  replace_strings: true
+  join_strings:    true
+  sort_by:         year, month
+
+  use_raw_bibtex_entry: false
+  bibtex_filters:
+  - superscript
+  - latex
+
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
