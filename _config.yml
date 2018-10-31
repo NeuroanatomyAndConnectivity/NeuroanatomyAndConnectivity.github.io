@@ -27,6 +27,13 @@ plugins_dir: ['jekyll/scholar']
 # Load plugins
 plugins: ['jekyll/scholar', 'unicode_utils', 'unicode']
 
+netlify:
+  redirects:
+    - /home              /
+    - /blog/my-post.php  /blog/my-post
+    - /news              /blog
+    - /google            https://www.google.com
+
 scholar:
   style: ./bibcsl/acta_small.csl
   locale: en
@@ -56,3 +63,21 @@ scholar:
   details_link:   Details
 
   query: "@*"
+
+include:
+  - _redirects
+  
+exclude:
+  - README.md
+  - _TODO.md
+  - Gemfile
+  - Gemfile.lock
+  - _CV/
+  - _fachbeirat/
+  - _videos/
+  - Makefile
+  - bibcsl/ieee.csl
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
