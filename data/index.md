@@ -12,29 +12,40 @@ We have released several MRI datasets for open use. Below are descriptions, as w
 We have also been involved in the [International Neuroimaging Data-sharing Initiative][INDI]{:target="\_blank"} and the [Primate Neuroimaging data-exchange (PRIME-DE)][PRIME_DE]{:target="\_blank"}, as well as [preprocessing initiatives][ADHD_prepro]{:target="\_blank"} to facilitate interdisciplinary collaboration.
 <hr class="style5">
 
-## MPI--Leipzig: Mind, Brain, Body
-
-The Max Planck Institute--Leipzig: Mind, Brain, Body (MPILMBB) dataset consists of MRI data as well as several behavioral measures.
-
-### Data paper
+## MPI--Leipzig: Mind, Brain, Body dataset  
+The Max Planck Institute--Leipzig: Mind, Brain, Body (MPILMBB) dataset consists of MRI data as well as several behavioral measures.  
+### Data paper  
 A preprint describing the acquisition protocol, dataset, and processing code:  
-[**<i class="fa fa-external-link"></i> BioRxiv.org**][mpilmbb_datapaper]{:target="\_blank"}  
-[**<i class="fa fa-file-pdf-o"></i> PDF**][mpilmbb_datapaper_pdf]{:target="\_blank"}
+<div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=Mendes164764] %}</div>  
+### Data  
+[**→ <i class="fa fa-database"></i> MRI data (BIDS format)**][mpilmbb_data_bids]{:target="\_blank"}  
+[**→ <i class="fa fa-database"></i> MRI data (Preprocessed)**][mpilmbb_data_preproc]{:target="\_blank"}  
+[**→ <i class="fa fa-database"></i> Behavioral data**][mpilmbb_behav]{:target="\_blank"}  
+### Code  
+[**→ <i class="fa fa-github-alt"></i> MRI data preprocessing scripts**][preproc_lsd]{:target="\_blank"}  
+[**→ <i class="fa fa-github-alt"></i> Adaptive visual and auditory oddball task**][oddball]{:target="\_blank"}  
+[**→ <i class="fa fa-github-alt"></i> Conjunctive continuous performance task (CCPT)**][CCPT]{:target="\_blank"}   
+### Questions?  
+We encourage users to subscribe to the [**mailing list <i class="fa fa-users"></i>**][mpilmbb_email]{:target="\_blank"} for updates and discussions regarding the preprocessing pipelines.  
+<hr class="style5">  
 
-### Data
-[**<i class="fa fa-database"></i> MRI data (BIDS format)**][mpilmbb_data_bids]{:target="\_blank"}    
-[**<i class="fa fa-database"></i> MRI data (Preprocessed)**][mpilmbb_data_preproc]{:target="\_blank"}    
-[**<i class="fa fa-database"></i> Behavioral data**][mpilmbb_behav]{:target="\_blank"}    
+## 7T resting-state MRI data  
+<div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=gorgolewski2015a] %}</div>  
+[**→ <i class="fa fa-database"></i> MRI data**][7T_data]{:target="\_blank"}  
+Additional related 7T MRI data made available by [Pierre-Louis Bazin][PLB]:  
+[**→ <i class="fa fa-database"></i> MRI data**][7T_Bazin]{:target="\_blank"}  
+<hr class="style5">
 
-### Code
-[**<i class="fa fa-github-alt"></i> MRI data preprocessing scripts**][preproc_lsd]{:target="\_blank"}    
-[**<i class="fa fa-github-alt"></i> Adaptive visual and auditory oddball task**][oddball]{:target="\_blank"}    
-[**<i class="fa fa-github-alt"></i> Conjunctive continuous performance task (CCPT)**][CCPT]{:target="\_blank"}    
+## Berlin resting-state MRI data  
+Publications describing the data:  
+<div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=biswal2010a|| key=rohr2013a] %}</div>
+[**→ <i class="fa fa-database"></i> MRI data**][Berlin_INDI]{:target="\_blank"}  
+[**→ <i class="fa fa-database"></i> MRI & Phenotypic data**][Berlin_Data]{:target="\_blank"}  
+<hr class="style5">  
 
-### Questions?
-We encourage users to subscribe to the [**mailing list <i class="fa fa-users" aria-hidden="true"></i>**][mpilmbb_email]{:target="\_blank"} for updates and discussions regarding the preprocessing pipelines.
-
-
+## Group-synchrony dance data  
+<div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=ellamil2016b] %}</div>  
+[**→ <i class="fa fa-database"></i> Data**][dance_data]{:target="\_blank"}  
 
 
 [INDI]: http://fcon_1000.projects.nitrc.org
@@ -54,5 +65,7 @@ We encourage users to subscribe to the [**mailing list <i class="fa fa-users" ar
 [7T_data]: http://openscience.cbs.mpg.de/7t_trt/
 [PLB]: https://nin.nl/about-us/the-organisation/team/pierre-louis-bazin/
 [7T_Bazin]: http://openscience.cbs.mpg.de/bazin/7T_Quantitative/
+[Berlin_INDI]: http://fcon_1000.projects.nitrc.org/fcpClassic/FcpTable.html
+[Berlin_Data]: http://fcon_1000.projects.nitrc.org/indi/pro/Berlin.html
 [ME]: https://harmonylabs.org/melissa-ellamil/
 [dance_data]: http://openscience.cbs.mpg.de/ellamil/
