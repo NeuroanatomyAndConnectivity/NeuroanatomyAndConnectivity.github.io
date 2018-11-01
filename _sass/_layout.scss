@@ -12,6 +12,10 @@
     background: $grey-color-light;
     width: 100%;
     z-index: 1;
+    // shadow
+    -webkit-box-shadow: 0 5px 5px $grey-color;
+    -moz-box-shadow: 0 5px 5px $grey-color;
+    box-shadow: 0 5px 5px $grey-color;
 }
 
 .site-title {
