@@ -3,7 +3,6 @@ layout: page
 order: 03
 title: CODE
 permalink: /code/index.html
-robots: nofollow
 ---
 
 # Code
