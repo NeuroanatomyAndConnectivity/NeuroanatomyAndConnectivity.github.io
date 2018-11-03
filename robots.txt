@@ -1,4 +1,3 @@
 Sitemap: https://www.neuroconnlab.org/sitemap.xml
 Disallow: https://www.neuroconnlab.org/downloads/pubs/
 Disallow: https://www.neuroconnlab.org/downloads/press/
-Disallow: https://www.neuroconnlab.org/research/publications.html

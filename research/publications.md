@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: page_exclude
 permalink: /research/publications.html
 sitemap: false
+robots: noindex,nofollow
 ---
 
 # Publications

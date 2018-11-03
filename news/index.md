@@ -3,6 +3,7 @@ layout: page
 order: 07
 title: NEWS
 permalink: /news/index.html
+robots: nofollow
 ---
 
 # News

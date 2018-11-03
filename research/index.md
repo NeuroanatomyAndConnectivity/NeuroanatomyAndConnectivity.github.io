@@ -3,6 +3,7 @@ layout: page
 order: 01
 title: RESEARCH
 permalink: /research/index.html
+robots: nofollow
 ---
 
 # Research

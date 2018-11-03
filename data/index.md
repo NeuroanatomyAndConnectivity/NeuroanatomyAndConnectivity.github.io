@@ -3,6 +3,7 @@ layout: page
 order: 04
 title: DATA
 permalink: /data/index.html
+robots: nofollow
 ---
 
 # Data
