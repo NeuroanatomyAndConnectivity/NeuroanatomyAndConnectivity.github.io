@@ -1,5 +1,5 @@
 ---
-layout: page_exclude
+layout: page
 permalink: /research/publications.html
 sitemap: false
 robots: noindex,nofollow
