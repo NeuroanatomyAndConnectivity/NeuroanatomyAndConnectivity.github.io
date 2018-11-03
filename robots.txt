@@ -1,4 +1,4 @@
 Sitemap: https://www.neuroconnlab.org/sitemap.xml
 User-Agent: *
-Disallow: https://www.neuroconnlab.org/downloads/pubs/
-Disallow: https://www.neuroconnlab.org/downloads/press/
+Disallow: /downloads/pubs/
+Disallow: /downloads/press/
