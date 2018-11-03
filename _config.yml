@@ -25,7 +25,7 @@ future: true
 # Jekyll scholar
 plugins_dir: ['jekyll/scholar']
 # Load plugins
-plugins: ['jekyll/scholar', 'unicode_utils', 'unicode']
+plugins: ['jekyll/scholar', 'unicode_utils', 'unicode', 'jekyll-sitemap']
 
 netlify:
   redirects:
@@ -66,7 +66,7 @@ scholar:
 
 include:
   - _redirects
-  
+
 exclude:
   - README.md
   - _TODO.md
@@ -81,3 +81,13 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+
+defaults:
+  - scope:
+      path: "downloads/pubs/*.pdf"
+    values:
+      sitemap: false
+  - scope:
+      path: "downloads/press/*.pdf"
+    values:
+      sitemap: false

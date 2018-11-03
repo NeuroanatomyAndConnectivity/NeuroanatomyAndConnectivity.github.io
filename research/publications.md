@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /research/publications.html
+sitemap: false
 ---
 
 # Publications
