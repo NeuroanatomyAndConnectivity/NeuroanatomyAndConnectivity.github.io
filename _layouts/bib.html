@@ -30,31 +30,31 @@
 {% if entry.github %} | {% endif %}
 
 {% if entry.code %}
-<a href="{{entry.code}}" target="_blank"><i class="fa fa-file-archive-o"></i> code.zip</a>
+<a href="{{entry.code}}" target="_blank"><i class="fa fa-file-archive-o"></i>&thinsp;code.zip</a>
 {% endif %}
 {% if entry.code %} | {% endif %}
 
 {% if entry.movie  %}
-<a href="{{entry.movie}}" target="_blank"><i class="fa fa-film"></i>video</a>
+<a href="{{entry.movie}}" target="_blank"><i class="fa fa-film"></i>&thinsp;Video</a>
 {% endif %}
 {% if entry.movie %} | {% endif %}
 
 {% if entry.award %}
-<a href="{{entry.award}}" target="_blank"><i class="fa fa-trophy"></i>award</a>
+<a href="{{entry.award}}" target="_blank"><i class="fa fa-trophy"></i>&thinsp;Award</a>
 {% endif %}
 {% if entry.award %} | {% endif %}
 
 {% if entry.spotlight %}
-<a href="{{entry.spotlight}}" target="_blank"><i class="fa fa-star"></i>spotlight</a>
+<a href="{{entry.spotlight}}" target="_blank"><i class="fa fa-star"></i>&thinsp;Spotlight</a>
 {% endif %}
 {% if entry.spotlight %} | {% endif %}
 
 {% if entry.data %}
-<a href="{{entry.data}}" target="_blank"><i class="fa fa-database"></i>Data</a>
+<a href="{{entry.data}}" target="_blank"><i class="fa fa-database"></i>&thinsp;Data</a>
 {% endif %}
 {% if entry.data %} | {% endif %}
 
-<a data-toggle="collapse" href="javascript:toggleDiv('{{entry.key}}-bibtex')">BibTeX</a>
+<a data-toggle="collapse" href="javascript:toggleDiv('{{entry.key}}-bibtex')">Abstract</a>
 
 <br/>
 </small>
@@ -67,6 +67,6 @@
 <br/>
 <small>
 <div id="{{entry.key}}-bibtex" style="display:none;">
-<pre class="collapse">{{entry.bibtex}}</pre>
+<p class="collapse">{{entry.abstract}}</p>
 </div>
 </small>
