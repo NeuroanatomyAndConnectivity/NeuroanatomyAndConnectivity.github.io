@@ -25,7 +25,13 @@ future: true
 # Jekyll scholar
 plugins_dir: ['jekyll/scholar']
 # Load plugins
-plugins: ['jekyll/scholar', 'unicode_utils', 'unicode', 'jekyll-sitemap']
+plugins: ['jekyll/scholar', 'unicode_utils', 'unicode', 'jekyll-sitemap', 'jekyll-target-blank']
+
+#target-blank:
+  #noopener: false
+  #noreferrer: false
+  #css_class: ext-link
+  # rel: nofollow
 
 netlify:
   redirects:

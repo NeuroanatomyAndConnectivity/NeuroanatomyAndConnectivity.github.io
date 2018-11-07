@@ -12,26 +12,26 @@ If you prefer a full pdf version [**→ CV**]({{site.baseurl}}/downloads/people/
 
 # Biographical sketch
 
-| **2018**       | |  Tenured researcher (CR1), [CNRS]{:target="\_blank"} |
-| **2012--2017** | |  Faculty, [International Max Planck Research School][imprs]{:target="\_blank"}, Leipzig |
-| **2011--2017** | |  Group leader, [Research Group for Neuroanatomy & Connectivity][nac]{:target="\_blank"} |
-| **2009--2011** | |  Postdoc, [MPI for Human Cognitive and Brain Sciences][mpi]{:target="\_blank"} |
-| **2010**       | |  PhD, [Humboldt University]{:target="\_blank"}, Berlin |
-| **2008**       | |  MA, [European Graduate School]{:target="\_blank"}, Saas Fee, Switzerland |
-| **2005**       | |  BA, [New York University]{:target="\_blank"} |
+| **2018**       | |  Tenured researcher (CR1), [CNRS] |
+| **2012--2017** | |  Faculty, [International Max Planck Research School][imprs], Leipzig |
+| **2011--2017** | |  Group leader, [Research Group for Neuroanatomy & Connectivity][nac] |
+| **2009--2011** | |  Postdoc, [MPI for Human Cognitive and Brain Sciences][mpi] |
+| **2010**       | |  PhD, [Humboldt University], Berlin |
+| **2008**       | |  MA, [European Graduate School], Saas Fee, Switzerland |
+| **2005**       | |  BA, [New York University] |
 
 # Awards
 
-| **2018** | | [Young Investigator Award]{:target="\_blank"}, Organization for Human Brain Mapping |
-| **2010** | | [Otto Hahn Medal]{:target="\_blank"}, Max Planck Society |
+| **2018** | | [Young Investigator Award], Organization for Human Brain Mapping |
+| **2010** | | [Otto Hahn Medal], Max Planck Society |
 
 # Activities
 
 **Editor** for
-[NeuroImage]{:target="\_blank"},
-[Scientific Data]{:target="\_blank"},
-[PLoS One]{:target="\_blank"},
-[Frontiers in Human Neuroscience]{:target="\_blank"}
+[NeuroImage],
+[Scientific Data],
+[PLoS One],
+[Frontiers in Human Neuroscience]
 
 Also see [**open science initiatives**](../resources/index.html#open_sci_initiatives)
 

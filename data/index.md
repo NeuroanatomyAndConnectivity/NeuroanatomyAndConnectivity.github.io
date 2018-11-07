@@ -9,7 +9,7 @@ permalink: /data/index.html
 
 We have released several MRI datasets for open use. Below are descriptions, as well as links to further information, code, and the data itself.   
 
-We have also been involved in the [International Neuroimaging Data-sharing Initiative][INDI]{:target="\_blank"} and the [Primate Neuroimaging data-exchange (PRIME-DE)][PRIME_DE]{:target="\_blank"}, as well as [preprocessing initiatives][ADHD_prepro]{:target="\_blank"} to facilitate interdisciplinary collaboration.
+We have also been involved in the [International Neuroimaging Data-sharing Initiative][INDI] and the [Primate Neuroimaging data-exchange (PRIME-DE)][PRIME_DE], as well as [preprocessing initiatives][ADHD_prepro] to facilitate interdisciplinary collaboration.
 <hr class="style5">
 
 ## MPI--Leipzig: Mind, Brain, Body dataset  
@@ -18,34 +18,34 @@ The Max Planck Institute--Leipzig: Mind, Brain, Body (MPILMBB) dataset consists 
 A preprint describing the acquisition protocol, dataset, and processing code:  
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=Mendes164764] %}</div>  
 ### Data  
-[**→ <i class="fa fa-database"></i> MRI data (BIDS format)**][mpilmbb_data_bids]{:target="\_blank"}  
-[**→ <i class="fa fa-database"></i> MRI data (Preprocessed)**][mpilmbb_data_preproc]{:target="\_blank"}  
-[**→ <i class="fa fa-database"></i> Behavioral data**][mpilmbb_behav]{:target="\_blank"}  
+[**→ <i class="fa fa-database"></i> MRI data (BIDS format)**][mpilmbb_data_bids]  
+[**→ <i class="fa fa-database"></i> MRI data (Preprocessed)**][mpilmbb_data_preproc]  
+[**→ <i class="fa fa-database"></i> Behavioral data**][mpilmbb_behav]  
 ### Code  
-[**→ <i class="fa fa-github-alt"></i> MRI data preprocessing scripts**][preproc_lsd]{:target="\_blank"}  
-[**→ <i class="fa fa-github-alt"></i> Adaptive visual and auditory oddball task**][oddball]{:target="\_blank"}  
-[**→ <i class="fa fa-github-alt"></i> Conjunctive continuous performance task (CCPT)**][CCPT]{:target="\_blank"}   
+[**→ <i class="fa fa-github-alt"></i> MRI data preprocessing scripts**][preproc_lsd]  
+[**→ <i class="fa fa-github-alt"></i> Adaptive visual and auditory oddball task**][oddball]  
+[**→ <i class="fa fa-github-alt"></i> Conjunctive continuous performance task (CCPT)**][CCPT]   
 ### Questions?  
-We encourage users to subscribe to the [**mailing list <i class="fa fa-users"></i>**][mpilmbb_email]{:target="\_blank"} for updates and discussions regarding the preprocessing pipelines.  
+We encourage users to subscribe to the [**mailing list <i class="fa fa-users"></i>**][mpilmbb_email] for updates and discussions regarding the preprocessing pipelines.  
 <hr class="style5">  
 
 ## 7T resting-state MRI data  
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=gorgolewski2015a] %}</div>  
-[**→ <i class="fa fa-database"></i> MRI data**][7T_data]{:target="\_blank"}  
+[**→ <i class="fa fa-database"></i> MRI data**][7T_data]  
 Additional related 7T MRI data made available by [Pierre-Louis Bazin][PLB]:  
-[**→ <i class="fa fa-database"></i> MRI data**][7T_Bazin]{:target="\_blank"}  
+[**→ <i class="fa fa-database"></i> MRI data**][7T_Bazin]  
 <hr class="style5">
 
 ## Berlin resting-state MRI data  
 Publications describing the data:  
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=biswal2010a|| key=rohr2013a] %}</div>
-[**→ <i class="fa fa-database"></i> MRI data**][Berlin_INDI]{:target="\_blank"}  
-[**→ <i class="fa fa-database"></i> MRI & Phenotypic data**][Berlin_Data]{:target="\_blank"}  
+[**→ <i class="fa fa-database"></i> MRI data**][Berlin_INDI]  
+[**→ <i class="fa fa-database"></i> MRI & Phenotypic data**][Berlin_Data]  
 <hr class="style5">  
 
 ## Group-synchrony dance data  
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=ellamil2016b] %}</div>  
-[**→ <i class="fa fa-database"></i> Data**][dance_data]{:target="\_blank"}  
+[**→ <i class="fa fa-database"></i> Data**][dance_data]  
 
 
 [INDI]: http://fcon_1000.projects.nitrc.org

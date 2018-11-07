@@ -8,10 +8,10 @@ permalink: /gallery/index.html
 # Gallery
 
 ## Journal cover images
-[![]({{site.baseurl}}/images/Cover_JNeuro2013.jpg){: .artwork-portrait}](http://www.jneurosci.org/content/33/42){:target="\_blank"}
-[![]({{site.baseurl}}/images/Cover_NatMethods2013.png){: .artwork-portrait}](https://www.nature.com/nmeth/volumes/10/issues/6){:target="\_blank"}
-[![]({{site.baseurl}}/images/Cover_NI2013.gif){: .artwork-portrait}](https://www.sciencedirect.com/journal/neuroimage/vol/80/suppl/C){:target="\_blank"}
-[![]({{site.baseurl}}/images/Cover_PNAS2016.jpg){: .artwork-portrait}](http://www.pnas.org/content/113/44){:target="\_blank"}
+[![]({{site.baseurl}}/images/Cover_JNeuro2013.jpg){: .artwork-portrait}](http://www.jneurosci.org/content/33/42)
+[![]({{site.baseurl}}/images/Cover_NatMethods2013.png){: .artwork-portrait}](https://www.nature.com/nmeth/volumes/10/issues/6)
+[![]({{site.baseurl}}/images/Cover_NI2013.gif){: .artwork-portrait}](https://www.sciencedirect.com/journal/neuroimage/vol/80/suppl/C)
+[![]({{site.baseurl}}/images/Cover_PNAS2016.jpg){: .artwork-portrait}](http://www.pnas.org/content/113/44)
 
 ## Connectivity visualization
 [![]({{site.baseurl}}/thumbnails/image1.jpg){: .artwork-landscape}]({{site.baseurl}}/images/image1.png){:target="\_blank"}
@@ -22,7 +22,7 @@ permalink: /gallery/index.html
 [![]({{site.baseurl}}/thumbnails/macaque_human_pmc.png){: .artwork-landscape}]({{site.baseurl}}/images/macaque_human_pmc.tif){:target="\_blank"}
 
 ## Brain-Art Competition
-Organized annually by the [Neuro Bureau]{:target="\_blank"} since 2011, the [Brain-Art Competition] aims to recognize the beauty and creativity of artistic renderings emerging from the neuroimaging community. For galleries and more information: [**<i class="fa fa-external-link"></i> www.neurobureau.org/brainart/**][Brain-Art Competition]{:target="\_blank"}  
+Organized annually by the [Neuro Bureau] since 2011, the [Brain-Art Competition] aims to recognize the beauty and creativity of artistic renderings emerging from the neuroimaging community. For galleries and more information: [**<i class="fa fa-external-link"></i> www.neurobureau.org/brainart/**][Brain-Art Competition]  
 
 [Neuro Bureau]: http://www.neurobureau.org
 [Brain-Art Competition]: http://neurobureau.org/brainart/

@@ -11,81 +11,81 @@ Since the lab moved in early-2018, the team consists of [Daniel Margulies]({{sit
 
 ## Collaborators
 
-[Jonathan Smallwood][jonny]{:target="\_blank"}, University of York, UK   
-[Beth Jefferies][beth]{:target="\_blank"}, University of York, UK  
-[Boris Bernhardt][boris]{:target="\_blank"}, Montreal Neurological Institute  
-[Danilo Bzdok][danilo]{:target="\_blank"}, RWTH Aachen University  
-[Ting Xu][ting]{:target="\_blank"}, Child Mind Institute, NY  
-[Michel Thiebaut de Schotten][bcblab]{:target="\_blank"}, CNRS, Paris  
-[Joshua Vogelstein][joshua]{:target="\_blank"}, Johns Hopkins University  
-[Michael Lifshitz][michael]{:target="\_blank"}, Stanford University  
-[Satra Ghosh][satra]{:target="\_blank"}, MIT  
-[Georg Langs][georg]{:target="\_blank"}, Medical University of Vienna  
-[Simon Eickhoff][simon]{:target="\_blank"}, Jülich Research Center  
-[Michael Petrides][petrides]{:target="\_blank"}, Montreal Neurological Institute  
-[Pierre-Louis Bazin][pilou]{:target="\_blank"}, Netherlands Institute for Neuroscience  
+[Jonathan Smallwood][jonny], University of York, UK   
+[Beth Jefferies][beth], University of York, UK  
+[Boris Bernhardt][boris], Montreal Neurological Institute  
+[Danilo Bzdok][danilo], RWTH Aachen University  
+[Ting Xu][ting], Child Mind Institute, NY  
+[Michel Thiebaut de Schotten][bcblab], CNRS, Paris  
+[Joshua Vogelstein][joshua], Johns Hopkins University  
+[Michael Lifshitz][michael], Stanford University  
+[Satra Ghosh][satra], MIT  
+[Georg Langs][georg], Medical University of Vienna  
+[Simon Eickhoff][simon], Jülich Research Center  
+[Michael Petrides][petrides], Montreal Neurological Institute  
+[Pierre-Louis Bazin][pilou], Netherlands Institute for Neuroscience  
 
 # Former members
 
 The photos below were taken in 2012, 2013, and 2015.
 
-[![2012]({{site.baseurl}}/thumbnails/NAC_2012.jpg){: .artwork-landscape style="height: 180px"}]({{site.baseurl}}/images/NAC_2012.tif "2012")
-[![2013]({{site.baseurl}}/thumbnails/NAC_2013.jpg){: .artwork-landscape style="height: 180px"}]({{site.baseurl}}/images/NAC_2013.tif "2013")
-[![2015]({{site.baseurl}}/thumbnails/NAC_2015.jpg){: .artwork-landscape style="height: 180px"}]({{site.baseurl}}/images/NAC_2015.tif "2015")  
+[![2012]({{site.baseurl}}/thumbnails/NAC_2012.jpg){: .artwork-landscape style="height: 180px"}]({{site.baseurl}}/images/NAC_2012.tif "2012"){:target="\_blank"}
+[![2013]({{site.baseurl}}/thumbnails/NAC_2013.jpg){: .artwork-landscape style="height: 180px"}]({{site.baseurl}}/images/NAC_2013.tif "2013"){:target="\_blank"}
+[![2015]({{site.baseurl}}/thumbnails/NAC_2015.jpg){: .artwork-landscape style="height: 180px"}]({{site.baseurl}}/images/NAC_2015.tif "2015"){:target="\_blank"}  
 
 ### Scientific coordinator
-[Natacha Mendes][natacha]{:target="\_blank"}
+[Natacha Mendes][natacha]
 
 ### Postdocs  
 
-[Joachim Böttger][joachim]{:target="\_blank"},
-[Chris Gorgolewski][chris]{:target="\_blank"},
-[Alexandros Goulas][alexandros]{:target="\_blank"},
-[Franz Liem][franz]{:target="\_blank"},
-[Melissa Ellamil][melissa]{:target="\_blank"},
-[Manousos Klados][manousos]{:target="\_blank"},
-[Marcel Falkiewicz][marcel]{:target="\_blank"}
+[Joachim Böttger][joachim],
+[Chris Gorgolewski][chris],
+[Alexandros Goulas][alexandros],
+[Franz Liem][franz],
+[Melissa Ellamil][melissa],
+[Manousos Klados][manousos],
+[Marcel Falkiewicz][marcel]
 
 ### Students  
-[Seyma Bayrak][seyma]{:target="\_blank"},
-[Johannes Golchert][hannes]{:target="\_blank"},
-[Estrid Jakobsen][estrid]{:target="\_blank"},
-[Julia M Huntenburg][julia]{:target="\_blank"},
-[Mark Lauckner][mark]{:target="\_blank"},
-[Sabine Oligschläger][sabine]{:target="\_blank"}
+[Seyma Bayrak][seyma],
+[Johannes Golchert][hannes],
+[Estrid Jakobsen][estrid],
+[Julia M Huntenburg][julia],
+[Mark Lauckner][mark],
+[Sabine Oligschläger][sabine]
 
 ### Guest Researchers
-[Joshua Berson][josh]{:target="\_blank"},
-[Daniel Weissman][weissman]{:target="\_blank"}
+[Joshua Berson][josh],
+[Daniel Weissman][weissman]
 
 ### Artists in Residence
-[Jeremy Shaw][jeremy]{:target="\_blank"}
+[Jeremy Shaw][jeremy]
 
 ### Visiting Students, Research Assistents, Interns, Honorary Members
 
-[Philipp Haueis][philipp]{:target="\_blank"},
-[Yating Lv][yating]{:target="\_blank"},
-[Xiangyu Long][xiangyu]{:target="\_blank"},
-[Judy Kipping][judy]{:target="\_blank"},
-[Alexander Schaefer][alex]{:target="\_blank"},
-[Smadar Ovadia-Caro][smadar]{:target="\_blank"},
-[Esther Kühn][esther]{:target="\_blank"},
-[David Moreno-Dominguez][david]{:target="\_blank"},
-[Tyler Bonnen][tyler]{:target="\_blank"},
-[Tilo Buschmann][tilo]{:target="\_blank"},
-[Irene De Caso][irene]{:target="\_blank"},
-[Sebastian Urchs][sebastian]{:target="\_blank"},
-[Aimi Watanabe][aimi]{:target="\_blank"},
-[Jan Zelmer][zelmer]{:target="\_blank"},
-[Sarah Krause][krause]{:target="\_blank"},
-[Yaqiong Xiao][yaqiong]{:target="\_blank"},
-[Patrick Friedrich][patrick]{:target="\_blank"},
-[Lisa Kramarenko][lisa]{:target="\_blank"},
-[Kratika Agarwal][kratika]{:target="\_blank"},
-[Charlotte Chaze][charlotte]{:target="\_blank"},
-[Laura Wallor][laura]{:target="\_blank"},
-[Blazej Baczkowski][blazej]{:target="\_blank"},
-[Ricky Burns][ricky]{:target="\_blank"}
+[Philipp Haueis][philipp],
+[Yating Lv][yating],
+[Xiangyu Long][xiangyu],
+[Judy Kipping][judy],
+[Alexander Schaefer][alex],
+[Smadar Ovadia-Caro][smadar],
+[Esther Kühn][esther],
+[David Moreno-Dominguez][david],
+[Tyler Bonnen][tyler],
+[Tilo Buschmann][tilo],
+[Irene De Caso][irene],
+[Sebastian Urchs][sebastian],
+[Aimi Watanabe][aimi],
+[Jan Zelmer][zelmer],
+[Sarah Krause][krause],
+[Yaqiong Xiao][yaqiong],
+[Patrick Friedrich][patrick],
+[Lisa Kramarenko][lisa],
+[Kratika Agarwal][kratika],
+[Charlotte Chaze][charlotte],
+[Laura Wallor][laura],
+[Blazej Baczkowski][blazej],
+[Ricky Burns][ricky]
 
 
 
