@@ -17,6 +17,7 @@ Since the lab moved in early-2018, the team consists of [Daniel Margulies]({{sit
 [Danilo Bzdok][danilo], RWTH Aachen University  
 [Ting Xu][ting], Child Mind Institute, NY  
 [Michel Thiebaut de Schotten][bcblab], CNRS, Paris  
+[Cameron Craddock][cameron], University of Texas at Austin
 [Joshua Vogelstein][joshua], Johns Hopkins University  
 [Michael Lifshitz][michael], Stanford University  
 [Satra Ghosh][satra], MIT  
@@ -97,6 +98,7 @@ The photos below were taken in 2012, 2013, and 2015.
 [ting]:https://childmind.org/bio/ting-xu-phd/
 [joshua]:http://jovo.me
 [michael]:https://stanford.academia.edu/MichaelLifshitz
+[cameron]:http://computational-neuroimaging-lab.org
 [satra]:https://satra.cogitatum.org
 [georg]:https://www.cir.meduniwien.ac.at/team/langs/
 [simon]:http://www.fz-juelich.de/inm/inm-7/EN/Home/home_node.html
