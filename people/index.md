@@ -17,7 +17,7 @@ Since the lab moved in early-2018, the team consists of [Daniel Margulies]({{sit
 [Danilo Bzdok][danilo], RWTH Aachen University  
 [Ting Xu][ting], Child Mind Institute, NY  
 [Michel Thiebaut de Schotten][bcblab], CNRS, Paris  
-[Cameron Craddock][cameron], University of Texas at Austin
+[Cameron Craddock][cameron], University of Texas at Austin  
 [Joshua Vogelstein][joshua], Johns Hopkins University  
 [Michael Lifshitz][michael], Stanford University  
 [Satra Ghosh][satra], MIT  
