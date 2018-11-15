@@ -18,31 +18,33 @@ robots: noindex,nofollow
 <hr class="style5">
 
 ## Journal articles <a name="articles"></a>
-#### 2018 <a name="2018"></a>
+##### 2019 <a name="2019"></a>
+{% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2019] %}
+##### 2018 <a name="2018"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2018] %}
-#### 2017 <a name="2017"></a>
+##### 2017 <a name="2017"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2017] %}
-#### 2016 <a name="2016"></a>
+##### 2016 <a name="2016"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2016] %}
-#### 2015 <a name="2015"></a>
+##### 2015 <a name="2015"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2015] %}
-#### 2014 <a name="2014"></a>
+##### 2014 <a name="2014"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2014] %}
-#### 2013 <a name="2013"></a>
+##### 2013 <a name="2013"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2013] %}
-#### 2012 <a name="2012"></a>
+##### 2012 <a name="2012"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2012] %}
-#### 2011 <a name="2011"></a>
+##### 2011 <a name="2011"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2011] %}
-#### 2010 <a name="2010"></a>
+##### 2010 <a name="2010"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2010] %}
-#### 2009 <a name="2009"></a>
+##### 2009 <a name="2009"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2009] %}
-#### 2008 <a name="2008"></a>
+##### 2008 <a name="2008"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2008] %}
-#### 2007 <a name="2007"></a>
+##### 2007 <a name="2007"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2007] %}
-#### 2006 <a name="2006"></a>
+##### 2006 <a name="2006"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2006] %}
 <hr class="style5">
 

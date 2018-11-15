@@ -105,18 +105,20 @@ margin: -130px 0 0; /* negative fixed header height */
 /**
  * Page content
  */
-hr.style1 {border-top: 1px solid $brand-color;}
-hr.style2 {border-top: 3px double $brand-color;}
-hr.style3 {border-top: 1px dashed $brand-color;}
-hr.style4 {border-top: 1px dotted $brand-color;}
-hr.style5 {background-color: $background-color; border-top: 1px dotted $brand-color; margin-left: -2.5%;}
-hr.style6 {background-color: $background-color; border-top: 2px dashed $brand-color;}
-hr.style7 {background-color: $background-color; border-top: 2px dotted $brand-color;}
+hr.style1 {border-width: 0px; border-top: 1px solid $brand-color;}
+hr.style2 {border-width: 0px; border-top: 3px double $brand-color;}
+hr.style3 {border-width: 0px; border-top: 1px dashed $brand-color;}
+hr.style4 {border-width: 0px; border-top: 1px dotted $brand-color;}
+hr.style5 {border-width: 0px; border-top: 1.5px dotted $brand-color; margin-left: -2.5%;}
+hr.style6 {border-width: 0px; border-top: 2px dashed $brand-color;}
+hr.style7 {border-width: 0px; border-top: 2px dotted $brand-color;}
+hr.style8 {border-width: 0px; border-top: 2px dotted $brand-color; display:inline-block; margin-left: -2.5%; width:50%;}
 
 h1 { color: $brand-color; font-size: 1.50em; font-weight: 600; padding-top: 1.0em; }
 h2 { color: $brand-color; font-size: 1.25em; font-weight: 400; padding-top: 1.0em; }
 h3 { color: $brand-color; font-size: 1.10em; font-weight: 400; padding-top: 0.5em; }
 h4 { color: $brand-color; font-size: 1.00em; font-weight: 400; padding-top: 0.5em; }
+h5 { color: $brand-color; font-size: 1.60em; opacity: 0.5; font-weight: 300; text-align: right; padding-right: +2.5%; border-top: 1px dotted $brand-color;}
 
 h1 {
     font-variant: small-caps;
@@ -231,7 +233,6 @@ pre,code {
     -khtml-border-radius:  3px;
     -webkit-border-radius: 3px;
 }
-
 
 img.tiny   { width:  20%; }
 img.small  { width:  25%; }
