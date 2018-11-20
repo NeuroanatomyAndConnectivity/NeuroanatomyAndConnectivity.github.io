@@ -40,7 +40,7 @@
 {% if entry.movie %} | {% endif %}
 
 {% if entry.award %}
-<a href="{{entry.award}}" target="_blank"><i class="fa fa-trophy"></i>&thinsp;Award</a>
+<a data-toggle="collapse" href="javascript:toggleDiv('{{entry.key}}-bibtex-award')"><i class="fa fa-trophy"></i>&thinsp;Award</a>
 {% endif %}
 {% if entry.award %} | {% endif %}
 
@@ -59,14 +59,22 @@
 <br/>
 </small>
 
-{{reference}}
+{% if entry.in_press %}
+  {{ reference | replace: '2018', '<i>In press</i>' }}
+  {% else %}
+    {{ reference }}
+  {% endif %}
 
 {% if entry.note %}
-{{ <i>entry.note</i> }}.
+  {{ <i>entry.note</i> }}.
 {% endif %}
-<br/>
 <small>
-<div id="{{entry.key}}-bibtex" style="display:none;">
-<p class="collapse">{{entry.abstract}}</p>
-</div>
+  <div id="{{entry.key}}-bibtex-award" style="display:none;">
+    <br/>
+    <p class="collapse">{{entry.award}}</p>
+  </div>
+  <div id="{{entry.key}}-bibtex" style="display:none;">
+    <p class="collapse">{{entry.abstract}}</p>
+  </div>
 </small>
+<br/>
