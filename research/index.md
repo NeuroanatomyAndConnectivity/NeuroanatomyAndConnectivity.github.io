@@ -35,6 +35,8 @@ Our **[research publications][publications]** are primarily in the domain of **c
 
 For an overview, see our recent review article{% cite huntenburg2018a %} and the [OHBM keynote presentation].  
 
+Gradient maps in HCP 32k cifti space can be downloaded here: [**→<i class="fa fa-database"> Gradient templates</i> **]({{site.baseurl}}/downloads/data/hcp.gradients.dscalar.nii)  
+
 [OHBM keynote presentation]:https://www.pathlms.com/ohbm/courses/8246/sections/12540/video_presentations/115833  
 {% include biblio.html %}
 
