@@ -12,12 +12,13 @@ We have released several MRI datasets for open use. Below are descriptions, as w
 We have also been involved in the [International Neuroimaging Data-sharing Initiative][INDI] and the [Primate Neuroimaging data-exchange (PRIME-DE)][PRIME_DE], as well as [preprocessing initiatives][ADHD_prepro] to facilitate interdisciplinary collaboration.
 <hr class="style5">
 
-## Maps \& Labels
-[**→ <i class="fa fa-database"></i> Gradient templates**]({{site.baseurl}}/downloads/data/hcp.gradients.dscalar.nii) from {% cite margulies2016a %}  
-[**→ <i class="fa fa-database"></i> Gradient templates**][Broca_labels] from {% cite jakobsen2016a %}  
+## Maps & Labels
+<div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=margulies2016a] %}</div>
+[**→ <i class="fa fa-database"></i> Gradient templates in CIFTI format**]({{site.baseurl}}/downloads/data/hcp.gradients.dscalar.nii)  
 
-[Broca_labels]: http://wwwuser.gwdg.de/~cbsarchi/archiv/public/hcp/  
-{% include biblio.html %}  
+<div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=jakobsen2016a] %}</div>
+[**→ <i class="fa fa-database"></i> Broca's areas labels from HCP data**][Broca_labels]  
+<hr class="style5">  
 
 ## MPI--Leipzig: Mind, Brain, Body dataset <a name="MPILBMM"></a>  
 The Max Planck Institute--Leipzig: Mind, Brain, Body (MPILMBB) dataset consists of MRI data as well as several behavioral measures.  
