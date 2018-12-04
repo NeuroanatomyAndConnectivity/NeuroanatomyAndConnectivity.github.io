@@ -40,4 +40,4 @@ Organized annually by the [Neuro Bureau] since 2011, the [Brain-Art Competition]
 
 ## Glyph visualization example within ventrolateral prefrontal cortex
 <div style="padding:62.55% 0 0 0;position:relative;"><script src="zoom_broca.js" type="text/javascript"></script></div>  
-{% bibliography -T bib_small --query @article[pmid = 24624052] %}  
+<div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[pmid = 24624052] %}</div>  
