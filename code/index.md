@@ -46,7 +46,7 @@ Click the image to the right to see [an example]({{site.baseurl}}/images/zones_0
 [di]:https://github.com/NeuroanatomyAndConnectivity/DirectionalityIndicator
 <hr class="style5">
 
-## Measuring distance along the cortical surface
+## Measuring distance along the cortical surface<a name="surfdist"></a>
 [![]({{site.baseurl}}/images/surfdist.png){: .right .medium}]({{site.baseurl}}/images/surfdist.png){:target="\_blank"}   
 
 The [<i class="fa fa-github-alt"></i> surfdist][sd] Python package can be used to calculate the exact geodesic distance from nodes or regions-of-interest along the cortical surface.
