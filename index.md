@@ -3,13 +3,6 @@ layout: page
 permalink: index.html
 ---
 # Welcome
-<div style="background-color: #f7f7f7; z-index:1; float: right; width:45%; padding:+1.5%; margin-top:-1.5%; border-radius:10px;">
-  <font color="#18515E"><strong>Announcements</strong><br></font>
-  <font size="-0.5">
-  Join us in Australia, March 10-13, 2019, at the <a href="https://medicine.yale.edu/mrrc/home/seminars/workshop/" target="\_blank">Summer Whistler Workshop</a>!
-  </font>
-</div>
-
 This is the website of the Neuroanatomy & Connectivity Lab, headed by [Daniel Margulies][DSM].  
 
 We investigate principles of how the cerebral cortex is spatially organized and the role of that organization in human cognition. More information about various projects and [publications] are available on our [research page].  

@@ -10,3 +10,7 @@ Makefile
 Icon?
 _site/
 debug.log
+
+assets/05_metaanalysis_brainmap\.md
+
+assets/05_metaanalysis_neurosynth\.md
