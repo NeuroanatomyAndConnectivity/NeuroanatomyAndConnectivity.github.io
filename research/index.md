@@ -102,7 +102,7 @@ We have also validated a questionnaire that captures the content and form of min
 ## Group synchrony <a name="synchrony"></a>
 
 [![]({{site.baseurl}}/thumbnails/dance.png){: .right .full}]({{site.baseurl}}/thumbnails/dance.png)
-How do individuals synchronize their behavior when in a group?{% cite ellamil2016a %} [Melissa Ellamil][melissa] investigated this question in a club setting in collaboration with [Guerilla Science][guerillascience].{% cite ellamil2016b %}  
+How do individuals synchronize their behavior when in a group?{% cite ellamil2016a %} [Melissa Ellamil][melissa] investigated this question in a club setting in collaboration with [Guerilla Science][guerillascience],{% cite ellamil2016b %} which was also described in [PNAS News](https://www.neuroconnlab.org/downloads/press/11982.full.pdf){:target="\_blank"}.  
 
 [melissa]: https://harmonylabs.org/melissa-ellamil/
 [guerillascience]: http://guerillascience.org
