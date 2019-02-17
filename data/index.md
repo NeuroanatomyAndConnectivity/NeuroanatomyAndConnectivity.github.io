@@ -51,7 +51,7 @@ Publications describing the data:
 [**→ <i class="fa fa-database"></i> MRI & Phenotypic data**][Berlin_Data]  
 <hr class="style5">  
 
-## Group-synchrony dance data  
+## Group-synchrony dance data <a name="synchrony"></a>   
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=ellamil2016b] %}</div>  
 [**→ <i class="fa fa-database"></i> Data**][dance_data]  
 
