@@ -1,7 +1,7 @@
 ---
 layout: page
-order: 07
-title: NEWS
+order: 70
+title: PRESS
 permalink: /news/index.html
 robots: nofollow
 ---
