@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 06
+order: 60
 title: RESOURCES
 permalink: /resources/index.html
 ---

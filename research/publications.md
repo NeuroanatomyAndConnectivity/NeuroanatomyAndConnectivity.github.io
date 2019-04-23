@@ -1,5 +1,7 @@
 ---
 layout: page
+title: PUBS
+order: 15
 permalink: /research/publications.html
 sitemap: false
 robots: noindex,nofollow

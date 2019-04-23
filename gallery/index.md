@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 05
+order: 50
 title: GALLERY
 permalink: /gallery/index.html
 ---

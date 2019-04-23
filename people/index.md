@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 02
+order: 20
 title: PEOPLE
 permalink: /people/index.html
 ---

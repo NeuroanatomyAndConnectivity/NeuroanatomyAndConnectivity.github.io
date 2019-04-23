@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 03
+order: 30
 title: CODE
 permalink: /code/index.html
 ---

@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 01
+order: 10
 title: RESEARCH
 permalink: /research/index.html
 ---

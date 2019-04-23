@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 04
+order: 40
 title: DATA
 permalink: /data/index.html
 ---
