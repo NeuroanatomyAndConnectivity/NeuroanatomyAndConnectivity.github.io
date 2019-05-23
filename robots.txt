@@ -2,3 +2,4 @@ Sitemap: https://www.neuroconnlab.org/sitemap.xml
 User-Agent: *
 Disallow: /downloads/pubs/
 Disallow: /downloads/press/
+Disallow: /downloads/people/CV_Margulies.pdf

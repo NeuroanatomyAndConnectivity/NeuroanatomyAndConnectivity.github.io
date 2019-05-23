@@ -97,3 +97,8 @@ defaults:
       path: "downloads/press/*.pdf"
     values:
       sitemap: false
+  - scope:
+      path: "downloads/people/CV_Margulies.pdf"
+    values:
+      sitemap: false
+      
