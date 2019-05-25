@@ -14,7 +14,7 @@ We have also been involved in the [International Neuroimaging Data-sharing Initi
 
 ## Maps & Labels
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=margulies2016a] %}</div>
-[**→ <i class="fa fa-database"></i> Gradient templates in CIFTI format**]({{site.baseurl}}/downloads/data/hcp.gradients.dscalar.nii)  
+[**→ <i class="fa fa-database"></i> Gradient templates in CIFTI format**]({{site.baseurl}}/downloads/data/Gradients_Margulies2016.zip)  
 
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=jakobsen2016a] %}</div>
 [**→ <i class="fa fa-database"></i> Broca's areas labels from HCP data**][Broca_labels]  
