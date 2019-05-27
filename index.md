@@ -3,11 +3,14 @@ layout: page
 permalink: index.html
 ---
 # Welcome
+
 This is the website of the Neuroanatomy & Connectivity Lab, headed by [Daniel Margulies][DSM].  
+
+{% include quicklinks.html %}
 
 We investigate principles of how the cerebral cortex is spatially organized and the role of that organization in human cognition. More information about various projects and [publications] are available on our [research page].  
 
-We're based at the [Institut de Cerveau et de la Moelle épinière][ICM] in Paris, and associated with the [Centre national de la recherche scientifique (CNRS)][CNRS]. From 2012-2017 we were an independent research group at the [Max Planck Institute for Human Cognitive and Brain Sciences][NAC] in [Leipzig].  
+We're based at the [Institut de Cerveau et de la Moelle épinière][ICM] in Paris, and associated with the [Centre national de la recherche scientifique (CNRS)][CNRS]. From 2012&ndash;2017 we were an independent research group at the [Max Planck Institute for Human Cognitive and Brain Sciences][NAC] in [Leipzig].  
 
 ## Contact
 [![]({{site.baseurl}}/thumbnails/image1.jpg){: .right .half}]({{site.baseurl}}/gallery/index.html)

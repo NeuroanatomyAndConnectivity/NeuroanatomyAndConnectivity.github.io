@@ -12,7 +12,7 @@ We have released several MRI datasets for open use. Below are descriptions, as w
 We have also been involved in the [International Neuroimaging Data-sharing Initiative][INDI] and the [Primate Neuroimaging data-exchange (PRIME-DE)][PRIME_DE], as well as [preprocessing initiatives][ADHD_prepro] to facilitate interdisciplinary collaboration.
 <hr class="style5">
 
-## Maps & Labels
+## Maps & Labels <a name="maps"></a>  
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=margulies2016a] %}</div>
 [**→ <i class="fa fa-database"></i> Gradient template maps**]({{site.baseurl}}/downloads/data/Gradients_Margulies2016.zip) Available in Cifti, fsaverage, and volumetric (MNI2mm) formats  
 

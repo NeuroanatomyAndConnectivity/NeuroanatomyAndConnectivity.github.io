@@ -278,3 +278,7 @@ table {
       margin-top: 0; }
     table tr th :last-child, table tr td :last-child {
 margin-bottom: 0; }
+
+@media all and (max-width: 687px) {
+    .inner_box { display: none; }
+}
