@@ -14,7 +14,7 @@ We have also been involved in the [International Neuroimaging Data-sharing Initi
 
 ## Maps & Labels
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=margulies2016a] %}</div>
-[**→ <i class="fa fa-database"></i> Gradient templates**]({{site.baseurl}}/downloads/data/Gradients_Margulies2016.zip)  
+[**→ <i class="fa fa-database"></i> Gradient template maps**]({{site.baseurl}}/downloads/data/Gradients_Margulies2016.zip) Available in Cifti, fsaverage, and volumetric (MNI2mm) formats  
 
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=jakobsen2016a] %}</div>
 [**→ <i class="fa fa-database"></i> Broca's areas labels from HCP data**][Broca_labels]  
@@ -40,12 +40,10 @@ We encourage users to subscribe to the [**mailing list <i class="fa fa-users"></
 ## 7T resting-state MRI data  
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=gorgolewski2015a] %}</div>  
 [**→ <i class="fa fa-database"></i> MRI data**][7T_data]  
-Additional related 7T MRI data made available by [Pierre-Louis Bazin][PLB]:  
-[**→ <i class="fa fa-database"></i> MRI data**][7T_Bazin]  
+[**→ <i class="fa fa-database"></i> MRI data**][7T_Bazin] Additional related 7T MRI data made available by [Pierre-Louis Bazin][PLB]  
 <hr class="style5">
 
 ## Berlin resting-state MRI data  
-Publications describing the data:  
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=biswal2010a|| key=rohr2013a] %}</div>
 [**→ <i class="fa fa-database"></i> MRI data**][Berlin_INDI]  
 [**→ <i class="fa fa-database"></i> MRI & Phenotypic data**][Berlin_Data]  
@@ -67,7 +65,8 @@ Publications describing the data:
 [preproc_lsd]: https://github.com/NeuroanatomyAndConnectivity/pipelines/tree/v2.0/src/lsd_lemon
 [mpilmbb_data_preproc]: https://hdl.handle.net/21.11101/0000-0004-2CD6-A
 [mpilmbb_data_bids]: https://www.openfmri.org/dataset/ds000221/
-[mpilmbb_behav]: http://nitrc.org/projects/mpilmbb/
+[mpilmbb_behav]: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VMJ6NV
+[mpilmbb_behav_nitrc]: http://nitrc.org/projects/mpilmbb/
 [mpilmbb_email]: http://groups.google.com/group/resting_state_preprocessing
 [CFG]: http://blog.chrisgorgolewski.org/p/about.html
 [7T_data]: http://openscience.cbs.mpg.de/7t_trt/
