@@ -16,6 +16,10 @@
     -webkit-box-shadow: 0 5px 5px $grey-color;
     -moz-box-shadow: 0 5px 5px $grey-color;
     box-shadow: 0 5px 5px $grey-color;
+
+    @include media-query($on-palm) {
+        height: $header-height+4px;
+      }
 }
 
 .site-title {
@@ -24,8 +28,6 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
-
     &,
     &:visited {
         color: $grey-color-dark;
@@ -55,7 +57,7 @@
 
     @include media-query($on-palm) {
         position: absolute;
-        top: 35px;
+        top: 20px;
         right: 30px;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
@@ -77,12 +79,12 @@
             width: 36px;
             height: 26px;
             line-height: 0;
-            padding-top: 10px;
+            padding-top: 8px;
             text-align: center;
 
             > svg {
-                width: 18px;
-                height: 15px;
+                width: 20px;
+                height: 20px;
 
                 path {
                     fill: $grey-color-dark;
@@ -189,6 +191,10 @@
  */
 .page-content {
     padding: $spacing-unit 0;
+    @include media-query($on-palm) {
+        padding: 10px 0;
+    }
+
 }
 
 .page-heading {

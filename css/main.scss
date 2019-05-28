@@ -90,6 +90,9 @@ margin: -130px 0 0; /* negative fixed header height */
  */
 .site-nav {
     line-height: $header-height+5px; //130px;
+    @include media-query($on-palm) {
+        line-height: $header-height + 5px - 18px;
+      }
 }
 
 .active {
@@ -141,12 +144,18 @@ strong {
 .site-header {
     border: none;
     min-height: $header-height;
+    @include media-query($on-palm) {
+        min-height: $header-height  - 18px;
+      }
 }
 
 .site-title {
     line-height: $header-height;
     position: absolute;
     //margin-left: -50px;*/
+    @include media-query($on-palm) {
+        line-height: $header-height - 25px;
+      }
 }
 .site-title-sub {
     line-height: 230px;

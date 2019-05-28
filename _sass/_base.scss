@@ -24,6 +24,10 @@ body {
     font-feature-settings: "kern" 1;
     font-kerning: normal;
     padding: $header-height 0 0;
+    @include media-query($on-palm) {
+      padding: -webkit-calc(#{$header-height} - (18px)) 0 0;
+      padding: calc(#{$header-height} - (18px)) 0 0;        
+      }
 }
 
 
