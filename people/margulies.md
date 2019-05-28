@@ -12,18 +12,24 @@ If you prefer a full pdf version [**→ CV**]({{site.baseurl}}/downloads/people/
 
 # Biographical sketch
 
-| **2018**       | |  Tenured researcher (CR1), [CNRS] |
-| **2012--2017** | |  Faculty, [International Max Planck Research School][imprs], Leipzig |
-| **2011--2017** | |  Group leader, [Research Group for Neuroanatomy & Connectivity][nac] |
-| **2009--2011** | |  Postdoc, [MPI for Human Cognitive and Brain Sciences][mpi] |
-| **2010**       | |  PhD, [Humboldt University], Berlin |
-| **2008**       | |  MA, [European Graduate School], Saas Fee, Switzerland |
-| **2005**       | |  BA, [New York University] |
+## Academic appointments
+
+| **2018**       |  Tenured researcher (CR1), [CNRS] |
+| **2012--2017** |  Faculty, [International Max Planck Research School][imprs], Leipzig |
+| **2011--2017** |  Group leader, [Research Group for Neuroanatomy & Connectivity][nac] |
+| **2009--2011** |  Postdoc, [MPI for Human Cognitive and Brain Sciences][mpi] |
+
+## Education
+
+| **2018**       |  Habilitation (HDR), [Sorbonne University], Paris |
+| **2010**       |  PhD, [Humboldt University], Berlin |
+| **2008**       |  MA, [European Graduate School], Saas Fee, Switzerland |
+| **2005**       |  BA, [New York University] |
 
 # Awards
 
-| **2018** | | [Young Investigator Award], Organization for Human Brain Mapping |
-| **2010** | | [Otto Hahn Medal], Max Planck Society |
+| **2018** | [Young Investigator Award], Organization for Human Brain Mapping |
+| **2010** | [Otto Hahn Medal], Max Planck Society |
 
 # Activities
 
@@ -44,6 +50,7 @@ A complete list can be found on the [publications page](../research/publications
 [imprs]:http://imprs-neurocom.mpg.de/imprs/index.html
 [nac]:http://www.cbs.mpg.de/former-groups/neuroanatomy-and-connectivity
 [mpi]:http://www.cbs.mpg.de/
+[Sorbonne University]:https://www.sorbonne-universite.fr
 [Humboldt University]:http://www.hu-berlin.de/
 [European Graduate School]:http://www.egs.edu/
 [New York University]:http://www.nyu.edu/
