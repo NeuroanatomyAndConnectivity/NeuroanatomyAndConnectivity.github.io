@@ -13,10 +13,11 @@ robots: noindex,nofollow
 4. [Book chapters](#chap)  
 <hr class="style5">
 
+<!---
 ## Preprints <a name="preprints"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type=preprint] %}
 <hr class="style5">
-
+--->
 ## Journal articles <a name="articles"></a>
 ##### 2019 <a name="2019"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2019] %}
