@@ -17,7 +17,7 @@ We have also been involved in the [International Neuroimaging Data-sharing Initi
 [**→ <i class="fa fa-database"></i> Gradient template maps**]({{site.baseurl}}/downloads/data/Gradients_Margulies2016.zip) Available in Cifti, fsaverage, and volumetric (MNI2mm) formats  
 
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=jakobsen2016a] %}</div>
-[**→ <i class="fa fa-database"></i> Broca's areas labels from HCP data**][Broca_labels]  
+[**→ <i class="fa fa-database"></i> Broca's areas labels from HCP data**]({{site.baseurl}}/downloads/data/BrocaLabels.zip)  
 <hr class="style5">  
 
 ## MPI--Leipzig: Mind, Brain, Body dataset <a name="MPILBMM"></a>  
