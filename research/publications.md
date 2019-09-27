@@ -7,10 +7,10 @@ robots: noindex,nofollow
 
 # Publications
 
-1. [Preprints](#preprints)  
-2. [Journal articles](#articles)  
-3. [Conference proceedings](#conf)  
-4. [Book chapters](#chap)  
+<!---1. [Preprints](#preprints)  --->
+1. [Journal articles](#articles)  
+2. [Conference proceedings](#conf)  
+3. [Book chapters](#chap)  
 <hr class="style5">
 
 <!---
