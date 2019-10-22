@@ -2,7 +2,6 @@
 .sass-cache
 .jekyll-metadata
 .DS_Store
-Gemfile.lock
 *~
 #*
 .git
@@ -30,3 +29,5 @@ images/brain_16px\.png
 downloads/pubs/Kuehn2017\.skim
 
 downloads/data/BrocaLabels/
+
+downloads/people/CV_Margulies_2019Jan.pdf
