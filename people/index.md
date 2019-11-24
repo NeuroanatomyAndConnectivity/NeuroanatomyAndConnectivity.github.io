@@ -25,6 +25,8 @@ Since the lab moved in early-2018, the team consists of [Daniel Margulies]({{sit
 [Simon Eickhoff][simon], Jülich Research Center  
 [Michael Petrides][petrides], Montreal Neurological Institute  
 [Pierre-Louis Bazin][pilou], Netherlands Institute for Neuroscience  
+[Yufeng Zang][zang], [Hangzhou Normal University][yufeng_homepage]  
+[Yating Lv][yating], [Hangzhou Normal University][yating_homepage]  
 
 # Former members
 
@@ -104,6 +106,9 @@ The photos below were taken in 2012, 2013, and 2015.
 [simon]:http://www.fz-juelich.de/inm/inm-7/EN/Home/home_node.html
 [petrides]:https://www.mcgill.ca/neuro/research/researchers/petrides
 [pilou]:https://scholar.google.com/citations?user=g1EY49YAAAAJ&hl=en
+[yufeng]:https://www.linkedin.com/in/yu-feng-zang-26667420/
+[yufeng_homepage]:http://ccbd.hznu.edu.cn/c/2018-03-19/308547.shtml
+[yating_homepage]:http://ccbd.hznu.edu.cn/c/2014-03-24/350873.shtml
 
 [natacha]:https://www.cbs.mpg.de/person/mendes/205351
 
@@ -124,7 +129,7 @@ The photos below were taken in 2012, 2013, and 2015.
 [sabine]:https://www.kaggle.com/sabineo
 [hannes]:http://isap.uniklinikum-leipzig.de/isap.site,postext,mitarbeiter,a_id,2731.html
 [david]:https://www.linkedin.com/in/dmordom
-[yating]:https://restfmri.net/forum/LvYaTing_en
+[yating]:https://www.linkedin.com/in/yating-lv-b37971128/
 [xiangyu]:https://www.researchgate.net/profile/Xiangyu_Long3
 [judy]:https://www.researchgate.net/profile/Judy_Kipping
 [alex]:https://de.linkedin.com/in/alexandschaefer
