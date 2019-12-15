@@ -25,7 +25,7 @@ Since the lab moved in early-2018, the team consists of [Daniel Margulies]({{sit
 [Simon Eickhoff][simon], Jülich Research Center  
 [Michael Petrides][petrides], Montreal Neurological Institute  
 [Pierre-Louis Bazin][pilou], Netherlands Institute for Neuroscience  
-[Yufeng Zang][zang], [Hangzhou Normal University][yufeng_homepage]  
+[Yufeng Zang][yufeng], [Hangzhou Normal University][yufeng_homepage]  
 [Yating Lv][yating], [Hangzhou Normal University][yating_homepage]  
 
 # Former members
