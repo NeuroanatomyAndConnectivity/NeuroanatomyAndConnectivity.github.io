@@ -13,8 +13,8 @@ Since the lab moved in early-2018, the team consists of [Daniel Margulies]({{sit
 
 [Jonathan Smallwood][jonny], University of York, UK   
 [Beth Jefferies][beth], University of York, UK  
-[Boris Bernhardt][boris], Montreal Neurological Institute  
-[Danilo Bzdok][danilo], RWTH Aachen University  
+[Boris Bernhardt][boris], Montreal Neurological Institute (MNI)  
+[Danilo Bzdok][danilo], MNI and Mila Montreal  
 [Ting Xu][ting], Child Mind Institute, NY  
 [Michel Thiebaut de Schotten][bcblab], CNRS, Paris  
 [Cameron Craddock][cameron], University of Texas at Austin  
