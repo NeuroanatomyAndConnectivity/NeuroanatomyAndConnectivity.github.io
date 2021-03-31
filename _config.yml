@@ -87,6 +87,7 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - workspace.code-workspace
 
 defaults:
   - scope:
@@ -101,4 +102,34 @@ defaults:
       path: "downloads/people/CV_Margulies.pdf"
     values:
       sitemap: false
-      
+
+navigation: 
+  - title: Research
+    url: #
+    subnav:
+      - text: Projects
+        url: /research/index.html
+      - text: Publications
+        url: /research/publications.html
+      - text: Press
+        url: /press/index.html
+  - title: Members
+    url: /people/index.html
+  - title: Resources
+    url: #
+    subnav:
+      - text: Resources
+        url: /resources/index.html
+      - text: Data
+        url: /data/index.html
+      - text: Code
+        url: /code/index.html
+      - text: Gallery
+        url: /gallery/index.html
+  - title: Quick Links
+    url: #
+    subnav:
+      - text: Gradient templates
+        url: /data/index.html#maps
+      - text: MPILBMM dataset
+        url: /data/index.html#MPILBMM

@@ -2,11 +2,11 @@
 layout: page
 order: 70
 title: PRESS
-permalink: /news/index.html
+permalink: /press/index.html
 robots: nofollow
 ---
 
-# News
+# Press
 Following are some press articles related to our work:  
 
 ## Data sharing  

@@ -14,7 +14,8 @@ If you prefer a full pdf version [**→ CV**]({{site.baseurl}}/downloads/people/
 
 ## Academic appointments
 
-| **2018**       |  Tenured researcher (CR1), [CNRS] |
+| **2020--**     |  Research director (DR2), [CNRS] |
+| **2018--2020** |  Tenured researcher (CR1), [CNRS] |
 | **2012--2017** |  Faculty, [International Max Planck Research School][imprs], Leipzig |
 | **2011--2017** |  Group leader, [Research Group for Neuroanatomy & Connectivity][nac] |
 | **2009--2011** |  Postdoc, [MPI for Human Cognitive and Brain Sciences][mpi] |

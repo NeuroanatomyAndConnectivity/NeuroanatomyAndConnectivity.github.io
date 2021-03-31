@@ -29,6 +29,8 @@ $content-width:    800px;
 $on-palm:          723px;
 $on-laptop:        800px;
 
+$nav-on-palm:      120px;
+
 $header-height:    70px;
 
 // Using media queries with like this:
@@ -79,10 +81,10 @@ span.line {
 
 /* fix anchor positions relative to header */
 :target:before {
-content:"";
-display:inline-block;
-height: 130px; /* fixed header height */
-margin: -130px 0 0; /* negative fixed header height */
+    content:"";
+    display:inline-block;
+    height: 130px; /* fixed header height */
+    margin: -130px 0 0; /* negative fixed header height */
 }
 
 /**
@@ -97,12 +99,26 @@ margin: -130px 0 0; /* negative fixed header height */
 
 .active {
     line-height: $base-line-height;
-    font-weight: 500;
-    border-top: 2px solid $red-color;
+    font-weight: 500 !important;
+    //border-top: 2px solid $red-color;
+    text-transform: uppercase;
     //margin-right: 10px;
-    //&:not(:first-child) {
-    //        margin-left: 10px;
-    //    }
+    // &:not(:first-child) {
+    //    margin-left: 20px;
+    // }
+}
+
+.active-page-link-toplevel {
+    line-height: $base-line-height;
+    font-weight: 500 !important;
+    //border-top: 2px solid $red-color;
+    text-transform: uppercase;
+    padding-right: 10px !important;
+    margin-right: -10px !important;
+    //margin-right: 10px;
+    // &:not(:first-child) {
+    //    margin-left: 20px;
+    // }
 }
 
 /**
@@ -117,10 +133,10 @@ hr.style6 {border-width: 0px; border-top: 2px dashed $brand-color;}
 hr.style7 {border-width: 0px; border-top: 2px dotted $brand-color;}
 hr.style8 {border-width: 0px; border-top: 2px dotted $brand-color; display:inline-block; margin-left: -2.5%; width:50%;}
 
-h1 { color: $brand-color; font-size: 1.50em; font-weight: 600; padding-top: 1.0em; }
-h2 { color: $brand-color; font-size: 1.25em; font-weight: 400; padding-top: 1.0em; }
-h3 { color: $brand-color; font-size: 1.10em; font-weight: 400; padding-top: 0.5em; }
-h4 { color: $brand-color; font-size: 1.00em; font-weight: 400; padding-top: 0.5em; }
+h1 { color: $brand-color; font-size: 1.50em; font-weight: 600; padding-top: 0.75em; }
+h2 { color: $brand-color; font-size: 1.25em; font-weight: 400; padding-top: 0.75em; }
+h3 { color: $brand-color; font-size: 1.10em; font-weight: 400; padding-top: 0.25em; }
+h4 { color: $brand-color; font-size: 1.00em; font-weight: 400; padding-top: 0.25em; }
 h5 { color: $brand-color; font-size: 1.60em; opacity: 0.5; font-weight: 300; text-align: right; padding-right: +2.5%; border-top: 1px dotted $brand-color;}
 
 h1 {
@@ -171,13 +187,39 @@ a.site-title:hover {
     font-size: 14px;
     color: $red-color;
     font-weight: 400;
-    margin-left: 10px;
+    display: inline-block;
+    padding: 5px 100px 10px 10px;
+    margin: -5px -100px -10px -10px;
+    overflow-x: hidden !important;
+    //margin-left: 10px;
+    //margin: 0px 5px;
+}
+
+.site-nav span {
+    font-size: 14px;
+    color: $red-color;
+    font-weight: 400;
+    display: inline-block;
+    padding: 5px 10px 10px 10px;
+    margin: -5px -10px -10px -10px;
+    //overflow-x: hidden !important;
+    //margin-left: 10px;
     //margin: 0px 5px;
 }
 
 .site-nav a:hover {
     text-decoration: none;
     color: $red-color;
+    background-color: #ecbfb5;
+}
+
+.site-nav span:hover {
+    text-decoration: none;
+    color: $red-color;
+    background-color: #ecbfb5;
+    // padding: 13px 10px;
+    // margin-left: -10px;
+    // margin-right: -10px;
 }
 
 pre,code {
@@ -254,11 +296,9 @@ img.large  { width:  66%; }
 img.full   { width: 100%; }
 img.right  { float: right;  margin-left: 10px; }
 img.left   { float: left;  margin-right: 10px; }
+img.space  { margin: 0 10px;}
 img.border { padding: 5px; border: solid 1px #efefef; }
 img.round  { border-radius: 5px;}
-
-
-
 
 p, blockquote, ul, ol, dl, li, table, pre {
 margin: 15px 0; }
@@ -291,3 +331,5 @@ margin-bottom: 0; }
 @media all and (max-width: 687px) {
     .inner_box { display: none; }
 }
+
+

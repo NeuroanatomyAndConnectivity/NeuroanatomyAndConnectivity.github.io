@@ -224,23 +224,21 @@ pre {
  */
 
  .inner_box {
-   background-color: #f7f7f7;
-   z-index:1;
+   background-color: #e6e6e6;
+   z-index: 1;
    float: right;
-   width:20%;
-   padding: +1.5%;
-   padding-top: 0.5%;
-   margin-top:-0.5%;
-   margin-bottom:-1.5%;
-   border-radius:10px;
+   width: 20%;
+   padding: 1.0% 2.0%;
+   margin: 0.5% 10px 2% 4.0%;
+   border-radius: 10px;
  }
 
  ul.ql {
    list-style-type: none;
-   margin: -1.5% 0 1.5% 0;
+   margin: -2.0% 0 2.0% 0;
  }
 
  li.ql {
- padding: 0px;
- margin: -1.5% 0;
+   padding: 0px;
+   margin: -2.0% 0;
  }

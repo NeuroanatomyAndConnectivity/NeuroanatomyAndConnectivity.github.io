@@ -19,8 +19,8 @@ Our **[research publications][publications]** are primarily in the domain of **c
 [→ age-prediction](#age)  
 [→ group synchrony](#synchrony)  
 
-[publications]: publications.html
-[googlescholar]: https://scholar.google.com/citations?user=al10sgYAAAAJ
+[publications]: publications.html  
+[googlescholar]: https://scholar.google.com/citations?user=al10sgYAAAAJ  
 
 # Projects
 

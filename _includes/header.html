@@ -1,9 +1,11 @@
 <header class="site-header">
 
   <div class="wrapper">
-    <a class="site-title" href="{{ site.baseurl }}/">
-      <strong>Neuroanatomy</strong>&thinsp;&</a><br><a class="site-title" href="{{ site.baseurl }}/"><strong>Connectivity</strong>&nbsp;Lab</a>
-
+      <a class="site-title" href="{{ site.baseurl }}/"><strong>Neuroanatomy</strong>&thinsp;&</a><br><a class="site-title" href="{{ site.baseurl }}/"><strong>Connectivity</strong>&nbsp;Lab</a>
+    {% comment %}      
+      <a class="site-title" href="{{ site.baseurl }}/" style="letter-spacing: 6.5px;"><strong>Cognitive</strong></a><br>
+      <a class="site-title" href="{{ site.baseurl }}/"><strong>Neuroanatomy</strong>&thinsp;Lab</a>
+    {% endcomment %}
     <nav class="site-nav">
        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
         <label for="nav-trigger">
@@ -13,20 +15,43 @@
             </svg>
           </span>
         </label>
-
         <div class="trigger">
-          {% assign pages = site.pages | sort:"order"  %}
-          {% for p in pages %}
-          {% if p.title %}
-          {% if p.url == page.url %}
-          <a class="active" href="{{ p.url | prepend: site.baseurl }}">
-          {% else %}
-          <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">
-          {% endif %}
-          {{p.title}}</a>
-          {% endif %}
+          {% for link in site.navigation %}              
+            {% assign hasFirst = link.subnav != undefined %}     
+            {% assign isActive = "false" %}      
+            <div class="show">
+              {% if hasFirst %}                 
+                <ul class="nav-sublist">
+                  {% for fl in link.subnav %}
+                    <li><a {% if fl.url == page.url %} class="active" {% assign isActive = "true" %} {% else %} class="page-link" {% endif %} href="{{ fl.url }}">
+                      {{ fl.text }}</a></li>
+                  {% endfor %}
+                </ul>
+                <span {% if link.url == page.url or isActive == "true" %} class="active icon-subnav-arrow" {% else %} class="page-link icon-subnav-arrow" {% endif %}>
+                  {{link.title}}</span>
+              {% else %}
+                <a {% if link.url == page.url or isActive == "true" %} class="active-page-link-toplevel" {% else %} class="page-link-toplevel" {% endif %} href="{{link.url}}">
+                {{link.title}}</a>
+              {% endif %}
+            </div>
           {% endfor %}
         </div>
+
+        {% comment %}
+            http://ermauliks.github.io/2014/04/21/multilevel-navigation-using-jekyll/
+            {% assign pages = site.pages | sort:"order"  %}
+            {% for p in pages %}
+              {% if p.title %}
+                {% if p.url == page.url %}
+                  <a class="active" href="{{ p.url | prepend: site.baseurl }}">
+                {% else %}
+                  <a class="page-link" href="{{ p.url | prepend: site.baseurl }}">
+                {% endif %}
+                {{p.title}}
+                </a>
+              {% endif %}
+            {% endfor %}
+        {% endcomment %}        
       </nav>
   </div>
 </header>

@@ -5,7 +5,7 @@
 
     border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
-    height: $header-height+27px;
+    height: $header-height+17px; //27px;
     // Positioning context for the mobile navigation icon
     position: fixed;
     top: 0;
@@ -23,8 +23,8 @@
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 30px;
+    font-size: 26px; // 26px;
+    line-height: 30px; // 30px
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
@@ -36,7 +36,7 @@
 
 .site-nav {
     float: right;
-    line-height: 30px;
+    line-height: 30px; // 30px
 
     .nav-trigger {
        display: none;
@@ -46,15 +46,96 @@
         display: none;
     }
 
-    .page-link {
+    .page-link {        
         color: $text-color;
         line-height: $base-line-height;
+        text-transform: uppercase;
+        font-weight: 400;
         // Gaps between nav items, but not on the first one
-        //&:not(:first-child) {
-        //    margin-left: 10px;
-        //}
+        // &:not(:first-child) {
+        //    margin-left: 20px;
+        // }
     }
-
+    .page-link-toplevel {        
+        color: $text-color;
+        line-height: $base-line-height;
+        text-transform: uppercase;
+        font-weight: 400;
+        padding-right: 10px;
+        margin-right: -10px;
+        // Gaps between nav items, but not on the first one
+        // &:not(:first-child) {
+        //    margin-left: 20px;
+        // }
+    }
+    .icon-subnav-arrow:after {        
+        font-family: "FontAwesome"; //font-family: 'Font Awesome 5 Free';
+        content: "\f0d7";        
+        padding-left: 0.3em;
+        white-space: nowrap;
+    }
+    .icon-subnav-arrow:before {        
+        content: none;  
+        padding-left: 0em;  
+    }
+    .show { 
+        float: left;
+        padding-left: 20px;
+    }
+    // .show:hover {
+    //     color: $red-color;
+    //     background-color: #ecbfb5;
+    // }  
+    // .show a:hover {
+    //     background-color: #ecbfb5;
+    // }
+    // .show span:hover {
+    //     background-color: #ecbfb5;
+    // }
+    
+    .show:hover ul.nav-sublist {
+        max-height: inherit;
+        opacity: 1;
+        //padding: 0 15px 0 15px;
+        margin-top: 60px;
+        //margin-left: -15px;
+        //border-radius: 0 0 10px 10px; 
+        background: $grey-color-light;
+        z-index: 1;
+        line-height: $base-line-height;
+        // shadow
+        -webkit-box-shadow: 5px 5px 3px $grey-color;
+        -moz-box-shadow: 5px 5px 3px $grey-color;
+        box-shadow: 5px 5px 3px $grey-color;
+      }
+    // .show:hover li {
+    //     margin: 0 0 5px 0;
+    // }
+    // .li {    
+    //     padding-left: 10px !important;
+    //     padding-right: 10px !important;
+    // }
+    // .li:hover {
+    //     text-decoration: none;
+    //     color: $red-color;
+    //     background-color: #ecbfb5;
+    // }
+    .nav-sublist {
+        list-style-type: none;
+        padding: 0px;
+        margin: 0px;
+        max-height: 0px;
+        opacity: 0;
+        overflow: hidden;
+        transition: opacity 300ms ease;
+        position: absolute;
+        padding-left: 10px;
+        margin-left: -10px;
+        padding-right: 10px;
+        margin-right: -10px;
+        margin-top: 5px;
+      }
+    
     @include media-query($on-palm) {
         position: absolute;
         top: 20px;
@@ -62,7 +143,7 @@
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
-        text-align: right;
+        text-align: right;        
 
         label[for="nav-trigger"] {
            display: block;
@@ -96,24 +177,84 @@
             clear: both;
             display: none;
             line-height: $base-line-height;
-            margin-right: 10px;
+            //margin-right: 10px;
         }
 
          input:checked ~ .trigger {
             display: block;
-            //margin-right: 5px;
+            margin-right: 5px;
+            width: $nav-on-palm;
         }
 
         .page-link {
             display: block;
             line-height: $base-line-height;
             margin-bottom: 5px;
-            //margin-right: 10px;
-            //margin-right: 5px;
+            margin-right: 5px;
+            white-space: nowrap;
+        }
+        .active {
+            display: block;
+            line-height: $base-line-height;
+            margin-bottom: 5px;
+            margin-right: 5px;
+            white-space: nowrap;
+        }
+        .icon-subnav-arrow:before {
+            font-family: "FontAwesome"; //font-family: 'Font Awesome 5 Free';
+            content: "\f0d9";
+            white-space: nowrap;
+            margin-left: -20px;
+            float: left;
+        }
+        .icon-subnav-arrow:after {            
+            content: none;   
+            padding-left: 0em;      
+        }
+        .show { 
+            float: none;            
+        }          
+        .show:hover {
+            color: $red-color;
+            background-color: #ecbfb5;
+        }  
+        .show a:hover {
+            background-color: #ecbfb5;
+        }
+        .show span:hover {
+            background-color: #ecbfb5;
+        }
+        .show:hover ul.nav-sublist {
+            max-height: inherit;
+            opacity: 1;
+            padding: 0;
+            margin: 0;
+            padding-right: 5px;
+            border-radius: 0; 
+            background-color: $background-color;
+            border: 1px solid $grey-color-light;
+            z-index: 3;
+            line-height: $base-line-height;
+            -webkit-box-shadow: 0 0 0 white;
+            -moz-box-shadow: 0 0 0 white;
+            box-shadow: 0 0 0 white;            
+            right: $nav-on-palm;
+          }
+        .show:hover li {            
+            margin: 0 0 5px 0;            
+        }
+        .nav-sublist {
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+            max-height: 0px;
+            opacity: 0;
+            overflow: hidden;
+            transition: opacity 300ms ease;
+            position: absolute;
         }
     }
 }
-
 
 
 /**

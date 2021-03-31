@@ -19,6 +19,10 @@ robots: noindex,nofollow
 <hr class="style5">
 --->
 ## Journal articles <a name="articles"></a>
+##### 2021 <a name="2021"></a>
+{% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2021] %}
+##### 2020 <a name="2020"></a>
+{% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2020] %}
 ##### 2019 <a name="2019"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2019] %}
 ##### 2018 <a name="2018"></a>
