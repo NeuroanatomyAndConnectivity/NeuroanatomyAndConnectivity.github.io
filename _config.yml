@@ -7,7 +7,7 @@
 
 # Site settings
 title: Neuroanatomy & Connectivity Lab
-email: daniel.margulies@icm-institute.org
+email: daniel.margulies@cnrs.fr
 
 url: "https://www.neuroconnlab.org"
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -26,6 +26,7 @@ future: true
 plugins_dir: ['jekyll/scholar']
 # Load plugins
 plugins: ['jekyll/scholar', 'unicode_utils', 'unicode', 'jekyll-sitemap', 'jekyll-target-blank']
+#, 'jekyll-menus'
 
 #target-blank:
   #noopener: false
@@ -133,3 +134,8 @@ navigation:
         url: /data/index.html#maps
       - text: MPILBMM dataset
         url: /data/index.html#MPILBMM
+  - title: Contact
+    url: #
+    subnav: 
+      - text: Information
+        url: /contact/index.html
