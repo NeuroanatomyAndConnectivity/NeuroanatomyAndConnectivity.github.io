@@ -20,15 +20,15 @@
             {% assign hasFirst = link.subnav != undefined %}     
             {% assign isActive = "false" %}      
             <div class="show">
-              {% if hasFirst %}                 
+              {% if hasFirst %}   
+                <span {% if link.url == page.url or isActive == "true" %} class="active icon-subnav-arrow" {% else %} class="page-link icon-subnav-arrow" {% endif %}>
+                  {{link.title}}</span>              
                 <ul class="nav-sublist">
                   {% for fl in link.subnav %}
                     <li><a {% if fl.url == page.url %} class="active" {% assign isActive = "true" %} {% else %} class="page-link" {% endif %} href="{{ fl.url }}">
                       {{ fl.text }}</a></li>
                   {% endfor %}
-                </ul>
-                <span {% if link.url == page.url or isActive == "true" %} class="active icon-subnav-arrow" {% else %} class="page-link icon-subnav-arrow" {% endif %}>
-                  {{link.title}}</span>
+                </ul>                
               {% else %}
                 <a {% if link.url == page.url or isActive == "true" %} class="active-page-link-toplevel" {% else %} class="page-link-toplevel" {% endif %} href="{{link.url}}">
                 {{link.title}}</a>
