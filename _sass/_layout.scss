@@ -119,7 +119,7 @@
         // shadow
         -webkit-box-shadow: 5px 5px 3px $grey-color;
         -moz-box-shadow: 5px 5px 3px $grey-color;
-        box-shadow: 5px 5px 3px $grey-color;        
+        box-shadow: 5px 5px 3px $grey-color;    
       }
     // .show a:hover {
     //     background-color: #ecbfb5;
@@ -127,15 +127,17 @@
     // .show:hover li {
     //     margin: 0 0 5px 0;
     // }
-    // .li {    
-    //     padding-left: 10px !important;
-    //     padding-right: 10px !important;
-    // }
-    // .li:hover {
-    //     text-decoration: none;
-    //     color: $red-color;
-    //     background-color: #ecbfb5;
-    // }
+    .li {    
+        padding-left: 10px !important;
+        // margin-left: -10px !important;
+        padding-right: 100px !important;
+        // margin-right: -100px !important;
+    }
+    .li:hover {
+        text-decoration: none;
+        color: $red-color;
+        background-color: #ecbfb5;
+    }
     .nav-sublist {
         list-style-type: none;
         padding: 0px;
@@ -229,7 +231,6 @@
             //margin-right: 5px;
             white-space: nowrap;
         }
-
         .active {
             display: block;
             line-height: $base-line-height;
@@ -253,7 +254,7 @@
             float: none;  
             padding: 0px;
         }          
-        .show:hover {
+        .show:active {
             color: $red-color;
             background-color: #ecbfb5;
 
@@ -264,10 +265,10 @@
         // .show a:hover {
         //     background-color: #ecbfb5;
         // }
-        .show span:hover {
+        .show span:active {
             background-color: #ecbfb5;
         }
-        .show:hover ul.nav-sublist {
+        .show:active ul.nav-sublist {
             max-height: inherit;
             opacity: 1;
             padding: 0;
@@ -283,7 +284,7 @@
             box-shadow: 0 0 0 white;            
             right: $nav-on-palm;
           }
-        .show:hover li {            
+        .show:active li {            
             margin: 0 0 5px 0;            
         }
         .nav-sublist {
