@@ -44,6 +44,7 @@
 
     .menu-icon {
         display: none;
+        background-color: transparent !important;        
     }
 
     .page-link {        
@@ -51,6 +52,9 @@
         line-height: $base-line-height;
         text-transform: uppercase;
         font-weight: 400;
+        // padding: 5 10px 5 10px;
+        // margin: -5 -10px -5 -10px;
+        // padding-left: 20px;
         // Gaps between nav items, but not on the first one
         // &:not(:first-child) {
         //    margin-left: 20px;
@@ -61,8 +65,8 @@
         line-height: $base-line-height;
         text-transform: uppercase;
         font-weight: 400;
-        padding-right: 10px;
-        margin-right: -10px;
+        // padding: 5 10px 5 10px;
+        // margin: -5 -10px -5 -10px;
         // Gaps between nav items, but not on the first one
         // &:not(:first-child) {
         //    margin-left: 20px;
@@ -70,10 +74,19 @@
     }
     .icon-subnav-arrow:after {        
         font-family: "FontAwesome"; //font-family: 'Font Awesome 5 Free';
-        content: "\f0d7";        
+        content: "\f0da";        
         padding-left: 0.3em;
         white-space: nowrap;
+        // line-height: 78px;   
+        // position: fixed;
     }
+    .show:hover {  
+        .icon-subnav-arrow:after {
+            content: "\f0d7";  
+            margin-right: -3px;                      
+       }
+    }
+
     .icon-subnav-arrow:before {        
         content: none;  
         padding-left: 0em;  
@@ -97,7 +110,7 @@
         max-height: inherit;
         opacity: 1;
         //padding: 0 15px 0 15px;
-        margin-top: 60px;
+        // margin-top: 60px;
         //margin-left: -15px;
         //border-radius: 0 0 10px 10px; 
         background: $grey-color-light;
@@ -106,8 +119,11 @@
         // shadow
         -webkit-box-shadow: 5px 5px 3px $grey-color;
         -moz-box-shadow: 5px 5px 3px $grey-color;
-        box-shadow: 5px 5px 3px $grey-color;
+        box-shadow: 5px 5px 3px $grey-color;        
       }
+    // .show a:hover {
+    //     background-color: #ecbfb5;
+    // }
     // .show:hover li {
     //     margin: 0 0 5px 0;
     // }
@@ -133,25 +149,34 @@
         margin-left: -10px;
         padding-right: 10px;
         margin-right: -10px;
-        margin-top: 5px;
+        margin-top: -15px;
       }
     
     @include media-query($on-palm) {
         position: absolute;
-        top: 20px;
-        right: 30px;
+        //top: 20px;
+        top: $header-height+4px;
+        right: 0px; //30px;
         background-color: $background-color;
         border: 1px solid $grey-color-light;
         border-radius: 5px;
-        text-align: right;        
+        // text-align: right;
+        width: 100%; // added
+        //height: 100%; // added
+        //overflow-y: auto;
+        text-align: center;
 
         label[for="nav-trigger"] {
-           display: block;
-           float: right;
+           //display: block;
+           //float: right;
            width: 36px;
            height: 36px;
            z-index: 2;
            cursor: pointer;
+           top: 18px;
+           right: 0px;
+           position: fixed;
+
          }
 
         .menu-icon {
@@ -160,7 +185,8 @@
             width: 36px;
             height: 26px;
             line-height: 0;
-            padding-top: 8px;
+            padding-top: 15px;
+            padding-right: 30px;
             text-align: center;
 
             > svg {
@@ -182,45 +208,62 @@
 
          input:checked ~ .trigger {
             display: block;
-            margin-right: 5px;
-            width: $nav-on-palm;
-        }
+            //margin-right: 5px;
+            //width: $nav-on-palm;
+         }
+        
+         input:checked ~ .site-nav {
+            line-height: 57px;
+            //width: 100%;
+            //position: initial;
+            // background-color: black;
+            /* padding-top: 100px; */
+            margin-top: 47px;
+            //height: $header-height+4px;
+         }        
 
         .page-link {
-            display: block;
+            //display: block;
             line-height: $base-line-height;
-            margin-bottom: 5px;
-            margin-right: 5px;
+            //margin-bottom: 5px;
+            //margin-right: 5px;
             white-space: nowrap;
         }
+
         .active {
             display: block;
             line-height: $base-line-height;
-            margin-bottom: 5px;
-            margin-right: 5px;
+            //margin-bottom: 5px;
+            //margin-right: 5px;
             white-space: nowrap;
         }
-        .icon-subnav-arrow:before {
+        .icon-subnav-arrow:after {
             font-family: "FontAwesome"; //font-family: 'Font Awesome 5 Free';
-            content: "\f0d9";
-            white-space: nowrap;
-            margin-left: -20px;
-            float: left;
+            content: "\f0da";
+            white-space: nowrap; 
+            //transition: transform 300ms;           
+            //margin-left: -20px;
+            //float: left;
         }
-        .icon-subnav-arrow:after {            
+        .icon-subnav-arrow:before {            
             content: none;   
-            padding-left: 0em;      
+            //padding-left: 0em;      
         }
         .show { 
-            float: none;            
+            float: none;  
+            padding: 0px;
         }          
         .show:hover {
             color: $red-color;
             background-color: #ecbfb5;
+
+            .icon-subnav-arrow:after {
+                content: "\f0d7";
+            }
         }  
-        .show a:hover {
-            background-color: #ecbfb5;
-        }
+        // .show a:hover {
+        //     background-color: #ecbfb5;
+        // }
         .show span:hover {
             background-color: #ecbfb5;
         }
@@ -251,7 +294,7 @@
             opacity: 0;
             overflow: hidden;
             transition: opacity 300ms ease;
-            position: absolute;
+            position: initial;
         }
     }
 }
