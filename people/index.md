@@ -5,11 +5,17 @@ title: PEOPLE
 permalink: /people/index.html
 ---
 
-# Lab members
+# Lab members  
 
-Since the lab moved in early-2018, the team consists of [Daniel Margulies]({{site.baseurl}}/people/margulies.html) and a wonderful group of collaborators.
+### Lab head  
+[Daniel Margulies]({{site.baseurl}}/people/margulies.html)  
 
-## Collaborators
+### Lab Manager  
+Michelle Wilson-André  
+
+### Masters students  
+Flore Ginzburg  
+# Collaborators
 
 [Jonathan Smallwood][jonny], University of York, UK   
 [Beth Jefferies][beth], University of York, UK  
