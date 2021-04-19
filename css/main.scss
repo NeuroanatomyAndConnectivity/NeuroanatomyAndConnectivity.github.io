@@ -28,9 +28,7 @@ $orange-color:     #ba5e0e;
 $content-width:    800px;
 $on-palm:          723px;
 $on-laptop:        800px;
-
 $nav-on-palm:      120px;
-
 $header-height:    70px;
 
 // Using media queries with like this:
@@ -52,6 +50,7 @@ $header-height:    70px;
 @import
         "base",
         "layout",
+        "navbar",
         "syntax-highlighting"
 ;
 
@@ -87,39 +86,6 @@ span.line {
     margin: -130px 0 0; /* negative fixed header height */
 }
 
-/**
- * Site navigation
- */
-.site-nav {
-    line-height: $header-height+5px; //130px;
-    @include media-query($on-palm) {
-        line-height: $header-height + 5px - 18px;
-      }
-}
-
-.active {
-    line-height: $base-line-height;
-    font-weight: 500 !important;
-    //border-top: 2px solid $red-color;
-    text-transform: uppercase;
-    //margin-right: 10px;
-    // &:not(:first-child) {
-    //    margin-left: 20px;
-    // }
-}
-
-.active-page-link-toplevel {
-    line-height: $base-line-height;
-    font-weight: 500 !important;
-    //border-top: 2px solid $red-color;
-    text-transform: uppercase;
-    padding-right: 10px !important;
-    margin-right: -10px !important;
-    //margin-right: 10px;
-    // &:not(:first-child) {
-    //    margin-left: 20px;
-    // }
-}
 
 /**
  * Page content
@@ -182,48 +148,6 @@ a.site-title:hover {
     text-decoration: none;
     color: $red-color;
 }
-
-.site-nav a,span {
-    font-size: 14px;
-    color: $red-color;
-    font-weight: 400;
-    //display: inline-block;
-    padding: 5px;
-    margin: -5px;
-}
-    .site-nav a {
-    overflow-x: hidden !important;
-    }
-    //margin-left: 10px;
-    //margin: 0px 5px;
-
-
-// .site-nav span {
-//     font-size: 14px;
-//     color: $red-color;
-//     font-weight: 400;
-//     //display: inline-block;
-//     padding: 5px 10px 5px 10px;
-//     margin: -5px -10px -5px -10px;
-//     //overflow-x: hidden !important;
-//     //margin-left: 10px;
-//     //margin: 0px 5px;
-// }
-
-.site-nav a:hover,span:hover {
-    text-decoration: none;
-    color: $red-color;
-    background-color: #ecbfb5;
-}
-
-// .site-nav span:hover {
-//     text-decoration: none;
-//     color: $red-color;
-//     background-color: #ecbfb5;
-//     // padding: 13px 10px;
-//     // margin-left: -10px;
-//     // margin-right: -10px;
-// }
 
 pre,code {
   border: none;
