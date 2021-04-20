@@ -8,7 +8,6 @@ permalink: /research/index.html
 # Research
 
 [**→ Full publication list**][publications]  
-[**→ Google Scholar**][googlescholar]  
 
 Our **[research publications][publications]** are primarily in the domain of **cognitive and systems neuroscience**. Our research aims to understand the organization of the cerebral cortex through broadly investigating patterns of connectivity in relation to cortical structure. Below are brief summaries of several lines of our research:  
 [→ cortical gradients](#gradients)  
@@ -20,7 +19,6 @@ Our **[research publications][publications]** are primarily in the domain of **c
 [→ group synchrony](#synchrony)  
 
 [publications]: publications.html  
-[googlescholar]: https://scholar.google.com/citations?user=al10sgYAAAAJ  
 
 # Projects
 

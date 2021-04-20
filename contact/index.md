@@ -18,3 +18,5 @@ Bureau H440
 
 **Twitter**  
 We don't often tweet, but when the feeling is right, we tweet from {% include icon-twitter.html username=site.twitter_username %} and sometimes from {% include icon-twitter.html username="theneurobureau" %}  
+
+[UofP]: https://u-paris.fr

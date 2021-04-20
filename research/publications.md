@@ -5,13 +5,19 @@ sitemap: false
 robots: noindex,nofollow
 ---
 
-# Publications
-
+# Publications    
+Key publications are available by topic on our [**→ research projects**][projects] page.  
+And any recent activity can be found at [**→ Google Scholar**][googlescholar]  
+<hr class="style5">  
+[projects]: index.html  
+[googlescholar]: https://scholar.google.com/citations?user=al10sgYAAAAJ  
+  
 <!---1. [Preprints](#preprints)  --->
-1. [Journal articles](#articles)  
-2. [Conference proceedings](#conf)  
-3. [Book chapters](#chap)  
-<hr class="style5">
+[**→ Journal articles**](#articles)  
+[**→ Conference proceedings**](#conf)  
+[**→ Book chapters**](#chap)  
+  
+<hr class="style5">  
 
 <!---
 ## Preprints <a name="preprints"></a>

@@ -7,14 +7,9 @@ permalink: /people/index.html
 
 # Lab members  
 
-### Lab head  
-[Daniel Margulies]({{site.baseurl}}/people/margulies.html)  
-
-### Lab Manager  
-Michelle Wilson-André  
-
-### Masters students  
-Flore Ginzburg  
+[**Daniel Margulies**]({{site.baseurl}}/people/margulies.html), Lab head  
+**Michelle Wilson-André**, Lab Manager  
+<!-- **Flore Ginzburg**, Masters student   -->
 # Collaborators
 
 [Jonathan Smallwood][jonny], University of York, UK   
@@ -31,8 +26,10 @@ Flore Ginzburg
 [Simon Eickhoff][simon], Jülich Research Center  
 [Michael Petrides][petrides], Montreal Neurological Institute  
 [Pierre-Louis Bazin][pilou], Netherlands Institute for Neuroscience  
-[Yufeng Zang][yufeng], [Hangzhou Normal University][yufeng_homepage]  
-[Yating Lv][yating], [Hangzhou Normal University][yating_homepage]  
+[Yufeng Zang][yufeng_homepage], Hangzhou Normal University  
+[Yating Lv][yating_homepage], Hangzhou Normal University  
+<!-- Michel Thiebaut de Schotten
+Demian Wassermann -->
 
 # Former members
 

@@ -6,7 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Neuroanatomy & Connectivity Lab
+# title: Neuroanatomy & Connectivity Lab
+title: Cognitive Neuroanatomy Lab
 email: daniel.margulies@cnrs.fr
 
 url: "https://www.neuroconnlab.org"
@@ -26,20 +27,6 @@ future: true
 plugins_dir: ['jekyll/scholar']
 # Load plugins
 plugins: ['jekyll/scholar', 'unicode_utils', 'unicode', 'jekyll-sitemap', 'jekyll-target-blank']
-#, 'jekyll-menus'
-
-#target-blank:
-  #noopener: false
-  #noreferrer: false
-  #css_class: ext-link
-  # rel: nofollow
-
-netlify:
-  redirects:
-    - /home              /
-    - /blog/my-post.php  /blog/my-post
-    - /news              /blog
-    - /google            https://www.google.com
 
 scholar:
   style: ./bibcsl/acta_small.csl
@@ -106,36 +93,42 @@ defaults:
 
 navigation: 
   - title: Research
-    url: #
+    url: /research/index.html
     subnav:
       - text: Projects
         url: /research/index.html
       - text: Publications
         url: /research/publications.html
       - text: Press
-        url: /press/index.html
-  - title: Members
-    url: /people/index.html
+        url: /press/index.html  
   - title: Resources
     url: #
-    subnav:
-      - text: Resources
-        url: /resources/index.html
+    subnav:      
       - text: Data
         url: /data/index.html
       - text: Code
         url: /code/index.html
       - text: Gallery
         url: /gallery/index.html
-  - title: Quick Links
-    url: #
-    subnav:
-      - text: Gradient templates
-        url: /data/index.html#maps
-      - text: MPILBMM dataset
-        url: /data/index.html#MPILBMM
+      - text: Miscellaneous
+        url: /resources/index.html
+  - title: Members
+    url: /people/index.html  
+  - title: Join us
+    url: /jobs/index.html
   - title: Contact
-    url: #
-    subnav: 
-      - text: Information
-        url: /contact/index.html
+    url: /contact/index.html
+
+  # - title: Quick Links
+  #   url: #
+  #   subnav:
+  #     - text: Gradient templates
+  #       url: /data/index.html#maps
+  #     - text: MPILBMM dataset
+  #       url: /data/index.html#MPILBMM
+
+jekyll_admin:
+  hidden_links:
+    - posts
+    - datafiles      
+  # homepage: "/"
