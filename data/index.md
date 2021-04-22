@@ -70,7 +70,7 @@ We encourage users to subscribe to the [**mailing list <i class="fa fa-users"></
 [mpilmbb_email]: http://groups.google.com/group/resting_state_preprocessing
 [CFG]: http://blog.chrisgorgolewski.org/p/about.html
 [7T_data]: http://openscience.cbs.mpg.de/7t_trt/
-[PLB]: https://nin.nl/about-us/the-organisation/team/pierre-louis-bazin/
+[PLB]: https://www.spinozacentre.nl/persoon/pierre-louis-bazin/
 [7T_Bazin]: http://openscience.cbs.mpg.de/bazin/7T_Quantitative/
 [Berlin_INDI]: http://fcon_1000.projects.nitrc.org/fcpClassic/FcpTable.html
 [Berlin_Data]: http://fcon_1000.projects.nitrc.org/indi/pro/Berlin.html

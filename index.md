@@ -5,7 +5,7 @@ permalink: index.html
 
 # Welcome
 
-We investigate principles of how the cerebral cortex is spatially organized and the role of that organization in human cognition. More information about our various projects is available on the [research] and [publications] pages.  
+We investigate principles of how the cerebral cortex is spatially organized and the role of that organization in human cognition. More information about our various projects is available on the [research projects] and [publications] pages.  
 
 [![]({{site.baseurl}}/thumbnails/image1.jpg){: .right .half}]({{site.baseurl}}/gallery/index.html)  
 
@@ -20,7 +20,7 @@ The lab is led by [Daniel Margulies][DSM] and based at the [Integrative Neurosci
 </span>
 
 [DSM]: {{site.baseurl}}/people/margulies.html
-[research]: {{site.baseurl}}/research/index.html
+[research projects]: {{site.baseurl}}/research/index.html
 [publications]: {{site.baseurl}}/research/publications.html
 [INCC]: https://incc-paris.fr
 [UofP]: https://u-paris.fr

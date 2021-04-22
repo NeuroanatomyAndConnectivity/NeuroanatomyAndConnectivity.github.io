@@ -42,7 +42,7 @@ Click the image to the right to see [an example]({{site.baseurl}}/images/zones_0
 [braingl]: https://code.google.com/p/braingl/
 [vidviewer]: https://github.com/NeuroanatomyAndConnectivity/vidview
 [brainbundler]: https://github.com/NeuroanatomyAndConnectivity/brainbundler
-[Sebastian Eichelbaum]:www.nemtics.com
+[Sebastian Eichelbaum]:https://nemtics.com/ 
 [di]:https://github.com/NeuroanatomyAndConnectivity/DirectionalityIndicator
 <hr class="style5">
 
@@ -60,7 +60,7 @@ The [<i class="fa fa-github-alt"></i> surfdist][sd] Python package can be used t
 [<i class="fa fa-github-alt"></i> The New York Cognition Questionnaire (NYC-Q)][nycq] is a questionnaire developed by [Jonny Smallwood] to characterize the content and form of mind-wandering.
 
 [nycq]:https://github.com/NeuroanatomyAndConnectivity/NYC-Q
-[Jonny Smallwood]:https://www.york.ac.uk/psychology/staff/academicstaff/jonathan_smallwood/#profile
+[Jonny Smallwood]:https://www.queensu.ca/psychology/people/faculty/jonathan-smallwood   
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 0px 0px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=gorgolewski2014a] %}</div>
 <hr class="style5">
 

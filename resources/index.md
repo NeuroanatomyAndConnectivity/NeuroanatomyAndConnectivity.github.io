@@ -11,7 +11,7 @@ Following are some miscellaneous items we've collected over the years that we'd 
 # Educational materials
 [**→ Neuroimaging Wikibook**][wikibook], : Describes theory and practice of major data processing approaches  
 [**→ iPython tutorials**][ipython] as jupyter notebooks  
-[**→ Writing resources**][writing] (*Please request access from* [<span class="line">daniel.margulies@</span><span class="line">icm-institute.org</span>](mailto:daniel.margulies@icm-institute.org))  
+[**→ Writing resources**][writing] (*Please request access from* [<span class="line">daniel.margulies@</span><span class="line">cnrs.fr</span>](mailto:daniel.margulies@cnrs.fr))  
 
 # Workshops
 [![Brainhack Leipzig 2012]({{site.baseurl}}/thumbnails/brainhack_leipzig_2012.jpg){:.right .artwork-portrait height="350px"}]({{site.baseurl}}/images/brainhack_leipzig_2012.png "Brainhack Leipzig 2012"){:target="\_blank"}

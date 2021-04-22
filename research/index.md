@@ -60,7 +60,7 @@ Building on our work describing connectivity-based subdivisions with ventrolater
 Manually delineated labels for areas 44 and 45 in 101 [HCP][hcp] participates are available [here][Broca_labels].  
 
 [hcp]: http://humanconnectome.org/
-[estrid]: https://www.zlab.mcgill.ca/wp-content/uploads/2017/10/estridCV_public.pdf
+[estrid]: https://www.researchgate.net/profile/Estrid-Jakobsen   
 [Broca_labels]: http://wwwuser.gwdg.de/~cbsarchi/archiv/public/hcp/  
 {% include biblio.html %}
 
@@ -84,7 +84,7 @@ How does spontaneous brain activity relate to the dynamics of ongoing thought? I
 
 We have also validated a questionnaire that captures the content and form of mind wandering,{% cite gorgolewski2014a %} which is openly available [here][nycq].  
 
-[jonny]:https://www.york.ac.uk/psychology/staff/academicstaff/jonathan_smallwood/#profile
+[jonny]:https://www.queensu.ca/psychology/people/faculty/jonathan-smallwood  
 [nycq]:https://github.com/NeuroanatomyAndConnectivity/NYC-Q
 {% include biblio.html %}
 
@@ -93,7 +93,7 @@ We have also validated a questionnaire that captures the content and form of min
 [![]({{site.baseurl}}/thumbnails/age_prediction.png){: .right .medium}]({{site.baseurl}}/thumbnails/age_prediction.png)
 [Franz Liem][franz] recently developed a multimodal imaging approach to age prediction.{% cite liem2017a %} For a plug-and-play version based on cortical thickness, cortical surface area, and subcortical information, check out Brain-Age Regression Analysis and Computation Utility Software as the [**<i class="fa fa-github-alt"></i> BARACUS Bids App**][baracus]  
 
-[franz]: https://www.dynage.uzh.ch/en/aboutus/team/postdocs/fliem.html
+[franz]: https://ethz.ch/en/the-eth-zurich/organisation/departments/informatikdienste/personen/person-detail.MjgyOTY1.TGlzdC8yMTE1LDQ0MTE5MDAyNQ==.html
 [baracus]: https://github.com/BIDS-Apps/baracus
 {% include biblio.html %}
 
@@ -102,6 +102,6 @@ We have also validated a questionnaire that captures the content and form of min
 [![]({{site.baseurl}}/thumbnails/dance.png){: .right .full}]({{site.baseurl}}/thumbnails/dance.png)
 How do individuals synchronize their behavior when in a group?{% cite ellamil2016a %} [Melissa Ellamil][melissa] investigated this question in a club setting in collaboration with [Guerilla Science][guerillascience],{% cite ellamil2016b %} which was also described in [PNAS News](https://www.neuroconnlab.org/downloads/press/11982.full.pdf){:target="\_blank"}. Data from this study are openly available [here]({{site.baseurl}}/data#synchrony).  
 
-[melissa]: https://harmonylabs.org/melissa-ellamil/
+[melissa]: https://www.linkedin.com/in/ellamil/ 
 [guerillascience]: http://guerillascience.org
 {% include biblio.html %}
