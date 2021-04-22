@@ -8,7 +8,7 @@ permalink: /people/index.html
 # Lab members  
 
 [**Daniel Margulies**]({{site.baseurl}}/people/margulies.html), Lab head  
-**Michelle Wilson-André**, Lab Manager  
+**Michelle Wilson-André**, Research Project Manager  
 <!-- **Flore Ginzburg**, Masters student   -->
 # Collaborators
 
