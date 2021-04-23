@@ -8,7 +8,7 @@ permalink: /people/index.html
 # Lab members  
 
 [**Daniel Margulies**]({{site.baseurl}}/people/margulies.html), Lab head  
-**Michelle Wilson-André**, Research Project Manager  
+[**Michelle Wilson-André**][michelle], Research Project Manager  
 <!-- **Flore Ginzburg**, Masters student   -->
 # Collaborators
 
@@ -67,7 +67,7 @@ The photos below were taken in 2012, 2013, and 2015.
 ### Artists in Residence
 [Jeremy Shaw][jeremy]
 
-### Visiting Students, Research Assistents, Interns, Honorary Members
+### Visiting Students, Research Assistants, Interns, Honorary Members
 
 [Philipp Haueis][philipp],
 [Yating Lv][yating],
@@ -94,7 +94,7 @@ Kratika Agarwal,
 [Ricky Burns][ricky]
 
 
-
+[michelle]:https://www.linkedin.com/in/mwilson-link/
 [bcblab]:http://bcblab.com/ 
 <!-- https://www.gin.cnrs.fr/en/about-us/research-staff/michel-thiebaut-de-schotten-phd/  -->
 [danilo]:https://danilobzdok.de
