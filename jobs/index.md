@@ -14,4 +14,4 @@ We're hiring two post-docs to join the lab. Applicants should have a stong backg
 
 🧠   For any questions, please get in touch! 
 
-Email: daniel.margulies@cnrs.fr 
+Email: [<span class="line">daniel.margulies@</span><span class="line">cnrs.fr</span>](mailto:daniel.margulies@cnrs.fr) 
