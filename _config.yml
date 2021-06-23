@@ -113,11 +113,11 @@ navigation:
       - text: Miscellaneous
         url: /resources/index.html
   - title: Members
-    url: /people/index.html  
-  # - title: Join us
-  #   url: /jobs/index.html
+    url: /people/index.html    
   - title: Contact
     url: /contact/index.html
+  - title: Join us
+    url: /jobs/index.html
 
   # - title: Quick Links
   #   url: #

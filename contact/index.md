@@ -1,6 +1,6 @@
 ---
 layout: page
-order: 90
+order: 75
 title: CONTACT
 permalink: /contact/index.html
 ---
