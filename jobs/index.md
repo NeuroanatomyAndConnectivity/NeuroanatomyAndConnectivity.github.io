@@ -6,7 +6,7 @@ permalink: /jobs/index.html
 ---
 
 # Join us! 🧠
-We're hiring two postdocs to join the lab as part of the ERC-funded project **Cortical gradients of functional organization**. Applicants should have a stong background in neuroimaging data analysis and experience using Python. For more information, check out the links below, or get in touch by email at: 
+We're hiring two postdocs to join the lab as part of the ERC-funded project **Cortical gradients of functional organization**. Applicants should have a strong background in neuroimaging data analysis and experience using Python. For more information, check out the links below, or get in touch by email at: 
 
 Email: [<span class="line">daniel.margulies@</span><span class="line">cnrs.fr</span>](mailto:daniel.margulies@cnrs.fr) 
 
