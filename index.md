@@ -5,10 +5,6 @@ permalink: index.html
 
 # Welcome
 
-<div style="background-color: #f9f9f9; text-align: center; padding: +1.5%; margin -1.5%; border-radius: 10px;">
-  <strong>We're hiring! Check out the positions <a href="https://neuroconnlab.org/jobs/">here</a></strong>
-</div>
-
 We investigate principles of how the cerebral cortex is spatially organized and the role of that organization in human cognition. More information about our various projects is available on the [research projects] and [publications] pages.  
 
 [![]({{site.baseurl}}/thumbnails/image1.jpg){: .right .half}]({{site.baseurl}}/gallery/index.html)  
