@@ -9,5 +9,5 @@ permalink: /people/wei.html
 Love walking around to discover, also love staying at home.  
 Love to explore funny stores, and love Paris.   
 Research interest lies in the application of neuroimaging in cerebrovascular diseases. Specifically, my doctoral project focuses on ischemic stroke patients with heterogeneous lesions to investigate the relationships between their cognitive impairments and local damages within connectivity space.  
-
+<br/>
 {% include icon-email.html email="weiwei199102@gmail.com" %}  
