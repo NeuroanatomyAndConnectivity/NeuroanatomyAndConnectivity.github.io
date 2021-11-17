@@ -101,6 +101,15 @@ navigation:
         url: /research/publications.html
       - text: Press
         url: /press/index.html  
+  - title: Members  
+    url: #  
+    subnav:  
+      - text: Current  
+        url: /members/current.html  
+      - text: Former  
+        url: /members/former.html  
+      - text: Collaborators  
+        url: /members/collaborators.html  
   - title: Resources
     url: #
     subnav:      
