@@ -226,7 +226,39 @@ img.right  { float: right;  margin-left: 10px; }
 img.left   { float: left;  margin-right: 10px; }
 img.space  { margin: 0 10px;}
 img.border { padding: 5px; border: solid 1px #efefef; }
-img.round  { border-radius: 5px;}
+img.round  { border-radius: 5px;
+            -moz-border-radius:    5px;
+            -khtml-border-radius:  5px;
+            -webkit-border-radius: 5px;
+           }
+
+img.people {  display: block; 
+ margin-left: auto; 
+ margin-right: auto; 
+ border-radius: 10px; 
+ padding: 5px; 
+ height: 200px;
+}
+
+figure.people {
+  width: 30%; 
+  float: left; 
+  margin-right: 10px; 
+  border-radius: 5px; 
+  padding: 5px; 
+  border: solid 1px #efefef;
+  @media only screen
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+      width: 90%;
+  }
+  @media only screen 
+    and (max-device-width: $on-palm) 
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: landscape) {
+      width: 50%;
+  }
+}
 
 // p, blockquote, ul, ol, dl, li, table, pre {
 // margin: 15px 0; 
