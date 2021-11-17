@@ -4,11 +4,11 @@ permalink: /people/margulies.html
 ---
 [![]({{site.baseurl}}/images/Margulies_rooster.jpg){: .right .round .tiny}](margulies.html)
 # Daniel S. Margulies  
-If you prefer a full pdf version [**→ CV**]({{site.baseurl}}/downloads/people/CV_Margulies.pdf){:target="\_blank"}    
-<div itemscope itemtype="https://schema.org/Person">
-  <a itemprop="sameAs" content="https://orcid.org/0000-0002-8880-9204" href="https://orcid.org/0000-0002-8880-9204" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0002-8880-9204
-  </a>
-</div>  
+If you prefer a full pdf version [**→ CV**]({{site.baseurl}}/downloads/people/CV_Margulies.pdf){:target="\_blank"}  
+{% include icon-email.html email="daniel.margulies@cnrs.fr" %}  
+{% include icon-googlescholar.html id="al10sgYAAAAJ" %}  
+{% include icon-github.html username="margulies" %}  
+<a itemprop="sameAs" content="https://orcid.org/0000-0002-8880-9204" href="https://orcid.org/0000-0002-8880-9204" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.25em;" alt="ORCID iD icon">orcid.org/0000-0002-8880-9204</a>
 
 # Biographical sketch
 
