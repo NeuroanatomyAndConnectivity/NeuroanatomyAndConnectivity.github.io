@@ -15,6 +15,7 @@ If you prefer a full pdf version [**→ CV**]({{site.baseurl}}/downloads/people/
 ## Academic appointments
 
 | **2020--**     |  Research director (DR2), [CNRS] |
+| **2020--**     |  Visiting principal investigator, [Wellcome Centre for Integrative Neuroimaging][WIN] |
 | **2018--2020** |  Tenured researcher (CR1), [CNRS] |
 | **2012--2017** |  Faculty, [International Max Planck Research School][imprs], Leipzig |
 | **2011--2017** |  Group leader, [Research Group for Neuroanatomy & Connectivity][nac] |
@@ -51,6 +52,7 @@ A complete list can be found on the [publications page](../research/publications
 [imprs]:http://imprs-neurocom.mpg.de/imprs/index.html
 [nac]:http://www.cbs.mpg.de/former-groups/neuroanatomy-and-connectivity
 [mpi]:http://www.cbs.mpg.de/
+[WIN]: https://www.win.ox.ac.uk/
 [Sorbonne University]:https://www.sorbonne-universite.fr
 [Humboldt University]:http://www.hu-berlin.de/
 [European Graduate School]:http://www.egs.edu/

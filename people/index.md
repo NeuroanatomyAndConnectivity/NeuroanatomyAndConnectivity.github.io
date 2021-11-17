@@ -7,7 +7,7 @@ permalink: /members/current.html
 
 # Lab members  
 
-{% include image.html url="/images/Margulies_01.jpg" name="Daniel S. Margulies" position="Lab head" link="/people/margulies.html" %} 
+{% include image.html url="/images/Margulies_01.jpg" name="Daniel S. Margulies" position="Lab Head" link="/people/margulies.html" %} 
 {% include image.html url="/images/WilsonAndre.jpg" name="Michelle Wilson-André" position="Research Project Manager" link="/people/wilson-andre" %} 
 {% include image.html url="/images/Chiou.jpg" name="Rocco Chiou" position="Postdoctoral Researcher" link="/people/chiou.html" %} 
 {% include image.html url="/images/Benn.jpg" name="Austin Benn" position="Postdoctoral Researcher" link="/people/benn.html" %} 
