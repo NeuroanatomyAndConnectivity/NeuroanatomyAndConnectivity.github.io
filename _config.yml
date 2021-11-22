@@ -93,7 +93,7 @@ defaults:
 
 navigation: 
   - title: Research
-    url: /research/index.html
+    url: #
     subnav:
       - text: Projects
         url: /research/index.html
