@@ -12,10 +12,3 @@ Austin joined the lab after completing his PhD in Madrid where he used functiona
 {% include icon-webpage.html link="austinbenn.org" %}  
 {% include icon-twitter.html username="neurabenn" %}  
 {% include icon-github.html username="neurabenn" %}  
-
-<!-- Example selected publications:
-<div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">
-<strong>Key Publications:</strong>
-{% bibliography -f benn.bib -T bib --style /bibcsl/acta_small.csl %}
-</div> 
--->
