@@ -13,8 +13,9 @@ The photos below were taken in 2012, 2013, and 2015.
 [![2013]({{site.baseurl}}/thumbnails/NAC_2013.jpg){: .artwork-landscape style="height: 180px"}]({{site.baseurl}}/images/NAC_2013.tif "2013"){:target="\_blank"}
 [![2015]({{site.baseurl}}/thumbnails/NAC_2015.jpg){: .artwork-landscape style="height: 180px"}]({{site.baseurl}}/images/NAC_2015.tif "2015"){:target="\_blank"}  
 
-### Scientific coordinator
+### Scientific coordinators
 [Natacha Mendes][natacha]
+[Michelle André-Wilson][michelle]
 
 ### Postdocs  
 
@@ -72,6 +73,7 @@ Victoria Shevchenko-->
 
 
 [natacha]:https://www.cbs.mpg.de/person/mendes/205351
+[michelle]:https://www.linkedin.com/in/mwilson-link/
 
 [marcel]:https://pl.linkedin.com/in/marcel-falkiewicz-725bb6a4
 [chris]:http://blog.chrisgorgolewski.org/p/about.html
