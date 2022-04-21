@@ -14,7 +14,7 @@ The photos below were taken in 2012, 2013, and 2015.
 [![2015]({{site.baseurl}}/thumbnails/NAC_2015.jpg){: .artwork-landscape style="height: 180px"}]({{site.baseurl}}/images/NAC_2015.tif "2015"){:target="\_blank"}  
 
 ### Scientific coordinators
-[Natacha Mendes][natacha]
+[Natacha Mendes][natacha],
 [Michelle André-Wilson][michelle]
 
 ### Postdocs  
