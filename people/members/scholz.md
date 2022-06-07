@@ -2,7 +2,7 @@
 layout: page
 permalink: /people/scholz.html
 ---
-# Robert Schölz
+# Robert Scholz
 [![]({{site.baseurl}}/images/Scholz.jpg){: .left .round .small}](/people/scholz.html)
 
 | **Doctoral student** |  
