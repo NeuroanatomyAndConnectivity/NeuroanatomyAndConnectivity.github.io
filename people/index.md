@@ -14,6 +14,6 @@ permalink: /members/current.html
 {% include image.html url="/images/Scholz.jpg" name="Robert Scholz" position="Doctoral Student" link="/people/scholz.html" %} 
 {% include image.html url="/images/Klatzmann.jpg" name="Ulysse Klatzmann" position="Doctoral Student" link="/people/klatzmann.html" %} 
 <!--- 
-{% include image.html url="/images/WilsonAndre.jpg" name="Michelle Wilson-André" position="Research Project Manager" link="/people/wilson-andre" %} 
+{% include image.html url="/images/Shevchenko.jpg" name="Victoria Shevchenko" position="Research Assistant" link="/people/shevchenko.html" %} 
 {% include image.html url="/images/Alberti.jpg" name="Francesco Alberti" position="Research Intern" link="/people/alberti.html" %} 
 --->
