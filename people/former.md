@@ -5,17 +5,29 @@ title: PEOPLE
 permalink: /members/former.html
 ---
 
-# Former members
+# Lab photos
 
-The photos below were taken in 2012, 2013, and 2015.
+Lab photo from Lisbon retreat in 2021:  
+
+[![2021]({{site.baseurl}}/thumbnails/CNL_2021.jpg){: .artwork-landscape style="height: 180px"}]({{site.baseurl}}/images/CNL_2021.tif "2021"){:target="\_blank"}
+
+Lab photos from 2012, 2013, and 2015:  
 
 [![2012]({{site.baseurl}}/thumbnails/NAC_2012.jpg){: .artwork-landscape style="height: 180px"}]({{site.baseurl}}/images/NAC_2012.tif "2012"){:target="\_blank"}
 [![2013]({{site.baseurl}}/thumbnails/NAC_2013.jpg){: .artwork-landscape style="height: 180px"}]({{site.baseurl}}/images/NAC_2013.tif "2013"){:target="\_blank"}
 [![2015]({{site.baseurl}}/thumbnails/NAC_2015.jpg){: .artwork-landscape style="height: 180px"}]({{site.baseurl}}/images/NAC_2015.tif "2015"){:target="\_blank"}  
 
+# Former members
+## Former lab members since 2020:
+
+{% include image.html url="/images/WilsonAndre.jpg" name="Michelle Wilson-André" position="Research Project Manager" link="/people/wilson-andre" %}  
+
+<hr class="style5">
+
+## Former lab members between 2011--2017:
+
 ### Scientific coordinators
-[Natacha Mendes][natacha],
-[Michelle André-Wilson][michelle]
+[Natacha Mendes][natacha]
 
 ### Postdocs  
 
