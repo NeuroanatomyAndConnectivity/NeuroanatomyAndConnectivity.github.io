@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /people/margulies.html
+permalink: /members/margulies.html
 ---
 [![]({{site.baseurl}}/images/Margulies_rooster.jpg){: .right .round .tiny}](margulies.html)
 # Daniel S. Margulies  
@@ -44,7 +44,7 @@ If you prefer a full pdf version [**→ CV**]({{site.baseurl}}/downloads/people/
 Also see [**open science initiatives**](../resources/index.html#open_sci_initiatives)
 
 # Students and postdocs
-Former and current students and postdocs are listed on the [lab members page](index.html)  
+[Former](former.html) and [current](current.html) students and postdocs on the respective lab members webpages.  
 
 # Publications
 A complete list can be found on the [publications page](../research/publications.html)  

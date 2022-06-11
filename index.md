@@ -23,7 +23,7 @@ The lab is led by [Daniel Margulies][DSM] and based at the [Integrative Neurosci
   [![]({{site.baseurl}}/images/logo_WIN.png){: .left .logos }][WIN]
 </span>
 
-[DSM]: {{site.baseurl}}/people/margulies.html
+[DSM]: {{site.baseurl}}/members/margulies.html
 [research projects]: {{site.baseurl}}/research/index.html
 [publications]: {{site.baseurl}}/research/publications.html
 [INCC]: https://incc-paris.fr

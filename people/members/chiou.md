@@ -1,9 +1,9 @@
 ---
 layout: page
-permalink: /people/chiou.html
+permalink: /members/chiou.html
 ---
 # Rocco Chiou
-[![]({{site.baseurl}}/images/Chiou.jpg){: .left .round .small}](/people/chiou.html)
+[![]({{site.baseurl}}/images/Chiou.jpg){: .left .round .small}](/members/chiou.html)
 **Postdoctoral Researcher**  
 
 My current research is focused on how high-level cognitive functions arise from and are constrained by neuroanatomy. My approaches include neuroimaging and psychophysics. More information about me is on [my website (CV, papers, etc)](https://roccochiou.weebly.com/).  
