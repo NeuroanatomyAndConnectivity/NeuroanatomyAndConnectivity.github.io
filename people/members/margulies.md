@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: members
 permalink: /members/margulies.html
 ---
 [![]({{site.baseurl}}/images/Margulies_rooster.jpg){: .right .round .tiny}](margulies.html)

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: members
 permalink: /members/wei.html
 ---
 # Wei Wei

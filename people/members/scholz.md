@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: members
 permalink: /members/scholz.html
 ---
 # Robert Scholz

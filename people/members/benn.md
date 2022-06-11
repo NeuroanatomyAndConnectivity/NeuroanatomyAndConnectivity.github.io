@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: members
 permalink: /members/benn.html
 ---
 # Austin Benn
