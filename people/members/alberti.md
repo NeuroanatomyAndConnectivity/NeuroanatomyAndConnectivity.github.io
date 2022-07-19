@@ -1,9 +1,9 @@
 ---
-layout: page
-permalink: /people/alberti.html
+layout: members
+permalink: /members/alberti.html
 ---
 # Francesco Alberti
-<!-- [![]({{site.baseurl}}/images/WilsonAndre.jpg){: .left .round .small}](/people/wilson-andre.html) -->
+<!-- [![]({{site.baseurl}}/images/WilsonAndre.jpg){: .left .round .small}](/members/alberti.html) -->
 Research Intern  
 
 <!--

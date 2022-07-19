@@ -1,9 +1,9 @@
 ---
-layout: page
-permalink: /people/wilson-andre.html
+layout: members
+permalink: /members/wilson-andre.html
 ---
 # Michelle Wilson-André
-[![]({{site.baseurl}}/images/WilsonAndre.jpg){: .left .round .small}](/people/wilson-andre.html)
+[![]({{site.baseurl}}/images/WilsonAndre.jpg){: .left .round .small}](/members/wilson-andre.html)
 **Research Project Manager**  
 
 Michelle is a Research Project Manager for an EU Program in Cognitive Neuroscience with the CNRS. For the past ten years, she has worked in communications and project management roles at science and health focused organisations. She has carried out work in Canada, Spain, and France’s public and private sectors. Her background spans psychology and neuroscience, science and medical communications, and health policy.  

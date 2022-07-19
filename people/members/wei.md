@@ -1,9 +1,9 @@
 ---
-layout: page
-permalink: /people/wei.html
+layout: members
+permalink: /members/wei.html
 ---
 # Wei Wei
-[![]({{site.baseurl}}/images/Wei.jpg){: .left .round .small}](/people/wei.html)
+[![]({{site.baseurl}}/images/Wei.jpg){: .left .round .small}](/members/wei.html)
 **Doctoral student**  
 
 Love walking around to discover, also love staying at home.  
