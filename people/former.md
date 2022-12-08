@@ -7,9 +7,10 @@ permalink: /members/former.html
 
 # Lab photos
 
-Lab photo from Lisbon retreat in 2021:  
+Lab photos from retreats in 2021 and 2022:  
 
 [![2021]({{site.baseurl}}/thumbnails/CNL_2021.jpg){: .artwork-landscape style="height: 180px"}]({{site.baseurl}}/images/CNL_2021.tif "2021"){:target="\_blank"}
+[![2022]({{site.baseurl}}/thumbnails/CNL_2022.jpg){: .artwork-landscape style="height: 180px"}]({{site.baseurl}}/images/CNL_2022.jpg "2022"){:target="\_blank"}
 
 Lab photos from 2012, 2013, and 2015:  
 
