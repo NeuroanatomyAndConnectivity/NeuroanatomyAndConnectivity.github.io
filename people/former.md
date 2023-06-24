@@ -21,6 +21,7 @@ Lab photos from 2012, 2013, and 2015:
 # Former members
 ## Former lab members since 2020:
 
+{% include image.html url="/images/Chiou.jpg" name="Rocco Chiou" position="Postdoctoral Researcher" link="/members/chiou" %}  
 {% include image.html url="/images/WilsonAndre.jpg" name="Michelle Wilson-André" position="Research Project Manager" link="/members/wilson-andre" %}  
 
 <hr class="style5">
