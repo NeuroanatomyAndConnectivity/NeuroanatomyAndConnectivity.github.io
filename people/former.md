@@ -23,6 +23,7 @@ Lab photos from 2012, 2013, and 2015:
 
 {% include image.html url="/images/Chiou.jpg" name="Rocco Chiou" position="Postdoctoral Researcher" link="/members/chiou" %}  
 {% include image.html url="/images/WilsonAndre.jpg" name="Michelle Wilson-André" position="Research Project Manager" link="/members/wilson-andre" %}  
+{% include image.html url="/images/Kreft.jpg" name="Vincent Kreft" position="Research Intern" link="/members/kreft.html" %}  
 
 <hr class="style5">
 
