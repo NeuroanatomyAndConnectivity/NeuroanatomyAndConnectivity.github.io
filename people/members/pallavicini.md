@@ -2,7 +2,7 @@
 layout: members
 permalink: /members/pallavicini.html
 ---
-# Francesco Alberti
+# Carla Pallavicini
 [![]({{site.baseurl}}/images/Pallavicini.jpg){: .left .round .small}](/members/pallavicini.html)
 
 | **Postdoctoral fellow** |  
