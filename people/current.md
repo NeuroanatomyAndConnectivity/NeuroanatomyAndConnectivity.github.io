@@ -9,6 +9,7 @@ permalink: /members/current.html
 
 {% include image.html url="/images/Margulies_01.jpg" name="Daniel S. Margulies" position="Lab Head" link="/members/margulies.html" %} 
 {% include image.html url="/images/Benn.jpg" name="Austin Benn" position="Postdoctoral Researcher" link="/members/benn.html" %} 
+{% include image.html url="/images/Holmes.jpg" name="Alexander Holmes" position="Postdoctoral Researcher" link="/members/holmes.html" %} 
 {% include image.html url="/images/Pallavicini.jpg" name="Carla Pallavicini" position="Postdoctoral Researcher" link="/members/pallavicini.html" %} 
 {% include image.html url="/images/Wei.jpg" name="Wei Wei" position="Doctoral Student" link="/members/wei.html" %} 
 {% include image.html url="/images/Scholz.jpg" name="Robert Scholz" position="Doctoral Student" link="/members/scholz.html" %} 
