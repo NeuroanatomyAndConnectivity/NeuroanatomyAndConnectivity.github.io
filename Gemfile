@@ -8,3 +8,4 @@ gem 'jekyll-sitemap'
 gem 'jekyll-target-blank'
 gem 'jekyll-admin', group: :jekyll_plugins
 #gem 'jekyll-menus', group: :jekyll_plugins
+gem  'connection_pool'
