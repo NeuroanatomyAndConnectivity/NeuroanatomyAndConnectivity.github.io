@@ -6,7 +6,7 @@ permalink: /members/shevchenko.html
 [![]({{site.baseurl}}/images/Shevchenko.jpg){: .left .round .small}](/members/shevchenko.html)
 
 | **Doctoral student** |  
-| Born in Kamchatka, raised in Moscow, I discovered cognitive science at the University of Helsinki, Finland. In this lab, I seek to gain insight into the intrinsic functional hierarchy of the human cortex and to further our understanding of how human cognition is constrained by it. More generally, I love to make things work through research and to share knowledge with others. My leisure-time activities include practice of Ashtanga yoga, playing the piano and enjoying Paris, of course. | 
+| I discovered cognitive science in 2017 at the University of Helsinki, Finland. Since then, my interests have shifted towards machine learning for health sciences. In this lab, I work on applications of deep learning to functional connectivity data with a main focus on joint embeddings of functional connectivity and behavior. When I am not working, I play the piano or contribute to open-source software. | 
 {:.people} 
 <br/> 
 <br/> 
