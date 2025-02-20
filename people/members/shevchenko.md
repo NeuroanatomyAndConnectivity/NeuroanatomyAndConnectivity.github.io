@@ -10,8 +10,10 @@ permalink: /members/shevchenko.html
 {:.people} 
 <br/> 
 <br/> 
-{% include icon-email.html email="victoria.shevchenko@ens.psl.eu" %}  
+{% include icon-email.html email="victoria.shevchenko@inria.fr" %}  
 <!-- {% include icon-webpage.html link="" %}   -->
 <!-- {% include icon-googlescholar.html id="" %}   -->
 {% include icon-github.html username="victoris93" %}  
-{% include icon-twitter.html username="ei_nimea" %}  
+{% include icon-bluesky.html username="victoris93.bsky.social" %}
+{% include icon-googlescholar.html id="N8Xuo2IAAAAJ&hl" %}  
+
