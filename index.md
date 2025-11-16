@@ -14,13 +14,13 @@ We investigate principles of how the cerebral cortex is spatially organized and 
 
 [![]({{site.baseurl}}/thumbnails/image1.jpg){: .right .half}]({{site.baseurl}}/gallery/index.html)  
 
-The lab is led by [Daniel Margulies][DSM] and based at the [Integrative Neuroscience & Cognition Center][INCC] (INCC -- UMR 8002) at the [University of Paris][UofP] and [Centre national de la recherche scientifique (CNRS)][CNRS] as well as the [Wellcome Centre for Integrative Neuroimaging][WIN] at [Oxford University][Oxford]. From 2012&ndash;2017 we were an independent research group at the [Max Planck Institute for Human Cognitive and Brain Sciences][NAC] in [Leipzig], and from 2018&ndash;2020 we were based at the [Paris Brain Institute][ICM].  
+The lab is led by [Daniel Margulies][DSM] and based at the [Oxford University Centre for Integrative Neuroimaging][OxCIN] and the [Maison Française d'Oxford][MFO], [CNRS][CNRS]. From 2012&ndash;2017 we were an independent research group at the [Max Planck Institute for Human Cognitive and Brain Sciences][NAC] in [Leipzig], from 2018&ndash;2020 we were based at the [Paris Brain Institute][ICM], and from 2021&ndash;2025 we were based at the [University of Paris Cité][UofP] and [Centre national de la recherche scientifique (CNRS)][CNRS].  
   
 <!--- ## Supported by --->  
 <span>
   [![]({{site.baseurl}}/images/logo_erc_euflag.jpg){: .left .logos }][ERC_Con]
   [![]({{site.baseurl}}/images/logo_cnrs.jpg){: .left .logos }][CNRS]
-  [![]({{site.baseurl}}/images/logo_WIN.png){: .left .logos }][WIN]
+  [![]({{site.baseurl}}/images/logo_OxCIN.png){: .left .logos }][OxCIN]
 </span>
 
 [DSM]: {{site.baseurl}}/members/margulies.html
@@ -33,5 +33,6 @@ The lab is led by [Daniel Margulies][DSM] and based at the [Integrative Neurosci
 [Leipzig]: https://vimeo.com/164579770
 [ICM]: https://icm-institute.org/en/
 [ERC_Con]: https://erc.europa.eu/funding/consolidator-grants
-[WIN]: https://www.win.ox.ac.uk/
+[OxCIN]: https://www.oxcin.ox.ac.uk/
 [Oxford]: https://www.ox.ac.uk/
+[MFO]: https://www.mfo.ac.uk/
