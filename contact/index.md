@@ -17,6 +17,6 @@ Bureau H440
 75006 Paris, France  
 
 **Twitter**  
-We don't often tweet, but when the feeling is right, we tweet from {% include icon-twitter.html username=site.twitter_username %} and sometimes from {% include icon-twitter.html username="theneurobureau" %}  
+We don't often tweet, but when the feeling is right, we tweet from {% include icon-twitter.html username=site.twitter_username %} and {% include icon-bluesky.html username="neuroconn.bsky.social" %}, and sometimes from {% include icon-twitter.html username="theneurobureau" %}  
 
 [UofP]: https://u-paris.fr
