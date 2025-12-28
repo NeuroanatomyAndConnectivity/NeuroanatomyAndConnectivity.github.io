@@ -21,6 +21,11 @@ Lab photos from 2012, 2013, and 2015:
 # Former members
 ## Former lab members since 2020:
 
+{% include image.html url="/images/Benn.jpg" name="Austin Benn" position="Postdoctoral Researcher" link="/members/benn.html" %}  
+{% include image.html url="/images/Klatzmann.jpg" name="Ulysse Klatzmann" position="Doctoral Student" link="/members/klatzmann.html" %}  
+{% include image.html url="/images/Shevchenko.jpg" name="Victoria Shevchenko" position="Doctoral Student" link="/members/shevchenko.html" %}  
+{% include image.html url="/images/Wei.jpg" name="Wei Wei" position="Doctoral Student" link="/members/wei.html" %}  
+{% include image.html url="/images/Pallavicini.jpg" name="Carla Pallavicini" position="Postdoctoral Researcher" link="/members/pallavicini.html" %}  
 {% include image.html url="/images/Chiou.jpg" name="Rocco Chiou" position="Postdoctoral Researcher" link="/members/chiou" %}  
 {% include image.html url="/images/WilsonAndre.jpg" name="Michelle Wilson-André" position="Research Project Manager" link="/members/wilson-andre" %}  
 {% include image.html url="/images/Kreft.jpg" name="Vincent Kreft" position="Research Intern" link="/members/kreft.html" %}  
