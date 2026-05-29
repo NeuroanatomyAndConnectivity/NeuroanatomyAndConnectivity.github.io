@@ -25,6 +25,8 @@ And any recent activity can be found at [**→ Google Scholar**][googlescholar]
 <hr class="style5">
 --->
 ## Journal articles <a name="articles"></a>
+##### 2026 <a name="2026"></a>
+{% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2026] %}
 ##### 2025 <a name="2025"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2025] %}
 ##### 2024 <a name="2024"></a>
