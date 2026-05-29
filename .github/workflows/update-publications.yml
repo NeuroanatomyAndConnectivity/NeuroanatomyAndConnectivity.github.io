@@ -15,6 +15,11 @@ name: Update publications
 #     NCBI and raise the rate limit.
 
 on:
+  # TEMPORARY: lets a push to the feature branch kick off the first real run
+  # (PubMed is only reachable from the runner). Remove this block before merge;
+  # the schedule + manual dispatch below are the permanent triggers.
+  push:
+    branches: [claude/auto-publication-updates-xgeGQ]
   schedule:
     - cron: "0 6 1 * *" # 06:00 UTC on the 1st of each month
   workflow_dispatch:
@@ -27,10 +32,13 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout staging
+      - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: staging
+          # On a push, check out the branch that has the tooling; otherwise the
+          # permanent home, staging. (Revert to a plain `ref: staging` once the
+          # temporary push trigger above is removed.)
+          ref: ${{ github.event_name == 'push' && github.ref_name || 'staging' }}
 
       - name: Set up Python
         uses: actions/setup-python@v5
