@@ -1,0 +1,80 @@
+name: Update publications
+
+# Pulls new publications from PubMed, appends them to the jekyll-scholar
+# bibliography, keeps the per-year sections of the publications page in sync,
+# and opens a pull request for review. Existing entries are never rewritten.
+#
+# Triggers:
+#   * schedule       — automatic monthly check
+#   * workflow_dispatch — run on demand from the Actions tab ("Run workflow")
+#
+# Requirements:
+#   * Settings > Actions > General > "Allow GitHub Actions to create and
+#     approve pull requests" must be enabled (needed to open the PR).
+#   * Optional repo secrets: NCBI_EMAIL, NCBI_API_KEY, to identify requests to
+#     NCBI and raise the rate limit.
+
+on:
+  schedule:
+    - cron: "0 6 1 * *" # 06:00 UTC on the 1st of each month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout staging
+        uses: actions/checkout@v4
+        with:
+          ref: staging
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r _tools/pub_updater/requirements.txt
+
+      - name: Run tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Update publications
+        env:
+          NCBI_EMAIL: ${{ secrets.NCBI_EMAIL }}
+          NCBI_API_KEY: ${{ secrets.NCBI_API_KEY }}
+        run: |
+          python _tools/pub_updater/update.py \
+            --repo-root . \
+            --summary "${RUNNER_TEMP}/pub_summary.md"
+
+      - name: Read change summary
+        id: summary
+        run: |
+          if [[ -f "${RUNNER_TEMP}/pub_summary.md" ]]; then
+            {
+              echo 'body<<PUBEOF'
+              cat "${RUNNER_TEMP}/pub_summary.md"
+              echo 'PUBEOF'
+            } >> "$GITHUB_OUTPUT"
+          else
+            echo 'body=No changes.' >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Create or update pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          base: staging
+          branch: auto/pub-updates
+          title: "Auto-update publications from PubMed"
+          body: ${{ steps.summary.outputs.body }}
+          commit-message: "Add new publications from PubMed"
+          add-paths: |
+            _bibliography/publications.bib
+            research/publications.md
+            downloads/pubs/*.pdf
+          delete-branch: true

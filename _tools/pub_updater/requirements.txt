@@ -1,0 +1,5 @@
+# Dependencies for the publications updater (runs on a GitHub Actions runner).
+# PDF download and PubMed access use only the Python standard library (urllib).
+biopython>=1.81
+bibtexparser>=1.4.1,<2.0
+PyYAML>=6.0

@@ -1,0 +1,37 @@
+# Configuration for the automatic publications updater.
+#
+# Read by update.py. The updater appends newly-found publications to the
+# jekyll-scholar BibTeX file and keeps the per-year sections of the
+# publications page in sync. It never rewrites or reorders existing entries.
+
+entrez:
+  # NCBI requires a contact email for E-utilities. The NCBI_EMAIL env var
+  # overrides this when set (preferred in CI).
+  email: "daniel.margulies@cnrs.fr"
+  tool: "neuroconn-pub-updater"
+  # Optional NCBI API key raises the rate limit. Leave blank; set NCBI_API_KEY
+  # as a repository secret in CI instead.
+  api_key: ""
+
+query:
+  # Raw PubMed search term, passed verbatim to esearch. Edit here to refine
+  # which publications are considered "ours".
+  raw_query: '((("Margulies DS"[Author]) OR ((("Margulies D"[Author]) NOT ("Salim A"[Author]) NOT ("Machado-Aranda D"[Author])) AND ((brain[Title/Abstract]) OR (cortex[Title/Abstract])))) AND ("2006/01/01"[Date - Publication] : "3000"[Date - Publication])) NOT ("Author Correction"[Title/Abstract])'
+  # Safety cap on PMIDs retrieved in a single run.
+  retmax: 1000
+
+pdf:
+  # Best-effort open-access PDF download. When a PDF is found it is saved to
+  # downloads/pubs/<CiteKey>.pdf and the entry gets a `pdf` field; otherwise
+  # the entry is added without one and flagged for a manual upload.
+  enabled: true
+  # Email used for the Unpaywall API (required by their terms).
+  unpaywall_email: "daniel.margulies@cnrs.fr"
+
+paths:
+  # jekyll-scholar bibliography = the durable source of truth. Append-only.
+  bib: "_bibliography/publications.bib"
+  # Page whose per-year sections must cover every article year present.
+  page: "research/publications.md"
+  # Where best-effort PDFs are stored (relative to repo root).
+  pdf_dir: "downloads/pubs"

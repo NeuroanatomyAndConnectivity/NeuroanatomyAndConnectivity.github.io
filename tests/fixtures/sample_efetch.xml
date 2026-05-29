@@ -1,0 +1,80 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2024//EN" "https://dtd.nlm.nih.gov/ncbi/pubmed/out/pubmed_240101.dtd">
+<PubmedArticleSet>
+  <!-- (1) Already present in publications.bib (Bernhardt2022) -> should be skipped by dedup. -->
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+      <PMID Version="1">35131435</PMID>
+      <Article PubModel="Print-Electronic">
+        <Journal><Title>NeuroImage</Title>
+          <JournalIssue CitedMedium="Internet"><Volume>251</Volume>
+            <PubDate><Year>2022</Year><Month>May</Month></PubDate>
+          </JournalIssue>
+        </Journal>
+        <ArticleTitle>Gradients in brain organization.</ArticleTitle>
+        <Pagination><MedlinePgn>118987</MedlinePgn></Pagination>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1016/j.neuroimage.2022.118987</ELocationID>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y"><LastName>Bernhardt</LastName><ForeName>Boris C</ForeName><Initials>BC</Initials></Author>
+          <Author ValidYN="Y"><LastName>Margulies</LastName><ForeName>Daniel S</ForeName><Initials>DS</Initials></Author>
+        </AuthorList>
+        <PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType></PublicationTypeList>
+      </Article>
+    </MedlineCitation>
+    <PubmedData><ArticleIdList>
+      <ArticleId IdType="pubmed">35131435</ArticleId>
+      <ArticleId IdType="doi">10.1016/j.neuroimage.2022.118987</ArticleId>
+    </ArticleIdList></PubmedData>
+  </PubmedArticle>
+
+  <!-- (2) New 2026 journal article -> new entry AND a new "##### 2026" page section. -->
+  <PubmedArticle>
+    <MedlineCitation Status="MEDLINE" Owner="NLM">
+      <PMID Version="1">99000001</PMID>
+      <Article PubModel="Electronic">
+        <Journal><Title>Nature Neuroscience</Title>
+          <JournalIssue CitedMedium="Internet"><Volume>29</Volume><Issue>2</Issue>
+            <PubDate><Year>2026</Year><Month>Feb</Month></PubDate>
+          </JournalIssue>
+        </Journal>
+        <ArticleTitle>Macroscale gradients revisited across the human cortex.</ArticleTitle>
+        <Pagination><MedlinePgn>210-225</MedlinePgn></Pagination>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1038/s41593-026-00001-2</ELocationID>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y"><LastName>Margulies</LastName><ForeName>Daniel S</ForeName><Initials>DS</Initials></Author>
+          <Author ValidYN="Y"><LastName>Smallwood</LastName><ForeName>Jonathan</ForeName><Initials>J</Initials></Author>
+        </AuthorList>
+        <PublicationTypeList><PublicationType UI="D016428">Journal Article</PublicationType></PublicationTypeList>
+      </Article>
+    </MedlineCitation>
+    <PubmedData><ArticleIdList>
+      <ArticleId IdType="pubmed">99000001</ArticleId>
+      <ArticleId IdType="doi">10.1038/s41593-026-00001-2</ArticleId>
+    </ArticleIdList></PubmedData>
+  </PubmedArticle>
+
+  <!-- (3) New bioRxiv preprint -> stored as @misc (no journal/year-section). -->
+  <PubmedArticle>
+    <MedlineCitation Status="Publisher" Owner="NLM">
+      <PMID Version="1">99000002</PMID>
+      <Article PubModel="Electronic">
+        <Journal><Title>bioRxiv : the preprint server for biology</Title>
+          <JournalIssue CitedMedium="Internet">
+            <PubDate><Year>2025</Year><Month>Nov</Month></PubDate>
+          </JournalIssue>
+        </Journal>
+        <ArticleTitle>A connectivity atlas of the marmoset prefrontal cortex.</ArticleTitle>
+        <ELocationID EIdType="doi" ValidYN="Y">10.1101/2025.11.01.999999</ELocationID>
+        <AuthorList CompleteYN="Y">
+          <Author ValidYN="Y"><LastName>Doe</LastName><ForeName>Jane A</ForeName><Initials>JA</Initials></Author>
+          <Author ValidYN="Y"><LastName>Margulies</LastName><ForeName>Daniel S</ForeName><Initials>DS</Initials></Author>
+        </AuthorList>
+        <PublicationTypeList><PublicationType UI="D000076942">Preprint</PublicationType></PublicationTypeList>
+      </Article>
+    </MedlineCitation>
+    <PubmedData><ArticleIdList>
+      <ArticleId IdType="pubmed">99000002</ArticleId>
+      <ArticleId IdType="doi">10.1101/2025.11.01.999999</ArticleId>
+    </ArticleIdList></PubmedData>
+  </PubmedArticle>
+</PubmedArticleSet>
