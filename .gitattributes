@@ -1,0 +1,12 @@
+# Treat binary assets as binary: no diff, no EOL conversion, no corruption
+*.pdf   binary
+*.jpg   binary
+*.jpeg  binary
+*.png   binary
+*.gif   binary
+*.tif   binary
+*.tiff  binary
+*.zip   binary
+*.docx  binary
+*.skim  binary
+*.ico   binary

@@ -8,7 +8,7 @@
 # Site settings
 # title: Neuroanatomy & Connectivity Lab
 title: Cognitive Neuroanatomy Lab
-email: daniel.margulies@cnrs.fr
+email: daniel.margulies@ndcn.ox.ac.uk
 
 url: "https://www.neuroconnlab.org"
 baseurl: "" # the subpath of your site, e.g. /blog

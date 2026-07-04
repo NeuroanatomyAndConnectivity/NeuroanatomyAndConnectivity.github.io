@@ -10,4 +10,4 @@ Stay tuned for future opportunities.
 
 If you have a strong background in neuroimaging data analysis and experience using Python, we would love to hear from you! Feel free to get in touch by email at: 
 
-Email: [<span class="line">daniel.margulies@</span><span class="line">cnrs.fr</span>](mailto:daniel.margulies@cnrs.fr) 
+Email: [<span class="line">daniel.margulies@</span><span class="line">ndcn.ox.ac.uk</span>](mailto:daniel.margulies@ndcn.ox.ac.uk) 

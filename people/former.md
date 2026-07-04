@@ -26,8 +26,8 @@ Lab photos from 2012, 2013, and 2015:
 {% include image.html url="/images/Shevchenko.jpg" name="Victoria Shevchenko" position="Doctoral Student" link="/members/shevchenko.html" %}  
 {% include image.html url="/images/Wei.jpg" name="Wei Wei" position="Doctoral Student" link="/members/wei.html" %}  
 {% include image.html url="/images/Pallavicini.jpg" name="Carla Pallavicini" position="Postdoctoral Researcher" link="/members/pallavicini.html" %}  
-{% include image.html url="/images/Chiou.jpg" name="Rocco Chiou" position="Postdoctoral Researcher" link="/members/chiou" %}  
-{% include image.html url="/images/WilsonAndre.jpg" name="Michelle Wilson-André" position="Research Project Manager" link="/members/wilson-andre" %}  
+{% include image.html url="/images/Chiou.jpg" name="Rocco Chiou" position="Postdoctoral Researcher" link="/members/chiou.html" %}  
+{% include image.html url="/images/WilsonAndre.jpg" name="Michelle Wilson-André" position="Research Project Manager" link="/members/wilson-andre.html" %}  
 {% include image.html url="/images/Kreft.jpg" name="Vincent Kreft" position="Research Intern" link="/members/kreft.html" %}  
 
 <hr class="style5">
@@ -96,7 +96,7 @@ Victoria Shevchenko-->
 [michelle]:https://www.linkedin.com/in/mwilson-link/
 
 [marcel]:https://pl.linkedin.com/in/marcel-falkiewicz-725bb6a4
-[chris]:http://blog.chrisgorgolewski.org/p/about.html
+[chris]:https://chrisgorgolewski.org
 [alexandros]:https://www.uke.de/allgemein/arztprofile-und-wissenschaftlerprofile/wissenschaftlerprofilseite_alexandros_goulas.html
 [joachim]:https://joachim.visualistics.de
 [franz]:https://ethz.ch/en/the-eth-zurich/organisation/departments/informatikdienste/personen/person-detail.MjgyOTY1.TGlzdC8yMTE1LDQ0MTE5MDAyNQ==.html

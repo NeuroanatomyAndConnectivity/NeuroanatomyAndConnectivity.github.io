@@ -315,6 +315,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  connection_pool
   github-pages
   jekyll-admin
   jekyll-scholar

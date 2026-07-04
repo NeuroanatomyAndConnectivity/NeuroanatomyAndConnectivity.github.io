@@ -11,7 +11,7 @@ All our code is available at [**<i class="fa fa-github-alt"></i> github.com/Neur
 Below you'll find descriptions of some of our tools, as well as additional software resources that were developed by [lab members] over the years.
 
 [github]:https://github.com/NeuroanatomyAndConnectivity
-[lab members]:{{site.baseurl}}/people/index.html
+[lab members]:{{site.baseurl}}/members/current.html
 <hr class="style5">
 
 ## Resting-state processing pipelines

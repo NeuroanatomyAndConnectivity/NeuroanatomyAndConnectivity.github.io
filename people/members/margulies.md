@@ -5,7 +5,7 @@ permalink: /members/margulies.html
 [![]({{site.baseurl}}/images/Margulies_rooster.jpg){: .right .round .tiny}](margulies.html)
 # Daniel S. Margulies  
 If you prefer a full pdf version [**→ CV**]({{site.baseurl}}/downloads/people/CV_Margulies.pdf){:target="\_blank"}  
-{% include icon-email.html email="daniel.margulies@cnrs.fr" %}  
+{% include icon-email.html email="daniel.margulies@ndcn.ox.ac.uk" %}  
 {% include icon-googlescholar.html id="al10sgYAAAAJ" %}  
 {% include icon-github.html username="margulies" %}  
 {% include icon-orcid.html id="0000-0002-8880-9204" %}  

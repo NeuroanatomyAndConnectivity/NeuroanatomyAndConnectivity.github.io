@@ -31,8 +31,8 @@ The lab is led by [Daniel Margulies][DSM] and based at the [Oxford University Ce
 [CNRS]: http://www.cnrs.fr/index.php
 [NAC]: https://www.cbs.mpg.de/former-groups/neuroanatomy-and-connectivity
 [Leipzig]: https://vimeo.com/164579770
-[ICM]: https://icm-institute.org/en/
-[ERC_Con]: https://erc.europa.eu/funding/consolidator-grants
+[ICM]: https://parisbraininstitute.org/
+[ERC_Con]: https://erc.europa.eu/apply-grant/consolidator-grant
 [OxCIN]: https://www.oxcin.ox.ac.uk/
 [Oxford]: https://www.ox.ac.uk/
 [MFO]: https://www.mfo.ac.uk/

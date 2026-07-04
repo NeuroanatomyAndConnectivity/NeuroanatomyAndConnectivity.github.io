@@ -59,7 +59,7 @@ We encourage users to subscribe to the [**mailing list <i class="fa fa-users"></
 [Broca_labels]: http://wwwuser.gwdg.de/~cbsarchi/archiv/public/hcp/
 [ADHD_prepro]: http://neurobureau.projects.nitrc.org/ADHD200/Introduction.html
 [mpilmbb_datapaper]: https://www.biorxiv.org/content/early/2017/07/18/164764
-[mpilmbb_datapaper_pdf]: {{site.baseurl}}/downloads/pubs/Mendes2017.pdf
+[mpilmbb_datapaper_pdf]: {{site.baseurl}}/downloads/pubs/Mendes2019.pdf
 [CCPT]: https://github.com/NeuroanatomyAndConnectivity/ConjunctiveContinuousPerformanceTask
 [oddball]: https://github.com/NeuroanatomyAndConnectivity/opendata/blob/master/scripts/oddball_task.py
 [preproc_lsd]: https://github.com/NeuroanatomyAndConnectivity/pipelines/tree/v2.0/src/lsd_lemon
@@ -68,7 +68,7 @@ We encourage users to subscribe to the [**mailing list <i class="fa fa-users"></
 [mpilmbb_behav]: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VMJ6NV
 [mpilmbb_behav_nitrc]: http://nitrc.org/projects/mpilmbb/
 [mpilmbb_email]: http://groups.google.com/group/resting_state_preprocessing
-[CFG]: http://blog.chrisgorgolewski.org/p/about.html
+[CFG]: https://chrisgorgolewski.org
 [7T_data]: http://openscience.cbs.mpg.de/7t_trt/
 [PLB]: https://www.spinozacentre.nl/persoon/pierre-louis-bazin/
 [7T_Bazin]: http://openscience.cbs.mpg.de/bazin/7T_Quantitative/

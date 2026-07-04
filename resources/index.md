@@ -11,7 +11,7 @@ Following are some miscellaneous items we've collected over the years that we'd 
 # Educational materials
 [**→ Neuroimaging Wikibook**][wikibook], : Describes theory and practice of major data processing approaches  
 [**→ iPython tutorials**][ipython] as jupyter notebooks  
-[**→ Writing resources**][writing] (*Please request access from* [<span class="line">daniel.margulies@</span><span class="line">cnrs.fr</span>](mailto:daniel.margulies@cnrs.fr))  
+[**→ Writing resources**][writing] (*Please request access from* [<span class="line">daniel.margulies@</span><span class="line">ndcn.ox.ac.uk</span>](mailto:daniel.margulies@ndcn.ox.ac.uk))  
 
 # Workshops
 [![Brainhack Leipzig 2012]({{site.baseurl}}/thumbnails/brainhack_leipzig_2012.jpg){:.right .artwork-portrait height="350px"}]({{site.baseurl}}/images/brainhack_leipzig_2012.png "Brainhack Leipzig 2012"){:target="\_blank"}
@@ -44,7 +44,7 @@ The Neuro Bureau aims to facilitate and interdisciplinary collaboration by organ
 
 [wikibook]: https://en.wikibooks.org/wiki/Neuroimaging_Data_Processing
 [writing]: https://paper.dropbox.com/doc/Writing-resources--AN~zW_1kaGTciZAY~L8Sy5n~AQ-UWtWG7xpidCjItSa0GyHs
-[ipython]: http://ipython.herokuapp.com
+[ipython]: https://jupyter.org/try
 [MPI]: https://www.cbs.mpg.de/
 [brainhack]: https://www.brainhack.org
 [data]: {{site.baseurl}}/data/index.html
@@ -53,4 +53,4 @@ The Neuro Bureau aims to facilitate and interdisciplinary collaboration by organ
 [neurobistro]: https://neurobistro.github.io
 [ohbm2018]: https://www.humanbrainmapping.org/i4a/pages/index.cfm?pageid=3821
 [neuromod]: https://simexp.github.io/lab-website/
-[bcblab]: http://bcblab.com/BCB/Home/Home.html
+[bcblab]: http://bcblab.com/
