@@ -84,7 +84,7 @@ How does spontaneous brain activity relate to the dynamics of ongoing thought? I
 
 We have also validated a questionnaire that captures the content and form of mind wandering,{% cite gorgolewski2014a %} which is openly available [here][nycq].  
 
-[jonny]:https://www.queensu.ca/psychology/people/faculty/jonathan-smallwood  
+[jonny]:https://www.queensu.ca/psychology/people/jonathan-smallwood  
 [nycq]:https://github.com/NeuroanatomyAndConnectivity/NYC-Q
 {% include biblio.html %}
 

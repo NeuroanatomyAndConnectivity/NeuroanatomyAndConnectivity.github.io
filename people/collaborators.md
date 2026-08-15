@@ -30,12 +30,12 @@ permalink: /members/collaborators.html
 [danilo]:https://danilobzdok.de
 [boris]:http://mica-mni.github.io  
 <!-- https://www.mcgill.ca/neuro/boris-bernhardt-phd  -->
-[jonny]:https://www.queensu.ca/psychology/people/faculty/jonathan-smallwood   
-[beth]:https://www.york.ac.uk/psychology/staff/academicstaff/ej514/
+[jonny]:https://www.queensu.ca/psychology/people/jonathan-smallwood   
+[beth]:https://scholar.google.com/citations?user=9OBIArkAAAAJ&hl=en
 [ting]:https://childmind.org/bio/ting-xu-phd/
 [joshua]:http://jovo.me
 [michael]:https://stanford.academia.edu/MichaelLifshitz
-[cameron]:http://computational-neuroimaging-lab.org
+[cameron]:https://cameroncraddock.net/
 [satra]:https://satra.cogitatum.org
 [georg]:https://www.cir.meduniwien.ac.at/team/langs/
 [simon]:http://www.fz-juelich.de/inm/inm-7/EN/Home/home_node.html
@@ -44,4 +44,4 @@ permalink: /members/collaborators.html
 [yufeng]:https://www.linkedin.com/in/yu-feng-zang-26667420/
 [yufeng_homepage]:http://ccbd.hznu.edu.cn/c/2018-03-19/308547.shtml
 [yating_homepage]:http://ccbd.hznu.edu.cn/c/2014-03-24/350873.shtml
-[demian]:https://pages.saclay.inria.fr/demian.wassermann/
+[demian]:https://www.inria.fr/en/demian-wassermann

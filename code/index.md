@@ -60,7 +60,7 @@ The [<i class="fa fa-github-alt"></i> surfdist][sd] Python package can be used t
 [<i class="fa fa-github-alt"></i> The New York Cognition Questionnaire (NYC-Q)][nycq] is a questionnaire developed by [Jonny Smallwood] to characterize the content and form of mind-wandering.
 
 [nycq]:https://github.com/NeuroanatomyAndConnectivity/NYC-Q
-[Jonny Smallwood]:https://www.queensu.ca/psychology/people/faculty/jonathan-smallwood   
+[Jonny Smallwood]:https://www.queensu.ca/psychology/people/jonathan-smallwood   
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 0px 0px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=gorgolewski2014a] %}</div>
 <hr class="style5">
 
@@ -69,7 +69,7 @@ The [<i class="fa fa-github-alt"></i> surfdist][sd] Python package can be used t
 [Nighres <i class="fa fa-external-link"></i> ][nighres] is a Python package for processing of high-resolution neuroimaging data developed by [Julia Huntenburg], [Pierre-Louis Bazin], and [Chris Steele].  
 
 [nighres]:https://nighres.readthedocs.io/
-[Julia Huntenburg]:http://neuro.fchampalimaud.org/en/person/510/
+[Julia Huntenburg]:https://scholar.google.de/citations?user=72h1BggAAAAJ&hl=en
 [Pierre-Louis Bazin]:https://scholar.google.com/citations?user=g1EY49YAAAAJ&hl=en
 [Chris Steele]:https://scholar.google.de/citations?user=oNLt7OUAAAAJ&hl=en
 <div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -f nighres.bib -T bib_small_no_num --style /bibcsl/acta_small.csl %}</div>

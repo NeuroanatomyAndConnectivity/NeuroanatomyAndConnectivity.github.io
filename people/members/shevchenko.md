@@ -16,4 +16,4 @@ permalink: /members/shevchenko.html
 <!-- {% include icon-googlescholar.html id="" %}   -->
 {% include icon-github.html username="victoris93" %}  
 {% include icon-bluesky.html username="victoris93.bsky.social" %}  
-{% include icon-googlescholar.html id="N8Xuo2IAAAAJ&hl" %}  
+{% include icon-googlescholar.html id="N8Xuo2IAAAAJ" %}  

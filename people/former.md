@@ -92,23 +92,23 @@ Victoria Shevchenko-->
 
 
 
-[natacha]:https://www.cbs.mpg.de/person/mendes/205351
+[natacha]:https://www.cbs.mpg.de/employees/44743
 [michelle]:https://www.linkedin.com/in/mwilson-link/
 
 [marcel]:https://pl.linkedin.com/in/marcel-falkiewicz-725bb6a4
 [chris]:https://chrisgorgolewski.org
-[alexandros]:https://www.uke.de/allgemein/arztprofile-und-wissenschaftlerprofile/wissenschaftlerprofilseite_alexandros_goulas.html
+[alexandros]:https://scholar.google.com/citations?user=Pq86megAAAAJ&hl=en
 [joachim]:https://joachim.visualistics.de
 [franz]:https://ethz.ch/en/the-eth-zurich/organisation/departments/informatikdienste/personen/person-detail.MjgyOTY1.TGlzdC8yMTE1LDQ0MTE5MDAyNQ==.html
 [manousos]:http://www.mklados.com
 [melissa]:https://www.linkedin.com/in/ellamil/
 
-[smadar]:https://scholar.google.de/citations?user=FH2oI6YAAAAJ&hl=en 
+[smadar]:https://cris.haifa.ac.il/en/persons/smadar-alegra-ovadia-caro/ 
 [seyma]:https://github.com/sheyma
 [philipp]:https://mind-and-brain.academia.edu/PhilippHaueis
-[julia]:http://neuro.fchampalimaud.org/en/person/510/
+[julia]:https://scholar.google.de/citations?user=72h1BggAAAAJ&hl=en
 [mark]:https://www.cbs.mpg.de/person/lauckner/378164
-[estrid]:https://www.zlab.mcgill.ca/wp-content/uploads/2017/10/estridCV_public.pdf
+[estrid]:https://www.linkedin.com/in/estridjakobsen/
 [sabine]:https://www.kaggle.com/sabineo
 [hannes]:https://www.researchgate.net/profile/Johannes-Golchert  
 [david]:https://www.linkedin.com/in/dmordom
@@ -128,11 +128,11 @@ Victoria Shevchenko-->
 [lisa]:http://overthebrainbow.com
 <!-- [kratika]:https://people.utwente.nl/k.agarwal -->
 [charlotte]:https://www.linkedin.com/in/charlottechaze/
-[laura]:https://www.che-consult.de/en/about-us/staff/laura-wallor/
+[laura]:https://www.stifterverband.org/ueber_uns/mitarbeiter/wallor_laura
 [ricky]:https://www.linkedin.com/in/ricky-burns-53747a22
 <!-- [zelmer]:https://www.xing.com/profile/Jan_Zelmer -->
 [krause]:http://life.uni-leipzig.de/de/life_child/mitarbeiter.html
-[blazej]:http://www.cbs.mpg.de/employees/baczkowski
+[blazej]:https://scholar.google.de/citations?user=Mt3ggY8AAAAJ&hl=en
 
 [weissman]:https://sites.lsa.umich.edu/daniel-weissman/people/
 [josh]:https://joshberson.net

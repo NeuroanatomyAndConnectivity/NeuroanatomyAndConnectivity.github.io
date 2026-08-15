@@ -27,4 +27,4 @@ Following are some press articles related to our work:
 [Brain_Vis]:{{site.baseurl}}/downloads/press/gehirnundgeist_bildgebung.pdf
 [Data_Sharing]:{{site.baseurl}}/downloads/press/labousserie6nov2013.pdf
 [introspection]:https://www.sciencedaily.com/releases/2013/10/131016100432.htm
-[conn_vis]:http://blogs.discovermagazine.com/neuroskeptic/2013/05/12/visualizing-the-connectome/
+[conn_vis]:https://www.discovermagazine.com/mind/visualizing-the-connectome

@@ -13,5 +13,5 @@ permalink: /members/holmes.html
 {% include icon-email.html email="alexander.holmes@ndcn.ox.ac.uk" %}  
 {% include icon-twitter.html username="DrAlexHolmes" %}  
 {% include icon-bluesky.html username="dralexholmes.bsky.social" %}  
-{% include icon-googlescholar.html id="9TueE6gAAAAJ" %}  
+{% include icon-googlescholar.html id="EhyhJkwAAAAJ" %}  
 {% include icon-orcid.html id="0009-0009-7012-6753" %}  

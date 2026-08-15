@@ -49,7 +49,7 @@ Also see [**open science initiatives**](../resources/index.html#open_sci_initiat
 # Publications
 A complete list can be found on the [publications page](../research/publications.html)  
 
-[imprs]:http://imprs-neurocom.mpg.de/imprs/index.html
+[imprs]:https://imprs-neurocom.mpg.de/home
 [nac]:http://www.cbs.mpg.de/former-groups/neuroanatomy-and-connectivity
 [mpi]:http://www.cbs.mpg.de/
 [WIN]: https://www.win.ox.ac.uk/
