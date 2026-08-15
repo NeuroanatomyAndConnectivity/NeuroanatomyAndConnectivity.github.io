@@ -32,3 +32,6 @@ downloads/data/BrocaLabels/
 
 downloads/people/CV_Margulies_2019Jan.pdf
 workspace.code-workspace
+
+# Local Netlify folder
+.netlify
