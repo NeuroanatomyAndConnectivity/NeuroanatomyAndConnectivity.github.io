@@ -12,18 +12,18 @@ And any recent activity can be found at [**→ Google Scholar**][googlescholar]
 [projects]: index.html  
 [googlescholar]: https://scholar.google.com/citations?user=al10sgYAAAAJ  
   
-<!---1. [Preprints](#preprints)  --->
+[**→ Preprints**](#preprints)  
 [**→ Journal articles**](#articles)  
 [**→ Conference proceedings**](#conf)  
 [**→ Book chapters**](#chap)  
   
 <hr class="style5">  
 
-<!---
 ## Preprints <a name="preprints"></a>
+*Senior-author manuscripts currently under review*
 {% bibliography --style /bibcsl/acta.csl --query @article[type=preprint] %}
 <hr class="style5">
---->
+
 ## Journal articles <a name="articles"></a>
 ##### 2026 <a name="2026"></a>
 {% bibliography --style /bibcsl/acta.csl --query @article[type!=preprint && year=2026] %}

@@ -15,7 +15,9 @@ Following are some miscellaneous items we've collected over the years that we'd 
 
 # Workshops
 [![Brainhack Leipzig 2012]({{site.baseurl}}/thumbnails/brainhack_leipzig_2012.jpg){:.right .artwork-portrait height="350px"}]({{site.baseurl}}/images/brainhack_leipzig_2012.png "Brainhack Leipzig 2012"){:target="\_blank"}
-We organized a workshop on **Large-scale trends in cortical organization** at the [MPI][MPI] in Leipzig in December, 2017.  
+We co-organize the **[Gradients of Brain Organization Workshop][gradients]**, which began at the Collège de France in 2019 and has since been held in Montreal (2020, 2023), Cambridge, UK (2022), Seoul (2024), Brisbane (2025), and Joigny, France (2026). In 2024 we also organized **[Concepts for Understanding Brain Organization][concepts]** in Paris and Joigny, and in 2025 we ran the OHBM educational course *Modes, Components, Gradients* with Alex Fornito in Brisbane.  
+
+Earlier, we organized a workshop on **Large-scale trends in cortical organization** at the [MPI][MPI] in Leipzig in December, 2017.  
 [**→ Presentation slides**](https://osf.io/2bcg5)  
 
 We've also organized numerous **[Brainhack][brainhack] events**, beginning with the [first one](#brainhack) in 2012.  
@@ -47,6 +49,8 @@ The Neuro Bureau aims to facilitate and interdisciplinary collaboration by organ
 [ipython]: https://jupyter.org/try
 [MPI]: https://www.cbs.mpg.de/
 [brainhack]: https://www.brainhack.org
+[gradients]: https://gradients-workshop.github.io
+[concepts]: https://my.weezevent.com/concepts-for-understanding-brain-organization
 [data]: {{site.baseurl}}/data/index.html
 [code]: {{site.baseurl}}/code/index.html
 [NB]: http://www.neurobureau.org
