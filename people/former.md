@@ -21,14 +21,17 @@ Lab photos from 2012, 2013, and 2015:
 # Former members
 ## Former lab members since 2020:
 
-{% include image.html url="/images/Benn.jpg" name="Austin Benn" position="Postdoctoral Researcher" link="/members/benn.html" %}  
-{% include image.html url="/images/Klatzmann.jpg" name="Ulysse Klatzmann" position="Doctoral Student" link="/members/klatzmann.html" %}  
-{% include image.html url="/images/Shevchenko.jpg" name="Victoria Shevchenko" position="Doctoral Student" link="/members/shevchenko.html" %}  
-{% include image.html url="/images/Wei.jpg" name="Wei Wei" position="Doctoral Student" link="/members/wei.html" %}  
-{% include image.html url="/images/Pallavicini.jpg" name="Carla Pallavicini" position="Postdoctoral Researcher" link="/members/pallavicini.html" %}  
-{% include image.html url="/images/Chiou.jpg" name="Rocco Chiou" position="Postdoctoral Researcher" link="/members/chiou.html" %}  
+{% include image.html url="/images/Scholz.jpg" name="Robert Scholz" position="Doctoral Student (PhD 2026)" link="/members/scholz.html" %}  
+{% include image.html url="/images/Benn.jpg" name="Austin Benn" position="Postdoctoral Researcher (2021&ndash;2025)" link="/members/benn.html" %}  
+{% include image.html url="/images/Klatzmann.jpg" name="Ulysse Klatzmann" position="Doctoral Student (PhD 2025)" link="/members/klatzmann.html" %}  
+{% include image.html url="/images/Shevchenko.jpg" name="Victoria Shevchenko" position="Doctoral Student (PhD 2025)" link="/members/shevchenko.html" %}  
+{% include image.html url="/images/Wei.jpg" name="Wei Wei" position="Doctoral Student (PhD 2025)" link="/members/wei.html" %}  
+{% include image.html url="/images/Pallavicini.jpg" name="Carla Pallavicini" position="Postdoctoral Researcher (2023&ndash;2025)" link="/members/pallavicini.html" %}  
+{% include image.html url="/images/Chiou.jpg" name="Rocco Chiou" position="Postdoctoral Researcher (2021&ndash;2023)" link="/members/chiou.html" %}  
 {% include image.html url="/images/WilsonAndre.jpg" name="Michelle Wilson-André" position="Research Project Manager" link="/members/wilson-andre.html" %}  
 {% include image.html url="/images/Kreft.jpg" name="Vincent Kreft" position="Research Intern" link="/members/kreft.html" %}  
+
+**Master's students (co-supervised):** Anton Benz (2020), Arabella Bouzigues (2020)  
 
 <hr class="style5">
 
@@ -53,7 +56,11 @@ Lab photos from 2012, 2013, and 2015:
 [Estrid Jakobsen][estrid],
 [Julia M Huntenburg][julia],
 [Mark Lauckner][mark],
-[Sabine Oligschläger][sabine]
+[Sabine Oligschläger][sabine],
+[Judy Kipping][judy],
+[Xiangyu Long][xiangyu],
+[Yating Lv][yating],
+[Alexander Schaefer][alex]
 
 ### Guest Researchers
 [Joshua Berson][josh],
@@ -65,10 +72,6 @@ Lab photos from 2012, 2013, and 2015:
 ### Visiting Students, Research Assistants, Interns, Honorary Members
 
 [Philipp Haueis][philipp],
-[Yating Lv][yating],
-[Xiangyu Long][xiangyu],
-[Judy Kipping][judy],
-[Alexander Schaefer][alex],
 [Smadar Ovadia-Caro][smadar],
 [Esther Kühn][esther],
 [David Moreno-Dominguez][david],

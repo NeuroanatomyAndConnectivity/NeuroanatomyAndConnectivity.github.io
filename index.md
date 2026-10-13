@@ -14,7 +14,7 @@ We investigate principles of how the cerebral cortex is spatially organized and 
 
 [![]({{site.baseurl}}/thumbnails/image1.jpg){: .right .half}]({{site.baseurl}}/gallery/index.html)  
 
-The lab is led by [Daniel Margulies][DSM] and based at the [Oxford University Centre for Integrative Neuroimaging][OxCIN] and the [Maison Française d'Oxford][MFO], [CNRS][CNRS]. From 2012&ndash;2017 we were an independent research group at the [Max Planck Institute for Human Cognitive and Brain Sciences][NAC] in [Leipzig], from 2018&ndash;2020 we were based at the [Paris Brain Institute][ICM], and from 2021&ndash;2025 we were based at the [University of Paris Cité][UofP] and [Centre national de la recherche scientifique (CNRS)][CNRS].  
+The lab is led by [Daniel Margulies][DSM] and based at the [Oxford Centre for Integrative Neuroimaging (OxCIN)][OxCIN], [University of Oxford][Oxford]. From 2011&ndash;2017 we were an independent research group at the [Max Planck Institute for Human Cognitive and Brain Sciences][NAC] in [Leipzig], from 2018&ndash;2020 we were based at the [Paris Brain Institute][ICM], from 2020&ndash;2025 at the [Integrative Neuroscience & Cognition Center][INCC] ([CNRS] and [Université Paris Cité][UofP]), and from 2025&ndash;2026 at the [Maison Française d'Oxford][MFO].  
   
 <!--- ## Supported by --->  
 <span>
