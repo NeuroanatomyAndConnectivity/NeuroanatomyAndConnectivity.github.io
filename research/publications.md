@@ -20,7 +20,6 @@ And any recent activity can be found at [**→ Google Scholar**][googlescholar]
 <hr class="style5">  
 
 ## Preprints <a name="preprints"></a>
-*Senior-author manuscripts currently under review*
 {% bibliography --style /bibcsl/acta.csl --query @article[type=preprint] %}
 <hr class="style5">
 

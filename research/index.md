@@ -10,7 +10,6 @@ permalink: /research/index.html
 [**→ Full publication list**][publications]  
 
 Our **[research publications][publications]** are primarily in the domain of **cognitive and systems neuroscience**. Our research aims to understand the organization of the cerebral cortex through broadly investigating patterns of connectivity in relation to cortical structure. Below are brief summaries of several lines of our research:  
-[→ cortical geometry and sensory integration](#geometry)  
 [→ cortical gradients](#gradients)  
 [→ connectivity visualization](#vis)  
 [→ manual area parcellation](#brocasarea)  
@@ -23,13 +22,15 @@ Our **[research publications][publications]** are primarily in the domain of **c
 
 # Projects
 
+{% comment %} ON HOLD (set aside for now; remove the comment tags to restore, and re-add the '→ cortical geometry and sensory integration' link to the list above)
 ## Cortical geometry and sensory integration <a name="geometry"></a>
 
 **How does the geometry of the cortical sheet constrain the topography of function?** Our current research, supported by the ERC Consolidator Grant CORTIGRAD (*Cortical gradients of functional integration*), investigates how cortical geometry shapes functional organization and how sensory information is integrated along the cortical hierarchy. Intrinsic cortical geometry is associated with individual differences in local functional organization,{% cite Alberti2026 %} and constrains the unimodal anchors of sensory integration.{% cite Holmes2026 %} In early blind and deaf individuals, sensory deprivation drives local reorganization of sensory integration within a conserved global hierarchy.{% cite Wei2026 %}  
 
-**We apply this framework to specific domains of cognition,** including reading,{% cite Benn2025 %} the spatial layout of visual specialization,{% cite Klatzmann2025 %} and the topography of sensory simulation in parietal cortex during imagination.{% cite Chiou2026 %} We have also shown that individual patterns of task activity can be predicted from distinct resting-state networks.{% cite Scholz2024 %}  
+**We apply this framework to specific domains of cognition,** including reading,{% cite Benn2025 %} the spatial layout of visual specialization,{% cite Klatzmann2025 %} and the topography of sensory simulation in parietal cortex during imagination.{% cite Chiou2026 %}  
 
 {% include biblio.html %}
+{% endcomment %}
 
 ## Gradients in cortical organization <a name="gradients"></a>
 [![]({{site.baseurl}}/images/principal_gradient.png){: .right .half}]({{site.baseurl}}/images/principal_gradient.png){:target="\_blank"}    
