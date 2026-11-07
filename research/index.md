@@ -11,6 +11,8 @@ permalink: /research/index.html
 
 Our **[research publications][publications]** are primarily in the domain of **cognitive and systems neuroscience**. Our research aims to understand the organization of the cerebral cortex through broadly investigating patterns of connectivity in relation to cortical structure. Below are brief summaries of several lines of our research:  
 [→ cortical geometry and sensory integration](#geometry)  
+[→ sensory integration](#sensory)  
+[→ regional specialization](#specialization)  
 [→ cortical gradients](#gradients)  
 [→ connectivity visualization](#vis)  
 [→ manual area parcellation](#brocasarea)  
@@ -29,6 +31,25 @@ Our **[research publications][publications]** are primarily in the domain of **c
 
 **We apply this framework to specific domains of cognition,** including reading,{% cite Benn2025 %} the spatial layout of visual specialization,{% cite Klatzmann2025 %} and the topography of sensory simulation in parietal cortex during imagination.{% cite Chiou2026 %} We have also shown that individual patterns of task activity can be predicted from distinct resting-state networks.{% cite Scholz2024 %}  
 
+{% include biblio.html %}
+
+## Mapping sensory integration <a name="sensory"></a>
+
+[![]({{site.baseurl}}/thumbnails/sensory_integration.png){: .right .medium}]({{site.baseurl}}/images/sensory_integration.png){:target="\_blank"}
+**How do cortical areas combine information from the different senses?** [Wei Wei][wei] developed a two-dimensional framework to characterize sensory integration along the cortical hierarchy, based on the anchoring role of the primary sensory cortices.{% cite Wei2024 %} *Sensory magnitude* captures how much of a region's activity is explained by the three primary sensory signals, and decreases as the hierarchy ascends. *Sensory angle* captures the relative contribution of each modality, and shifts flexibly with brain state and cognitive demands.  
+
+Applying this framework to early blind and deaf individuals, [Wei Wei][wei] found that sensory deprivation drives highly localized reorganization adjacent to the deprived primary areas, while the overall cortical hierarchy is preserved.{% cite Wei2026 %}  
+
+[wei]: {{site.baseurl}}/members/wei.html
+{% include biblio.html %}
+
+## Regional specialization of the cortex <a name="specialization"></a>
+
+**How does functional specialization emerge across the cortex?** Specialization likely emerges from genetically defined organizational principles and their interaction with environmental inputs, which shape connectivity pathways, microstructure, and hierarchical processing streams emanating from the sensory inputs. [Robert Scholz][robert] identified which cortical features reliably co-vary with regional function at the individual level, suggesting they play a key role in specialization.{% cite Scholz2024 %}  
+
+We then start to unravel architectural versus environmental contributions to functional specialization in ongoing work that uses pretrained artificial neural networks as model systems. This allows the systematic assessment of how network architecture, stimulus features, and training regime shape brain-like function.  
+
+[robert]: {{site.baseurl}}/members/scholz.html
 {% include biblio.html %}
 
 ## Gradients in cortical organization <a name="gradients"></a>
