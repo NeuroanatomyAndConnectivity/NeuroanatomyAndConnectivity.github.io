@@ -10,8 +10,11 @@ permalink: /research/index.html
 [**→ Full publication list**][publications]  
 
 Our **[research publications][publications]** are primarily in the domain of **cognitive and systems neuroscience**. Our research aims to understand the organization of the cerebral cortex through broadly investigating patterns of connectivity in relation to cortical structure. Below are brief summaries of several lines of our research:  
-[→ cortical geometry and sensory integration](#geometry)  
+[→ cortical geometry and individual differences](#geometry)  
 [→ sensory integration](#sensory)  
+[→ the cortical geometry of reading](#reading)  
+[→ spatial layout of visual specialization](#visual)  
+[→ topography of mental imagery](#imagery)  
 [→ regional specialization](#specialization)  
 [→ cortical gradients](#gradients)  
 [→ connectivity visualization](#vis)  
@@ -25,12 +28,13 @@ Our **[research publications][publications]** are primarily in the domain of **c
 
 # Projects
 
-## Cortical geometry and sensory integration <a name="geometry"></a>
+Our current research, supported by the ERC Consolidator Grant CORTIGRAD (*Cortical gradients of functional integration*), investigates how the geometry of the cortical sheet shapes the topography of function, and how sensory information is integrated along the cortical hierarchy.  
 
-**How does the geometry of the cortical sheet constrain the topography of function?** Our current research, supported by the ERC Consolidator Grant CORTIGRAD (*Cortical gradients of functional integration*), investigates how cortical geometry shapes functional organization and how sensory information is integrated along the cortical hierarchy. Intrinsic cortical geometry is associated with individual differences in local functional organization,{% cite Alberti2026 %} and constrains the unimodal anchors of sensory integration.{% cite Holmes2026 %} In early blind and deaf individuals, sensory deprivation drives local reorganization of sensory integration within a conserved global hierarchy.{% cite Wei2026 %}  
+## Cortical geometry and individual differences <a name="geometry"></a>
 
-**We apply this framework to specific domains of cognition,** including reading,{% cite Benn2025 %} the spatial layout of visual specialization,{% cite Klatzmann2025 %} and the topography of sensory simulation in parietal cortex during imagination.{% cite Chiou2026 %} We have also shown that individual patterns of task activity can be predicted from distinct resting-state networks.{% cite Scholz2024 %}  
+**Does the shape of an individual's cortex constrain the layout of their functional organization?** [Francesco Alberti][francesco] projected individual cortical surfaces into a shared embedding that captures their intrinsic geometry, and modelled interindividual variation in the first three functional gradients within it.{% cite Alberti2026 %} Geometry captured a common spatial structure underlying the local transitions between functional systems, but not individual differences in their global layout, suggesting that universal geometric properties shape the boundaries between otherwise stable functional systems.  
 
+[francesco]: {{site.baseurl}}/members/alberti.html
 {% include biblio.html %}
 
 ## Mapping sensory integration <a name="sensory"></a>
@@ -40,7 +44,31 @@ Our **[research publications][publications]** are primarily in the domain of **c
 
 Applying this framework to early blind and deaf individuals, [Wei Wei][wei] found that sensory deprivation drives highly localized reorganization adjacent to the deprived primary areas, while the overall cortical hierarchy is preserved.{% cite Wei2026 %}  
 
+[Alexander Holmes][alex] showed that the unimodal anchors of this framework are already encoded in cortical geometry: the rostrocaudal, mediolateral, and dorsoventral geometric eigenmodes each correspond to a distinct sensory domain (visual, somatosensory, and auditory), whereas reproducing the transmodal apex of the hierarchy requires additional structural information.{% cite Holmes2026 %}  
+
 [wei]: {{site.baseurl}}/members/wei.html
+[alex]: {{site.baseurl}}/members/holmes.html
+{% include biblio.html %}
+
+## The cortical geometry of reading <a name="reading"></a>
+
+**How does cortical organization support the ability to read?** Using predictive modelling, [Austin Benn][austin] found that visual and association cortex are closer together in individuals with stronger oral reading ability.{% cite Benn2025 %} Large-scale cortical geometry may thus provide a scaffold for the coordinated processing that reading requires.  
+
+[austin]: {{site.baseurl}}/members/benn.html
+{% include biblio.html %}
+
+## Spatial layout of visual specialization <a name="visual"></a>
+
+**What determines where visual functions are laid out on the cortex?** Retinotopic maps extend far beyond early visual areas, into over 20 cortical regions. [Ulysse Klatzmann][ulysse] developed Spatial Component Decomposition (SCD), a sparse dictionary-learning framework that locates sources of spatial influence across the cortical sheet without relying on prior assumptions.{% cite Klatzmann2025 %} Applied to retinotopic mapping data, SCD revealed a dominant gradient extending from V1 across all known posterior visual areas, alongside systematic competition from other primary sensory areas and default mode hubs. Functional specialization may therefore emerge from spatial competition between representational systems, not only from feedforward input.  
+
+[ulysse]: {{site.baseurl}}/members/klatzmann.html
+{% include biblio.html %}
+
+## Topography of mental imagery <a name="imagery"></a>
+
+**Does internally generated experience follow the same topography as perception?** [Rocco Chiou][rocco] identified a modality-aligned map of mental imagery in the left lateral parietal cortex.{% cite Chiou2026 %} Visual, auditory, and tactile imagery peak in posterior, ventral, and anterior-dorsal regions respectively, each adjacent to its primary sensory cortex. Together they encircle a central hub for multisensory imagery that lies far from all primary areas and connects to distal default mode regions: what a region represents depends on where it lies.  
+
+[rocco]: {{site.baseurl}}/members/chiou.html
 {% include biblio.html %}
 
 ## Regional specialization of the cortex <a name="specialization"></a>
