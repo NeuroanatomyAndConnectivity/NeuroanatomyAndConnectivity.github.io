@@ -22,9 +22,9 @@ We have also been involved in the [International Neuroimaging Data-sharing Initi
 
 ## MPI--Leipzig: Mind, Brain, Body dataset <a name="MPILBMM"></a>  
 The Max Planck Institute--Leipzig: Mind, Brain, Body (MPILMBB) dataset consists of MRI data as well as several behavioral measures.  
-### Data paper  
-A preprint describing the acquisition protocol, dataset, and processing code:  
-<div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=Mendes164764] %}</div>  
+### Data papers  
+Two data descriptors in *Scientific Data* describe the acquisition protocols, datasets, and processing code:  
+<div style="background-color: #f9f9f9; padding: +1.5%; margin -1.5%; border-radius: 10px 10px 10px 10px;">{% bibliography -T bib_small_no_num --style /bibcsl/acta_small.csl --query @article[key=Mendes164764 || key=Babayan2019] %}</div>  
 ### Data  
 [**→ <i class="fa fa-database"></i> MRI data (BIDS format)**][mpilmbb_data_bids]  
 [**→ <i class="fa fa-database"></i> MRI data (Preprocessed)**][mpilmbb_data_preproc]  
@@ -64,7 +64,7 @@ We encourage users to subscribe to the [**mailing list <i class="fa fa-users"></
 [oddball]: https://github.com/NeuroanatomyAndConnectivity/opendata/blob/master/scripts/oddball_task.py
 [preproc_lsd]: https://github.com/NeuroanatomyAndConnectivity/pipelines/tree/v2.0/src/lsd_lemon
 [mpilmbb_data_preproc]: https://hdl.handle.net/21.11101/0000-0004-2CD6-A
-[mpilmbb_data_bids]: https://www.openfmri.org/dataset/ds000221/
+[mpilmbb_data_bids]: https://openneuro.org/datasets/ds000221
 [mpilmbb_behav]: https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/VMJ6NV
 [mpilmbb_behav_nitrc]: http://nitrc.org/projects/mpilmbb/
 [mpilmbb_email]: http://groups.google.com/group/resting_state_preprocessing

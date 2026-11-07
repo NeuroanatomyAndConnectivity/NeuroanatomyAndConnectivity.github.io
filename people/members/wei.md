@@ -4,7 +4,7 @@ permalink: /members/wei.html
 ---
 # Wei Wei
 [![]({{site.baseurl}}/images/Wei.jpg){: .left .round .small}](/members/wei.html)
-**Doctoral student**  
+**Doctoral student (PhD 2025)**  
 
 Love walking around to discover, also love staying at home.  
 Love to explore funny stores, and love Paris.   

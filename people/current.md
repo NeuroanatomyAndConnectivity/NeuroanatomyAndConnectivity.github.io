@@ -12,7 +12,7 @@ permalink: /members/current.html
 {% include image.html url="/images/Holmes.jpg" name="Alexander Holmes" position="Postdoctoral Researcher" link="/members/holmes.html" %} 
 <!-- {% include image.html url="/images/Pallavicini.jpg" name="Carla Pallavicini" position="Postdoctoral Researcher" link="/members/pallavicini.html" %}  -->
 <!-- {% include image.html url="/images/Wei.jpg" name="Wei Wei" position="Doctoral Student" link="/members/wei.html" %}  -->
-{% include image.html url="/images/Scholz.jpg" name="Robert Scholz" position="Doctoral Student" link="/members/scholz.html" %} 
+<!-- {% include image.html url="/images/Scholz.jpg" name="Robert Scholz" position="Doctoral Student" link="/members/scholz.html" %}  -->
 <!-- {% include image.html url="/images/Klatzmann.jpg" name="Ulysse Klatzmann" position="Doctoral Student" link="/members/klatzmann.html" %}  -->
 <!-- {% include image.html url="/images/Shevchenko.jpg" name="Victoria Shevchenko" position="Doctoral Student" link="/members/shevchenko.html" %}  -->
 {% include image.html url="/images/Alberti.jpg" name="Francesco Alberti" position="Doctoral Student" link="/members/alberti.html" %} 

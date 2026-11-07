@@ -22,16 +22,26 @@ Our **[research publications][publications]** are primarily in the domain of **c
 
 # Projects
 
+{% comment %} ON HOLD (set aside for now; remove the comment tags to restore, and re-add the '→ cortical geometry and sensory integration' link to the list above)
+## Cortical geometry and sensory integration <a name="geometry"></a>
+
+**How does the geometry of the cortical sheet constrain the topography of function?** Our current research, supported by the ERC Consolidator Grant CORTIGRAD (*Cortical gradients of functional integration*), investigates how cortical geometry shapes functional organization and how sensory information is integrated along the cortical hierarchy. Intrinsic cortical geometry is associated with individual differences in local functional organization,{% cite Alberti2026 %} and constrains the unimodal anchors of sensory integration.{% cite Holmes2026 %} In early blind and deaf individuals, sensory deprivation drives local reorganization of sensory integration within a conserved global hierarchy.{% cite Wei2026 %}  
+
+**We apply this framework to specific domains of cognition,** including reading,{% cite Benn2025 %} the spatial layout of visual specialization,{% cite Klatzmann2025 %} and the topography of sensory simulation in parietal cortex during imagination.{% cite Chiou2026 %}  
+
+{% include biblio.html %}
+{% endcomment %}
+
 ## Gradients in cortical organization <a name="gradients"></a>
 [![]({{site.baseurl}}/images/principal_gradient.png){: .right .half}]({{site.baseurl}}/images/principal_gradient.png){:target="\_blank"}    
 
-**What are the spatial trends underlying the organization of the cerebral cortex, and what are their functional implications?** Our primary research agenda focuses on describing these topographic principles of cortical organization. We recently characterized a principal axis of cortical connectivity,{% cite margulies2016a %} which relates to cortical geometry and captures a functional hierarchy. We have also mapped the relationship between the principal gradient and measures of cortical microstructure,{% cite huntenburg2017a %} as well as the distance between interconnected areas.{%cite oligschlager2017a Oligschlaeger2019a %}  
+**What are the spatial trends underlying the organization of the cerebral cortex, and what are their functional implications?** Our primary research agenda focuses on describing these topographic principles of cortical organization. We characterized a principal axis of cortical connectivity,{% cite margulies2016a %} which relates to cortical geometry and captures a functional hierarchy. We have also mapped the relationship between the principal gradient and measures of cortical microstructure,{% cite huntenburg2017a %} as well as the distance between interconnected areas.{%cite oligschlager2017a Oligschlaeger2019a %}  
 
 **Through ongoing collaborations,** we have further probed the functional implications of the principal gradient,{% cite murphy2018a %} and investigated its phylogenetic precursors in other primate species, including the marmoset monkey.{% cite Buckner415141 %}  
 
 **Our future research** expands on this axis of connectivity to establish a coordinate system with the aim of differentiating cognitive states, investigating inter-individual variance in brain-behaviour relationships, and mapping individual cortical anatomy.
 
-For an overview, see our recent review article{% cite huntenburg2018a %} and the [OHBM keynote presentation].  
+For an overview, see our review article{% cite huntenburg2018a %} and the [OHBM keynote presentation].  
 
 Gradient maps in HCP 32k cifti, fsaverage, and volumetric spaces can be downloaded here: [<i class="fa fa-database"> Gradient templates</i>]({{site.baseurl}}/downloads/data/Gradients_Margulies2016.zip)  
 

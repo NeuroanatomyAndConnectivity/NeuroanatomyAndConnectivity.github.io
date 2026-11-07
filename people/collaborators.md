@@ -7,15 +7,15 @@ permalink: /members/collaborators.html
 
 # Collaborators
 
-[Jonathan Smallwood][jonny], University of York, UK   
+[Jonathan Smallwood][jonny], Queen's University, Canada   
 [Beth Jefferies][beth], University of York, UK  
 [Boris Bernhardt][boris], Montreal Neurological Institute (MNI)  
 [Danilo Bzdok][danilo], MNI and Mila Montreal  
 [Ting Xu][ting], Child Mind Institute, NY  
-[Michel Thiebaut de Schotten][bcblab], CNRS, Paris  
+[Michel Thiebaut de Schotten][bcblab], CNRS, Bordeaux  
 [Cameron Craddock][cameron], University of Texas at Austin  
 [Joshua Vogelstein][joshua], Johns Hopkins University  
-[Michael Lifshitz][michael], Stanford University  
+[Michael Lifshitz][michael], McGill University  
 [Satra Ghosh][satra], MIT  
 [Georg Langs][georg], Medical University of Vienna  
 [Simon Eickhoff][simon], Jülich Research Center  
