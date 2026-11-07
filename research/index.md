@@ -32,7 +32,10 @@ Our current research, supported by the ERC Consolidator Grant CORTIGRAD (*Cortic
 
 ## Cortical geometry and individual differences <a name="geometry"></a>
 
+[![]({{site.baseurl}}/thumbnails/geometry_individual.png){: .right .half}]({{site.baseurl}}/images/geometry_individual.jpg){:target="\_blank"}
 **Does the shape of an individual's cortex constrain the layout of their functional organization?** [Francesco Alberti][francesco] projected individual cortical surfaces into a shared embedding that captures their intrinsic geometry, and modelled interindividual variation in the first three functional gradients within it.{% cite Alberti2026 %} Geometry captured a common spatial structure underlying the local transitions between functional systems, but not individual differences in their global layout, suggesting that universal geometric properties shape the boundaries between otherwise stable functional systems.  
+
+**This builds on a geometric account of cortical function.** The spatial layout of regions showing task-related decreases in activity predicts where increases occur, consistent with geometric principles,{% cite Leech2025 %} and function changes more gradually with distance in sensory-motor than in association cortex.{% cite Leech2023 %}  
 
 [francesco]: {{site.baseurl}}/members/alberti.html
 {% include biblio.html %}
@@ -52,14 +55,20 @@ Applying this framework to early blind and deaf individuals, [Wei Wei][wei] foun
 
 ## The cortical geometry of reading <a name="reading"></a>
 
+[![]({{site.baseurl}}/thumbnails/reading_geometry.png){: .right .half}]({{site.baseurl}}/images/reading_geometry.jpg){:target="\_blank"}
 **How does cortical organization support the ability to read?** Using predictive modelling, [Austin Benn][austin] found that visual and association cortex are closer together in individuals with stronger oral reading ability.{% cite Benn2025 %} Large-scale cortical geometry may thus provide a scaffold for the coordinated processing that reading requires.  
+
+Related work has shown that the physical distance between language-related regions and primary sensory-motor landmarks predicts their responsiveness during language comprehension,{% cite Wang2023 %} and that whole-brain dimensions of intrinsic connectivity capture both modality-specific and heteromodal language representations.{% cite MarinMarin2025 %}  
 
 [austin]: {{site.baseurl}}/members/benn.html
 {% include biblio.html %}
 
 ## Spatial layout of visual specialization <a name="visual"></a>
 
+[![]({{site.baseurl}}/thumbnails/visual_specialization.png){: .right .medium}]({{site.baseurl}}/images/visual_specialization.jpg){:target="\_blank"}
 **What determines where visual functions are laid out on the cortex?** Retinotopic maps extend far beyond early visual areas, into over 20 cortical regions. [Ulysse Klatzmann][ulysse] developed Spatial Component Decomposition (SCD), a sparse dictionary-learning framework that locates sources of spatial influence across the cortical sheet without relying on prior assumptions.{% cite Klatzmann2025 %} Applied to retinotopic mapping data, SCD revealed a dominant gradient extending from V1 across all known posterior visual areas, alongside systematic competition from other primary sensory areas and default mode hubs. Functional specialization may therefore emerge from spatial competition between representational systems, not only from feedforward input.  
+
+Through ongoing collaborations, we have also shown that visual cortex and the default mode network sit at opposing ends of parallel processing streams supporting semantic and spatial cognition,{% cite GonzalezAlam2025 %} and that intracortical recordings reveal vision-to-action gradients underlying exogenous attention.{% cite SeidelMalkinson2024 %}  
 
 [ulysse]: {{site.baseurl}}/members/klatzmann.html
 {% include biblio.html %}
@@ -68,12 +77,15 @@ Applying this framework to early blind and deaf individuals, [Wei Wei][wei] foun
 
 **Does internally generated experience follow the same topography as perception?** [Rocco Chiou][rocco] identified a modality-aligned map of mental imagery in the left lateral parietal cortex.{% cite Chiou2026 %} Visual, auditory, and tactile imagery peak in posterior, ventral, and anterior-dorsal regions respectively, each adjacent to its primary sensory cortex. Together they encircle a central hub for multisensory imagery that lies far from all primary areas and connects to distal default mode regions: what a region represents depends on where it lies.  
 
+This builds on a topographical perspective on the default mode network as the system furthest from sensory and motor cortex,{% cite Smallwood2021 %} which we have also used to contrast semantic and numerical cognition.{% cite Chiou2023 %}  
+
 [rocco]: {{site.baseurl}}/members/chiou.html
 {% include biblio.html %}
 
 ## Regional specialization of the cortex <a name="specialization"></a>
 
-**How does functional specialization emerge across the cortex?** Specialization likely emerges from genetically defined organizational principles and their interaction with environmental inputs, which shape connectivity pathways, microstructure, and hierarchical processing streams emanating from the sensory inputs. [Robert Scholz][robert] identified which cortical features reliably co-vary with regional function at the individual level, suggesting they play a key role in specialization.{% cite Scholz2024 %}  
+[![]({{site.baseurl}}/thumbnails/regional_specialization.png){: .right .medium}]({{site.baseurl}}/images/regional_specialization.jpg){:target="\_blank"}
+**How does functional specialization emerge across the cortex?** Specialization likely emerges from genetically defined organizational principles and their interaction with environmental inputs,{% cite Burger2022 %} which shape connectivity pathways, microstructure (including cellular composition{% cite Zhang2025 %}), and hierarchical processing streams emanating from the sensory inputs. [Robert Scholz][robert] identified which cortical features reliably co-vary with regional function at the individual level, suggesting they play a key role in specialization.{% cite Scholz2024 %}  
 
 We then start to unravel architectural versus environmental contributions to functional specialization in ongoing work that uses pretrained artificial neural networks as model systems. This allows the systematic assessment of how network architecture, stimulus features, and training regime shape brain-like function.  
 
